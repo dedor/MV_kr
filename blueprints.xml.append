@@ -25993,7 +25993,7 @@ END OF AETHER WEAPONS
 	<title>충전식 서리 레이저</title>
 	<short>Charge F</short>
 	<tip>tip_charge</tip>
-	<desc>발사체를 모아 한꺼번에 발사할 수 있습니다. 서리 무기이기 때문에 피격된 방을 봉쇄하며 선원에게 추가 피해를 입히고 기절 시킵니다.</desc>
+	<desc>발사체를 모아 한꺼번에 발사할 수 있습니다. 서리 무기이기 때문에 피격된 방을 봉쇄하며 선원에게 추가 피해와 기절을 부여합니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
@@ -57554,7 +57554,7 @@ END OF PAGE 12
 	<class>왕조 순양함</class>
 	<name>Machina Aeterna</name>
 	<unlock id="ship_PLAYER_SHIP_DYNASTY_2_unlock"/>
-	<desc>영광의 시대에도 활동하던 유령 왕조의 오래된 군함입니다. 원래의 무기 그대로 무장하였고 부족한 명중률 화력으로 보완합니다.</desc>
+	<desc>영광의 시대에도 활동하던 유령 왕조의 오래된 군함입니다. 원래의 무기 그대로 무장하였고 부족한 명중률을 화력으로 보완합니다.</desc>
 	<systemList>
 		<artillery max="4" power="1" room="9" start="false" weapon="ARTILLERY_BEAM" img="room_artillery" />
 		<battery max="2" power="1" room="4" start="false" img="room_battery_15" />

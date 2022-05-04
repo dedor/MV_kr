@@ -1,0 +1,9 @@
+<FTL>
+<text name="tip_spawner">팁: 선원 제한에 걸리지 않는 선원을 일시적으로 소환합니다. 소환된 선원은 복제될 수 없습니다.</text>
+
+<text name="tip_decoy">팁: 디코이는 물리적인 피해를 가하지 않지만, 방어 드론을 교란하고 적의 시야를 가립니다.</text>
+
+<text name="addon_hover_trc">배회자의 수집품
+적용됨.
+클릭해서 추가 정보 확인.</text>
+</FTL>

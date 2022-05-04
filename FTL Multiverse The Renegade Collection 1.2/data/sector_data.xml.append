@@ -1,0 +1,80 @@
+<FTL>
+<mod:findName type="sectorDescription" name="STANDARD_SPACE">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="EE_MISSILES_INSTANT" rarity="0" />
+		<mod-append:blueprint name="EE_MISSILES_FROST" rarity="0" />
+		<mod-append:blueprint name="EE_SHOTGUN_TRIFECTA" rarity="0" />
+		<mod-append:blueprint name="EE_SHOTGUN_FROST" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="FINAL">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="EE_FLARE_LAUNCHER" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECTOR_ASTEROID_GENERIC">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="EE_SCATTERSHOT" rarity="3" />
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECTOR_SPIDER">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="EE_BOMB_SPIDER" rarity="3" />
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECRET_ANCIENT">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="EE_LASER_CHARGEGUN_HEAVY" rarity="0" />
+		<mod-append:blueprint name="EE_LASER_LIGHT_BURST" rarity="0" />
+		<mod-append:blueprint name="EE_LASER_PARTICLE_BIO" rarity="0" />
+		<mod-append:blueprint name="EE_LASER_PARTICLE_BIO_2" rarity="0" />
+		<mod-append:blueprint name="EE_BEAM_HULL_CHAIN" rarity="0" />
+		<mod-append:blueprint name="EE_BOMB_SPIDER" rarity="0" />
+		<mod-append:blueprint name="EE_ENERGY_PIERCE_1" rarity="0" />
+		<mod-append:blueprint name="EE_ION_BREACH" rarity="0" />
+		<mod-append:blueprint name="EE_FLARE_LAUNCHER" rarity="0" />
+		<mod-append:blueprint name="EE_BOMB_PART" rarity="0" />
+		<mod-append:blueprint name="EE_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="EE_FOCUS_CONSERVATIVE" rarity="0" />
+		<mod-append:blueprint name="EE_BEAM_ADAPT_CONSERVATIVE" rarity="0" />
+		<mod-append:blueprint name="EE_SHOTGUN_TRIFECTA" rarity="0" />
+		<mod-append:blueprint name="EE_SHOTGUN_FROST" rarity="0" />
+		<mod-append:blueprint name="EE_MISSILES_HEAL" rarity="0" />
+		<mod-append:blueprint name="EE_MISSILES_INSTANT" rarity="0" />
+		<mod-append:blueprint name="EE_MISSILES_FROST" rarity="0" />
+		<mod-append:blueprint name="EE_SCATTERSHOT" rarity="0" />
+		<mod-append:blueprint name="EE_THUNDER_1_BREACH" rarity="0" />
+		<mod-append:blueprint name="EE_EXTINGUISHER" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECRET_ROYAL">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="EE_LASER_CHARGEGUN_HEAVY" rarity="0" />
+		<mod-append:blueprint name="EE_LASER_LIGHT_BURST" rarity="0" />
+		<mod-append:blueprint name="EE_LASER_PARTICLE_BIO" rarity="0" />
+		<mod-append:blueprint name="EE_LASER_PARTICLE_BIO_2" rarity="0" />
+		<mod-append:blueprint name="EE_BEAM_HULL_CHAIN" rarity="0" />
+		<mod-append:blueprint name="EE_BOMB_SPIDER" rarity="0" />
+		<mod-append:blueprint name="EE_ENERGY_PIERCE_1" rarity="0" />
+		<mod-append:blueprint name="EE_ION_BREACH" rarity="0" />
+		<mod-append:blueprint name="EE_FLARE_LAUNCHER" rarity="0" />
+		<mod-append:blueprint name="EE_BOMB_PART" rarity="0" />
+		<mod-append:blueprint name="EE_FOCUS_FIRE" rarity="0" />
+		<mod-append:blueprint name="EE_FOCUS_CONSERVATIVE" rarity="0" />
+		<mod-append:blueprint name="EE_BEAM_ADAPT_CONSERVATIVE" rarity="0" />
+		<mod-append:blueprint name="EE_SHOTGUN_TRIFECTA" rarity="0" />
+		<mod-append:blueprint name="EE_SHOTGUN_FROST" rarity="0" />
+		<mod-append:blueprint name="EE_MISSILES_HEAL" rarity="0" />
+		<mod-append:blueprint name="EE_MISSILES_INSTANT" rarity="0" />
+		<mod-append:blueprint name="EE_MISSILES_FROST" rarity="0" />
+		<mod-append:blueprint name="EE_SCATTERSHOT" rarity="0" />
+		<mod-append:blueprint name="EE_THUNDER_1_BREACH" rarity="0" />
+		<mod-append:blueprint name="EE_EXTINGUISHER" rarity="0" />
+	</mod:findLike>
+</mod:findName>
+</FTL>

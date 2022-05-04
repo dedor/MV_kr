@@ -839,7 +839,7 @@
 <text name="event_DEFENSE_ITEM_LIST_1_text" language="zh-Hans">정거장은 버려졌거나, 깨끗하게 털린듯 합니다. 오랬동안 사용되지 않은채로 버려진듯 하군요. 쓸모있는 것이 아무것도 없었습니다.</text>
 <text name="event_DEFENSE_ITEM_LIST_2_text" language="zh-Hans">정거장은 반군 함선에 드론 시스템을 갖추는 목적으로 제작된듯 합니다. 당신은 쓸만한 설계도를 발견했습니다.</text>
 <text name="event_DEFENSE_ITEM_LIST_3_text" language="zh-Hans">정거장은 군수용 무기들이 저장되는 창고였습니다. 당신은 함선에 부착가능한 무기를 찾아냈습니다.</text>
-<text name="event_DEFENSE_ITEM_LIST_4_text" language="zh-Hans">정거장은 다양한 물자를 저장하는 창고였습니다. 당신은 가능한 모든것을 약탈하였습니다.</text>
+<text name="event_DEFENSE_ITEM_LIST_4_text" language="zh-Hans">정거장은 다양한 물자를 저장하는 창고였습니다. 당신은 가능한 모든 것을 약탈하였습니다.</text>
 <text name="event_DEFENSE_RADAR_LIST_1_text" language="zh-Hans">당신은 성공적으로 정거장에 접속해서는 당신의 함선의 위치에 관한 거짓 정보를 전송하였습니다. 이걸로 반군 함선들을 잠시나마 지체시킬 수 있을 것입니다.</text>
 <text name="event_DEFENSE_RADAR_LIST_2_text" language="zh-Hans">정거장의 방화벽은 우회하기에 너무 어려웠습니다. 접속을 끊으려 시도하는 순간, 우연히 주위의 송신소에 대한 정보를 발견했습니다. 당신의 지도가 갱신되었습니다.</text>
 <text name="event_DEFENSE_RADAR_LIST_3_text" language="zh-Hans">당신은 컴퓨터의 방어 시스템을 뚫을 수 없었습니다. 당신은 포기하고 함선으로 돌아왔습니다.</text>
@@ -1045,7 +1045,7 @@
 <text name="event_ENGI_SEX_c2_choice" language="zh-Hans">손상된 함선들을 무시한다.</text>
 <text name="event_ENGI_SEX_c3_c1_text" language="zh-Hans">당신은 두 척의 엔지 함선을 내버려 두기로 했습니다... 그들의 "일"에 집중하도록 말이죠. 그렇지만, 당신의 엔지 선원에게 물은 뒤에, 당신은 그 주위에서 스크랩 조각들을 긁어 모을 수 있었습니다. 당신 기분이 좀 더럽긴 했지만 말이죠.</text>
 <text name="event_ENGI_SEX_c3_choice" language="zh-Hans">[엔지 선원] 당신의 엔지 선원으로 함선에게 신호를 보내서 손상을 봐준다.</text>
-<text name="event_ENGI_SEX_c3_text" language="zh-Hans">당신의 엔지 선원이 거절합니다. 더듬더듬 말한 형용사와 명사들과, 몇가지 움직이는 홀로그램의 도움을 받아, 엔지가 설명하길 함선들이... 서로가, 쉽게 말하자면, "연합을 이루고 있는" 것이라고 합니다. 왠지, 이 함선의 통합은 쑥스럽고 개인적인 일로 보입니다.</text>
+<text name="event_ENGI_SEX_c3_text" language="zh-Hans">당신의 엔지 선원이 거절합니다. 더듬더듬 말한 형용사와 명사들과, 몇 가지 움직이는 홀로그램의 도움을 받아, 엔지가 설명하길 함선들이... 서로가, 쉽게 말하자면, "연합을 이루고 있는" 것이라고 합니다. 왠지, 이 함선의 통합은 쑥스럽고 개인적인 일로 보입니다.</text>
 <text name="event_ENGI_SEX_text" language="zh-Hans">손상된 하나의 함선으로 보이던 것은 사실 서로 격돌한 두 척의 함선이었습니다... 그곳은 온갖 통신 신호와 손상으로 난장판이 되어 있었고, 무슨 일이 일어난 것인지 알아채기가 어렵습니다. 함선은 아마도... 엔지? 그들은 충돌로 인해 함께 붙어있었고 스스로 빠져나오지 못하고 있습니다.</text>
 <text name="event_ENGI_STATION_DISTRESS_LIST_1_text" language="zh-Hans">당신은 또 다른 적 함선으로부터 교신을 받았습니다. 이번 교신은 맨티스의 것입니다. "멍청한 고깃덩이들." 맨티스들이 소리쳤습니다. 센서가 적 함선이 공격해 오는 것을 감지했습니다. 우주 정거장에서 맨티스들이 강습해오고 있습니다.</text>
 <text name="event_ENGI_STATION_DISTRESS_LIST_2_text" language="zh-Hans">응급 신호 발산지로 가보니 맨티스 전함이 작은 엔지 우주 정거장을 공격하고 있는 것이 보입니다. 당신은 전투를 준비합니다!</text>
@@ -1063,7 +1063,7 @@
 <text name="event_ENGI_UNLOCK_1_c2_choice" language="zh-Hans">무시하고 떠난다.</text>
 <text name="event_ENGI_UNLOCK_1_c2_text" language="zh-Hans">당신은 떠날 준비를 하면서도 이들이 무슨 이야기를 하고 있는지가 궁금했습니다.</text>
 <text name="event_ENGI_UNLOCK_1_c3_c1_c1_c1_choice" language="zh-Hans">동의한다</text>
-<text name="event_ENGI_UNLOCK_1_c3_c1_c1_text" language="zh-Hans">"두번째 함선 추적 결과 상이한 기지로 향함 확인. 가능성 계산, 기반 자료 부족. 반란군과의 교전 감당 불가능. 또한 군함 건조에 시간 필요. 기술 회수 도움 여부?"</text>
+<text name="event_ENGI_UNLOCK_1_c3_c1_c1_text" language="zh-Hans">"두 번째 함선 추적 결과 상이한 기지로 향함 확인. 가능성 계산, 기반 자료 부족. 반란군과의 교전 감당 불가능. 또한 군함 건조에 시간 필요. 기술 회수 도움 여부?"</text>
 <text name="event_ENGI_UNLOCK_1_c3_c1_choice" language="zh-Hans">도움을 주겠다고 한다.</text>
 <text name="event_ENGI_UNLOCK_1_c3_c1_text" language="zh-Hans">"비밀 기술 유출. 용의자: 맨티스. 반란군과 결탁 가능성 잠재. 맨티스 함선 추적 후 반란군 비밀 기지 감지. 좌표 전송."</text>
 <text name="event_ENGI_UNLOCK_1_c3_choice" language="zh-Hans">(엔지 선원) 엔지 선원에게 이들과의 대화를 지시한다.</text>
@@ -1285,7 +1285,7 @@
 <text name="event_FUEL_ON_SLUG_OVERPRICED_c2_choice" language="zh-Hans">연료 10개를 95 스크랩에 구매. (최고의 거래!)</text>
 <text name="event_FUEL_ON_SLUG_OVERPRICED_c3_choice" language="zh-Hans">협상한다.</text>
 <text name="event_FUEL_ON_SLUG_OVERPRICED_c3_text" language="zh-Hans">당신은 더 합리적인 가격을 제시했지만 슬러그인은 격분했습니다! 그가 공격하려합니다!</text>
-<text name="event_FUEL_ON_SLUG_OVERPRICED_text" language="zh-Hans">이동식 슬러그 연료창고가 탐색영역 내에 들어왔습니다. "내 가격은 적당합니다. 다만, 한가지만 말해두죠 - 협상이란 말로 날 자극하지 마쇼!" 당신은 그의 가격표를 살펴봅니다.</text>
+<text name="event_FUEL_ON_SLUG_OVERPRICED_text" language="zh-Hans">이동식 슬러그 연료창고가 탐색영역 내에 들어왔습니다. "내 가격은 쩍당합니다. 다만, 한 가찌만 말해두쬬 - 협쌍이란 말로 날 짜극하찌 마쑈!" 당신은 그의 가격표를 살펴봅니다.</text>
 <text name="event_FUEL_SELLER_DISTRESS_c1_choice" language="zh-Hans">비상 급유를 요청한다.</text>
 <text name="event_FUEL_SELLER_DISTRESS_c1_text" language="zh-Hans">"비상 급유 1회 허가권이 사용되었습니다."</text>
 <text name="event_FUEL_SELLER_DISTRESS_c2_choice" language="zh-Hans">20 스크랩으로 5연료를 구입한다.</text>
@@ -1997,7 +1997,7 @@
 <text name="event_PIRATE_STATION_CROPS_c2_choice" language="zh-Hans">저들을 무시한다.</text>
 <text name="event_PIRATE_STATION_CROPS_c2_text" language="zh-Hans">전쟁의 영향을 받는 모든 사람을 시민을 구출하는건 불가능 합니다. 도약 준비를 합니다.</text>
 <text name="event_PIRATE_STATION_CROPS_c3_choice" language="zh-Hans">(화염 광선) 해적들에게 정착민과 사귀는 법을 보여주자구. 농작물을 태워버려!</text>
-<text name="event_PIRATE_STATION_CROPS_c3_text" language="zh-Hans">당신이 메마른 농작물에 불을 지르는걸 해적들이 지켜봅니다. 몇분 뒤 정착민들 항복후, 가만 놔두라며 공물을 바칩니다. 해적들은 감명받은듯 합니다.</text>
+<text name="event_PIRATE_STATION_CROPS_c3_text" language="zh-Hans">당신이 메마른 농작물에 불을 지르는걸 해적들이 지켜봅니다. 몇 분 뒤 정착민들 항복후, 가만 놔두라며 공물을 바칩니다. 해적들은 감명받은듯 합니다.</text>
 <text name="event_PIRATE_STATION_CROPS_c4_choice" language="zh-Hans">(화염 폭탄) 해적들에게 정착민과 사귀는 법을 보여주자구. 저 허접한 거주지에 사격개시.</text>
 <text name="event_PIRATE_STATION_CROPS_c4_text" language="zh-Hans">당신이 소이폭탄을 거주지에 날리는걸 해적들이 지켜봅니다. 정착민이 불을 끄느라 허둥지둥하자, 그들의 보잘것없는 행성 방어 시스템의 전원이 내려갑니다. 그들을 항복시키는 것은 웃음이 나올정도로 쉬웠습니다. 그러나 해적들은 당신의 전략에 깊이 감명받아 공물을 나눠주는 것에 대해 동의했습니다.</text>
 <text name="event_PIRATE_STATION_CROPS_text" language="zh-Hans">해적선이 정착지 한곳을 가로막고있는걸 탐지했습니다. 해적들이 당신에게 메세지를 보냈습니다. "저리 꺼져! 안그러면 다음에는!... 집중사격 준비..."</text>
@@ -2710,7 +2710,7 @@
 <text name="event_ZOLTAN_CREW_STUDY_c4_c1_c1_text" language="zh-Hans">그 외계인이 천천히 말하기 시작합니다. "반갑소. 그대에게는 빚을 진 듯 싶군. 나의 일족은 오래 전 세상으로부터 떨어져 나와 지냈으나, 이제는 다시 모습을 드러내야 할 때인듯 싶군. 락맨들의 모행성계에 숨겨진 웜홀이 있을거요. 나를 그곳으로 데려가주어 은혜를 갚을 수 있도록 해주시겠소?"</text>
 <text name="event_ZOLTAN_CREW_STUDY_c4_c1_text" language="zh-Hans">"엄청나군요! 이 장치는 전송 도중에 손상된 신체를 재구성해주는 기능을 가지고 있습니다. 확인해보시죠." 그들은 동면 장치를 재가동하였고, 당신은 동면 장치 내부에 있던 크리스탈 덩어리가 인간의 형태로 재구성되는 모습을 보았습니다. 장치의 문이 열리고, 재구성된 외계인이 걸어나왔습니다.</text>
 <text name="event_ZOLTAN_CREW_STUDY_c4_choice" language="zh-Hans">(손상된 동면 장치) 그들에게 장치를 수리할 수 있는지 묻는다.</text>
-<text name="event_ZOLTAN_CREW_STUDY_c4_text" language="zh-Hans">"흥미롭군요. 이런 극저온 장치는 처음봅니다. 아직 작동중인 것 같습니다만..." 그들은 자신들의 장비에 동면 장치를 연결하고서, 몇가지 검사를 실시했습니다.</text>
+<text name="event_ZOLTAN_CREW_STUDY_c4_text" language="zh-Hans">"흥미롭군요. 이런 극저온 장치는 처음 봅니다. 아직 작동 중인 것 같습니다만..." 그들은 자신들의 장비에 동면 장치를 연결하고서, 몇 가지 검사를 실시했습니다.</text>
 <text name="event_ZOLTAN_CREW_STUDY_text" language="zh-Hans">당신은 졸탄족의 연구시설에 도착했습니다. 그들은 장기간에 걸친 초광속항해와 동면에 따른 유전 형질의 변화를 연구중이라고 합니다. 그들은 당신의 선원들을 검사하기 위해 시간을 내 줄 수 있는지 요청했습니다.</text>
 <text name="event_ZOLTAN_DISTRESS_MANTIS_c1_choice" language="zh-Hans">그들을 방해하여 맨티스 함선을 도와준다.</text>
 <text name="event_ZOLTAN_DISTRESS_MANTIS_c1_text" language="zh-Hans">맨티스 전투함이 약자인 기묘한 상황이지만, 약자에게 판돈을 걸어보는 것도 나쁘진 않을것 같다. 소행성대의 중심부로 출발하여 졸탄 함선과 교전을 시작한다.</text>
@@ -2747,7 +2747,7 @@
 <text name="event_ZOLTAN_ODD_MOON_c3_text" language="zh-Hans">일단 한번 스캔을 해 본 결과, 그리 깊지 않은 지하에 땅굴망이 뚫려 있음을 알 수 있었습니다. 당신은 강습 드론을 보내 땅 밑 동굴로 뚫고 들어가게끔 합니다.</text>
 <text name="event_ZOLTAN_ODD_MOON_text" language="zh-Hans">멀리 떨어진 위성에서 뭔가 날아와 당신을 공격했습니다.</text>
 <text name="event_ZOLTAN_PEACE_QUEST2_c1_choice" language="zh-Hans">공격한다.</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c1_text" language="zh-Hans">무기를 작동하고 전투를 준비한다.</text>
+<text name="event_ZOLTAN_PEACE_QUEST2_c1_text" language="zh-Hans">무기를 작동하고 전투를 준비합니다.</text>
 <text name="event_ZOLTAN_PEACE_QUEST2_c2_c1_c1_choice" language="zh-Hans">은하계는 넓지 않은가. 파괴 따위 하지 않고 다른 곳에서 그 이상을 펼칠 곳을 찾을 수 있을텐데.</text>
 <text name="event_ZOLTAN_PEACE_QUEST2_c2_c1_c1_text" language="zh-Hans">“"아니! 네 놈들의 '연방의 사상'에 맞지 않는다는 이유로 변방으로 쫓겨날 생각은 없다." 이들은 전투를 준비합니다.</text>
 <text name="event_ZOLTAN_PEACE_QUEST2_c2_c1_c2_choice" language="zh-Hans">진정한 이상의 추구에 유혈이 있어선 안돼.</text>
@@ -2761,7 +2761,7 @@
 <text name="event_ZOLTAN_PEACE_QUEST2_c2_choice" language="zh-Hans">교신을 시도한다.</text>
 <text name="event_ZOLTAN_PEACE_QUEST2_c2_text" language="zh-Hans">반란군 함선이 교신에 응합니다. "무슨 말을 해도 네 놈들은 죽은 목숨이다. 반란군은 낡아빠진 연방의 충성파와 접촉하는 즉시 즉결 처분해야 한다."</text>
 <text name="event_ZOLTAN_PEACE_QUEST2_text" language="zh-Hans">졸탄 평화주의자들이 가르쳐 준 지점에 도착했지만, 근처에 있는 것은 반란군 함선 뿐입니다! "잡았다! 이번엔 도망칠 수 없을거다!"</text>
-<text name="event_ZOLTAN_PEACE_QUEST_ATTACK_1_text" language="zh-Hans">무기를 작동하고 전투를 준비한다.</text>
+<text name="event_ZOLTAN_PEACE_QUEST_ATTACK_1_text" language="zh-Hans">무기를 작동하고 전투를 준비합니다.</text>
 <text name="event_ZOLTAN_PEACE_QUEST_ATTACK_2_text" language="zh-Hans">당신이 공격태세를 갖추자 근방에서 공간도약 반응이 감지됩니다. 졸탄 요격함이 평화 사절단을 지원하러 왔습니다!</text>
 <text name="event_ZOLTAN_PEACE_QUEST_REWARD_1_text" language="zh-Hans">"당신의 방식은 굉장히 조악하고 비효율적이었습니다만, 저희와의 만남을 진심으로 받아들였다는 사실만큼은 분명하군요. 그대들의 열린 마음이 연방의 개방적인 태도를 의미하는 것이라면, 저희들의 기술로 그 여정에 얼마간 도움을 드리도록 하겠습니다."</text>
 <text name="event_ZOLTAN_PEACE_QUEST_REWARD_2_text" language="zh-Hans">"당신의 방식은 굉장히 조악하고 비효율적이었습니다만, 저희와의 만남을 진심으로 받아들였다는 사실만큼은 분명하군요. 그대들의 열린 마음이 연방의 개방적인 태도를 의미하는 것이라면, 그대들의 분쟁에 개인적으로 도움을 드리도록 하겠습니다."</text>
@@ -3292,7 +3292,6 @@
 <text name="pilot_skill" language="zh-Hans">회피율 + \1</text>
 <text name="pilot_skill_infobox" language="zh-Hans">선원 배치시 \1</text>
 <text name="pilot_skill_tooltip" language="zh-Hans">조종 숙련：\n\1</text>
-<text name="power_not_ready" language="zh-Hans">준비되지 않음: 봉쇄 전력 충천 중 (화면 좌측 참고)</text>
 <text name="power_note" language="zh-Hans">주의: Shift + 전력 시스템은 시스템의 전원도 차단합니다.</text>
 <text name="power_ready" language="zh-Hans">준비됨: 방을 클릭해 특수한 힘으로 봉쇄합니다 \n단축키: \1</text>
 <text name="powered_deployed" language="zh-Hans">출격중 (전력 공급): 관련 기능이 활성화되어있습니다.</text>
@@ -3661,7 +3660,7 @@
 <text name="ship_PIRATE_SMUGGLE_surrender_c1_choice" language="zh-Hans">그들의 제안을 받아들입니다.</text>
 <text name="ship_PIRATE_SMUGGLE_surrender_c2_choice" language="zh-Hans">그들의 요청을 무시하고 공격합니다.</text>
 <text name="ship_PIRATE_SMUGGLE_surrender_text" language="zh-Hans">그들이 당신에게 신호를 보냅니다. "그래 우린 좆도 안돼는구만!! 우리를 보내주면 네 시간낭비에 대해서는 충분히 보상을 할게!!"</text>
-<text name="ship_PIRATE_STATION_CROPS_destroyed_text" language="zh-Hans">당신은 잔해속에서 몇가지 쓸만한것을 건졌고 정착지와 접선했습니다.</text>
+<text name="ship_PIRATE_STATION_CROPS_destroyed_text" language="zh-Hans">당신은 잔해 속에서 몇 가지 쓸만한 것을 건졌고 정착지와 접선했습니다.</text>
 <text name="ship_PIRATE_STATION_CROPS_escape_text" language="zh-Hans">그들은 싸우고 싶지 않은 듯 합니다. 탈출을 시도하고 있습니다.</text>
 <text name="ship_PIRATE_STATION_CROPS_surrender_c1_choice" language="zh-Hans">그들을 놓아준다.</text>
 <text name="ship_PIRATE_STATION_CROPS_surrender_c2_choice" language="zh-Hans">해적질은 용납할수없다, 공격!!</text>
@@ -4111,7 +4110,7 @@
 <text name="text_EMPTY_STATION2_TEXT_3" language="zh-Hans">이 구역에서는 전투가 벌어진 것 같습니다. 함선의 잔해가 온통 흩어져 있는 가운데, 우주정거장 하나가 눈에 띕니다.</text>
 <text name="text_ENGI_GIFT_1" language="zh-Hans">엔지 함선이 교신해왔습니다. "신분확인: 연방 소속? 작전 수행 가능성 농후. 작전: 부활을 위함... 작전: 희망적임. 귀 함에게 조력 제공." 이들은 약간의 물자를 주었습니다.</text>
 <text name="text_ENGI_GIFT_2" language="zh-Hans">당신은 맨티스들이 이 구역을 점거하기 전에 빨리 집으로 돌아가려는 엔지 화물선과 마주쳤습니다. 엔지들은 속력을 더 내기 위해 기꺼이 물자를 내주었습니다.</text>
-<text name="text_ENGI_GIFT_3" language="zh-Hans">당신은 맨티스들이 침략해올 수 있음에도 불구하고 꾿꾿히 자리를 지키고 있는 고립된 엔지 과학 연구소와 접촉했습니다. 엔지들은 당신에게 몇가지 기술들을 시험해보고자 했습니다.</text>
+<text name="text_ENGI_GIFT_3" language="zh-Hans">당신은 맨티스들이 침략해올 수 있음에도 불구하고 꿋꿋이 자리를 지키고 있는 고립된 엔지 과학 연구소와 접촉했습니다. 엔지들은 당신에게 몇 가지 기술들을 시험해보고자 했습니다.</text>
 <text name="text_ENGI_GIFT_4" language="zh-Hans">이곳은 최근 격전이 벌어졌던 지역인 것 같습니다. 이곳에 있던 맨티스 세력이나 엔지 세력 모두 평화를 모색하지는 않았던 것 같습니다. 당신은 잔해들을 후어보았습니다.</text>
 <text name="text_ENGI_MANTIS_FIGHT_1" language="zh-Hans">레이더에서 보내오던 미심쩍은 신호는, 엔지 수송선의 잔해를 뒤지던 맨티스 전투선의 것으로 밝혀졌습니다. 이들이 공격해왔습니다.</text>
 <text name="text_ENGI_MANTIS_FIGHT_2" language="zh-Hans">당신은 맨티스 도적들이 비무장의 엔지 보급선을 공격하는 광경을 발견했습니다. 맨티스들은 자신들의 무기가 보급선의 장갑을 뚫기에 역부족임을 깨닫고, 당신에게 무기를 돌렸습니다. 전투 준비!</text>
@@ -4210,7 +4209,7 @@
 <text name="text_LANIUS_FIGHT_TEXT_3" language="zh-Hans">당신은 광대역 주파수에서 메세지가 들어오는 것을 봅니다. 저쪽에서 접근하고 있는 라니우스 함선으로부터 송신되는 것 같습니다. 애초에 당신에게 보내려던 메세지가 아닌 것 같지만, 어쨌건 통역기는 최선을 다해 그 교신을 번역해줍니다. "...금속 섭취... 의지... 강제..." 아무래도 전투가 벌어질 것 같군요.</text>
 <text name="text_LANIUS_FIGHT_TEXT_4" language="zh-Hans">당신이 도약해오자마자, 버려진 위성을 빨아먹고 있던 라니우스 군함이 즉각 흡수를 멈추고는 대응해옵니다. 저들은 교신 시도를 모두 차단하고 무기를 가동합니다.</text>
 <text name="text_LANIUS_FIGHT_TEXT_5" language="zh-Hans">수많은 소형 라니우스 선박들이 송신소를 둘러싸고 있었습니다. 아무리 봐도 저 송신소는 함선 하나만 통과시킬텐데요. 어쩌면 '금속 섭취'를 찾는 선발대가 아닐까요? 당신이 이런 가능성을 고려하는 동안, 훨씬 커다란 크기의 라니우스 함선이 다가와 교전을 개시해옵니다. 정찰선들도 사방으로 흩어집니다.</text>
-<text name="text_LANIUS_FIGHT_TEXT_6" language="zh-Hans">당신은 중무장한 라니우스 함선이 크게 파손되어있는 반군 정찰선을 섭취하고 있는 장면을 봅니다. 당신이 도착한 것을 알아채자, 라니우스 함선은 오늘의 두번째 식사거리를 향해 탐욕스레 다가옵니다.</text>
+<text name="text_LANIUS_FIGHT_TEXT_6" language="zh-Hans">당신은 중무장한 라니우스 함선이 크게 파손되어있는 반군 정찰선을 섭취하고 있는 장면을 봅니다. 당신이 도착한 것을 알아채자, 라니우스 함선은 오늘의 두 번째 식사거리를 향해 탐욕스레 다가옵니다.</text>
 <text name="text_LANIUS_FIGHT_TEXT_7" language="zh-Hans">당신이 성계에 도착했을때, 당신의 근접 경보가 날카로운 소음을 내기 시작합니다: 라니우스 함선이 바로 당신 위에 있습니다! 당신이 교신할 기회도 찾기 전에, 그들은 사격하기 시작합니다!</text>
 <text name="text_LANIUS_FIGHT_TEXT_8" language="zh-Hans">당신이 주위를 살피고 있을때, 다른 함선이 송신소에 도착합니다 - 그건 라니우스였고, 그들은 당신의 함선을 섭취하기로 점찍어뒀습니다!</text>
 <text name="text_LANIUS_FIGHT_TEXT_9" language="zh-Hans">처음에는 모든 것이 조용해 보였지만, 당신의 스캐너가 빠른 속도로 접근하는 한 함선을 잡아냅니다 - 라니우스가 당신의 도착을 감지했고 그들의 무기를 충전하고 있습니다!</text>

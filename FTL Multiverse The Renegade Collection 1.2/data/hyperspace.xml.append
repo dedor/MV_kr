@@ -1,0 +1,370 @@
+<FTL>
+<version>^1.0.0</version>
+
+<mod:findLike type="ships">
+	<mod:findLike type="shipOrder">
+		<mod-append:ship>EE_PLAYER_SHIP_KESTREL</mod-append:ship>			
+		<mod-append:ship>EE_PLAYER_SHIP_ENGI</mod-append:ship>
+		<mod-append:ship>EE_PLAYER_SHIP_STEALTH</mod-append:ship>
+		<mod-append:ship>EE_PLAYER_SHIP_MONK</mod-append:ship>
+		<mod-append:ship>EE_PLAYER_SHIP_LOSTSUN</mod-append:ship>
+		<mod-append:ship>EE_PLAYER_SHIP_SCIENTIST</mod-append:ship>
+		<mod-append:ship>EE_PLAYER_SHIP_BROOD</mod-append:ship>
+		<mod-append:ship>EE_PLAYER_SHIP_LANIUS</mod-append:ship>
+		<mod-append:ship>EE_PLAYER_SHIP_PLEASURE</mod-append:ship>
+		<mod-append:ship>EE_PLAYER_SHIP_STUPIDGHOST</mod-append:ship>
+	</mod:findLike>
+	
+	<mod-append:ship name="EE_PLAYER_SHIP_KESTREL" b="false" c="false">
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_KESTREL</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_KESTREL_2</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_KESTREL_3</victory>
+            </victories>
+		</unlock>
+	</mod-append:ship>
+	<mod-append:customShip name="EE_PLAYER_SHIP_KESTREL">
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>11</crewLimit>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="EE_PLAYER_SHIP_ENGI" b="false" c="false">
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_ENGI</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_ENGI_2</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_ENGI_3</victory>
+            </victories>
+		</unlock>
+	</mod-append:ship>
+	<mod-append:customShip name="EE_PLAYER_SHIP_ENGI">
+		<hiddenAug>SHIP_ENGI</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="EE_PLAYER_SHIP_STEALTH" b="false" c="false">
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_CLOAK</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_CLOAK_2</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_CLOAK_3</victory>
+            </victories>
+		</unlock>
+	</mod-append:ship>
+	<mod-append:customShip name="EE_PLAYER_SHIP_STEALTH">
+		<hiddenAug>SHIP_STEALTH</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="EE_PLAYER_SHIP_MONK" b="false" c="false">
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_MONK</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_MONK_2</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_MONK_3</victory>
+            </victories>
+		</unlock>
+	</mod-append:ship>
+	<mod-append:customShip name="EE_PLAYER_SHIP_MONK">
+		<hiddenAug>SHIP_MONK</hiddenAug>
+		<hiddenAug>ZOLTAN_BLESSING</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="EE_PLAYER_SHIP_LOSTSUN" b="false" c="false">
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_LOSTSUN</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_LOSTSUN_2</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_LOSTSUN_3</victory>
+            </victories>
+		</unlock>
+	</mod-append:ship>
+	<mod-append:customShip name="EE_PLAYER_SHIP_LOSTSUN">
+		<hiddenAug>SHIP_LOSTSUN</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="EE_PLAYER_SHIP_SCIENTIST" b="false" c="false">
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_SCIENTIST</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_SCIENTIST_2</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_SCIENTIST_3</victory>
+            </victories>
+		</unlock>
+	</mod-append:ship>
+	<mod-append:customShip name="EE_PLAYER_SHIP_SCIENTIST">
+		<hiddenAug>SHIP_SHELL</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<rooms>	
+			<room id="0">
+				<roomAnim renderLayer="0">gash_1x3</roomAnim>
+			</room>
+			<room id="1">
+				<roomAnim renderLayer="0">gash_1x2</roomAnim>
+			</room>
+			<room id="2">
+				<roomAnim renderLayer="0">gash_2x2</roomAnim>
+			</room>
+			<room id="3">
+				<roomAnim renderLayer="0">gash_2x2</roomAnim>
+			</room>
+			<room id="4">
+				<roomAnim renderLayer="0">gash_1x2</roomAnim>
+			</room>
+			<room id="5">
+				<roomAnim renderLayer="0">gash_2x2</roomAnim>
+			</room>
+			<room id="6">
+				<roomAnim renderLayer="0">gash_1x2</roomAnim>
+			</room>
+			<room id="7">
+				<roomAnim renderLayer="0">gash_2x2</roomAnim>
+			</room>
+			<room id="8">
+				<roomAnim renderLayer="0">gash_2x2</roomAnim>
+			</room>
+			<room id="9">
+				<roomAnim renderLayer="0">gash_2x2</roomAnim>
+			</room>
+			<room id="10">
+				<roomAnim renderLayer="0">gash_1x3</roomAnim>
+				<roomAnim renderLayer="2">tele_ico</roomAnim>
+			</room>
+			<room id="11">
+				<roomAnim renderLayer="0">gash_2x1</roomAnim>
+			</room>
+			<room id="12">
+				<roomAnim renderLayer="0">gash_1x2</roomAnim>
+			</room>
+			<room id="13">
+				<roomAnim renderLayer="0">gash_3x1</roomAnim>
+			</room>
+			<room id="14">
+				<roomAnim renderLayer="0">gash_2x2</roomAnim>
+			</room>
+			<room id="15">
+				<roomAnim renderLayer="0">gash_1x2</roomAnim>
+			</room>
+			<room id="16">
+				<roomAnim renderLayer="0">gash_2x1</roomAnim>
+			</room>
+			<room id="17">
+				<roomAnim renderLayer="0">gash_2x1</roomAnim>
+			</room>
+			<room id="18">
+				<roomAnim renderLayer="0">gash_2x1</roomAnim>
+			</room>
+			<room id="19">
+				<roomAnim renderLayer="0">gash_2x1</roomAnim>
+			</room>
+			<room id="20">
+				<roomAnim renderLayer="0">gash_2x1</roomAnim>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="EE_PLAYER_SHIP_BROOD" b="false" c="false">
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_BROOD</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_BROOD_2</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_BROOD_3</victory>
+            </victories>
+		</unlock>
+	</mod-append:ship>
+	<mod-append:customShip name="EE_PLAYER_SHIP_BROOD">
+		<hiddenAug>SHIP_PIRATE</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>10</crewLimit>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="EE_PLAYER_SHIP_LANIUS" b="false" c="false">
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_LANIUS</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_LANIUS_2</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_LANIUS_3</victory>
+            </victories>
+		</unlock>
+	</mod-append:ship>
+	<mod-append:customShip name="EE_PLAYER_SHIP_LANIUS">
+		<hiddenAug>SHIP_LANIUS</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="EE_PLAYER_SHIP_PLEASURE" b="false" c="false">
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_PLEASURE</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_PLEASURE_2</victory>
+            </victories>
+		</unlock>
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>PLAYER_SHIP_PLEASURE_3</victory>
+            </victories>
+		</unlock>
+	</mod-append:ship>
+	<mod-append:customShip name="EE_PLAYER_SHIP_PLEASURE">
+		<hiddenAug>SHIP_SLUG</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>9</crewLimit>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="EE_PLAYER_SHIP_STUPIDGHOST" b="false" c="false">
+		<unlock variant="a" silent="false">
+			<type>5</type>
+            <victories>
+				<victory>EE_PLAYER_SHIP_KESTREL</victory>
+				<victory>EE_PLAYER_SHIP_ENGI</victory>
+				<victory>EE_PLAYER_SHIP_STEALTH</victory>
+				<victory>EE_PLAYER_SHIP_MONK</victory>
+				<victory>EE_PLAYER_SHIP_LOSTSUN</victory>
+				<victory>EE_PLAYER_SHIP_SCIENTIST</victory>
+				<victory>EE_PLAYER_SHIP_BROOD</victory>
+				<victory>EE_PLAYER_SHIP_LANIUS</victory>
+				<victory>EE_PLAYER_SHIP_PLEASURE</victory>
+            </victories>
+		</unlock>
+	</mod-append:ship>
+	<mod-append:customShip name="EE_PLAYER_SHIP_STUPIDGHOST">
+		<hiddenAug>SHIP_GHOST</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>6</crewLimit>
+	</mod-append:customShip>
+</mod:findLike>
+
+<crew>
+	<race name="extinguisher">
+		<canFight>false</canFight>
+		<canRepair>true</canRepair>
+		<canSabotage>false</canSabotage>
+		<canSuffocate>false</canSuffocate>
+		<canMan>false</canMan>
+		<canPunch>false</canPunch>
+		<canShoot>false</canShoot>
+		<repairSpeed>0.5</repairSpeed>
+		<fireRepairMultiplier>8</fireRepairMultiplier>
+		<maxHealth>50</maxHealth>
+		<stunMultiplier>0.25</stunMultiplier>
+		<oxygenChangeSpeed>-0.25</oxygenChangeSpeed>
+		<droneAI>
+			<repairAI/>
+			<returnToDroneRoom/>
+		</droneAI>
+		<fireDamageMultiplier>0</fireDamageMultiplier>
+		<moveSpeedMultiplier>1.5</moveSpeedMultiplier>
+		<controllable>true</controllable>
+	</race>
+</crew>
+
+<drones>
+	<drone name="EE_EXTINGUISHER">
+		<crewBlueprint>extinguisher</crewBlueprint>
+		<tooltipName>Extinguisher Drone</tooltipName>
+	</drone>
+</drones>
+
+<events>
+	<variable name="addon_extraequipment_enabled" op="set" val="1"/>
+</events>
+</FTL>

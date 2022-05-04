@@ -1,0 +1,643 @@
+<FTL>
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   BIG LISTS
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<mod:findName type="blueprintList" name="LIST_WEAPONS_ALL">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+	<mod-append:name>EE_LASER_PARTICLE_BIO</mod-append:name>
+	<mod-append:name>EE_LASER_PARTICLE_BIO_2</mod-append:name>
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+	<mod-append:name>EE_ION_BREACH</mod-append:name>
+	<mod-append:name>EE_ION_CHAINGUN_2</mod-append:name>
+	<mod-append:name>EE_ENERGY_PIERCE_1</mod-append:name>
+	<mod-append:name>EE_BOMB_PART</mod-append:name>
+	<mod-append:name>EE_BOMB_SPIDER</mod-append:name>
+	<mod-append:name>EE_FOCUS_FIRE</mod-append:name>
+	<mod-append:name>EE_FOCUS_CONSERVATIVE</mod-append:name>
+	<mod-append:name>EE_BEAM_ADAPT_CONSERVATIVE</mod-append:name>
+	<mod-append:name>EE_MISSILES_INSTANT</mod-append:name>
+	<mod-append:name>EE_MISSILES_HEAL</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_FROST</mod-append:name>
+	<mod-append:name>EE_FLARE_LAUNCHER</mod-append:name>
+	<mod-append:name>EE_MINELAUNCHER_ION</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_ALL_CRAPBUCKET">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+	<mod-append:name>EE_LASER_PARTICLE_BIO</mod-append:name>
+	<mod-append:name>EE_LASER_PARTICLE_BIO_2</mod-append:name>
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+	<mod-append:name>EE_ION_BREACH</mod-append:name>
+	<mod-append:name>EE_ION_CHAINGUN_2</mod-append:name>
+	<mod-append:name>EE_ENERGY_PIERCE_1</mod-append:name>
+	<mod-append:name>EE_BOMB_PART</mod-append:name>
+	<mod-append:name>EE_BOMB_SPIDER</mod-append:name>
+	<mod-append:name>EE_FOCUS_FIRE</mod-append:name>
+	<mod-append:name>EE_FOCUS_CONSERVATIVE</mod-append:name>
+	<mod-append:name>EE_BEAM_ADAPT_CONSERVATIVE</mod-append:name>
+	<mod-append:name>EE_MISSILES_INSTANT</mod-append:name>
+	<mod-append:name>EE_MISSILES_HEAL</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_FROST</mod-append:name>
+	<mod-append:name>EE_FLARE_LAUNCHER</mod-append:name>
+	<mod-append:name>EE_MINELAUNCHER_ION</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_DRONES_ALL">
+	<mod-append:name>EE_SCATTERSHOT</mod-append:name>
+	<mod-append:name>EE_THUNDER_1_BREACH</mod-append:name>
+	<mod-append:name>EE_THUNDER_1_ION</mod-append:name>
+	<mod-append:name>EE_EXTINGUISHER</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="LIST_DRONES_ALL_CRAPBUCKET">
+	<mod-append:name>EE_SCATTERSHOT</mod-append:name>
+	<mod-append:name>EE_THUNDER_1_BREACH</mod-append:name>
+	<mod-append:name>EE_THUNDER_1_ION</mod-append:name>
+	<mod-append:name>EE_EXTINGUISHER</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_CHECK_TOGGLES_AND_AMPS">
+	<mod-append:name>EE_THUNDER_1_BREACH</mod-append:name>
+	<mod-append:name>EE_THUNDER_1_ION</mod-append:name>
+</mod:findName>
+
+<blueprintList name="LIST_WEAPONS_ALL_CRAPBUCKET_EE">
+	<name>EE_LASER_CHARGEGUN_HEAVY</name>
+	<name>EE_LASER_LIGHT_BURST</name>
+	<name>EE_LASER_PARTICLE_BIO</name>
+	<name>EE_LASER_PARTICLE_BIO_2</name>
+	<name>EE_BEAM_HULL_CHAIN</name>
+	<name>EE_ION_BREACH</name>
+	<name>EE_ION_CHAINGUN_2</name>
+	<name>EE_ENERGY_PIERCE_1</name>
+	<name>EE_BOMB_PART</name>
+	<name>EE_BOMB_SPIDER</name>
+	<name>EE_FOCUS_FIRE</name>
+	<name>EE_FOCUS_CONSERVATIVE</name>
+	<name>EE_BEAM_ADAPT_CONSERVATIVE</name>
+	<name>EE_MISSILES_INSTANT</name>
+	<name>EE_MISSILES_HEAL</name>
+	<name>EE_MISSILES_FROST</name>
+	<name>EE_SHOTGUN_TRIFECTA</name>
+	<name>EE_SHOTGUN_FROST</name>
+	<name>EE_FLARE_LAUNCHER</name>
+	<name>EE_MINELAUNCHER_ION</name>
+</blueprintList>
+<blueprintList name="LIST_DRONES_ALL_CRAPBUCKET_EE">
+	<name>EE_SCATTERSHOT</name>
+	<name>EE_THUNDER_1_BREACH</name>
+	<name>EE_THUNDER_1_ION</name>
+	<name>EE_EXTINGUISHER</name>
+</blueprintList>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   BLUE LISTS
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<mod:findName type="blueprintList" name="BLUELIST_WEAPONS_HEAVY">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_MISSILES_INSTANT</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_ION">
+	<mod-append:name>EE_ION_BREACH</mod-append:name>
+	<mod-append:name>EE_ION_CHAINGUN_2</mod-append:name>
+	<mod-append:name>EE_MINELAUNCHER_ION</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_ENERGY">
+	<mod-append:name>EE_ENERGY_PIERCE_1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_MISSILES_ALL">
+	<mod-append:name>EE_MISSILES_INSTANT</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST</mod-append:name>
+	<mod-append:name>EE_MISSILES_HEAL</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="BLUELIST_MISSILES_DAMAGE">
+	<mod-append:name>EE_MISSILES_INSTANT</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST</mod-append:name>
+	<mod-append:name>EE_MISSILES_HEAL</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_ANTIBIO">
+	<mod-append:name>EE_LASER_PARTICLE_BIO</mod-append:name>
+	<mod-append:name>EE_LASER_PARTICLE_BIO_2</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="BLUELIST_ANTIBIO_NODAMAGE">
+	<mod-append:name>EE_LASER_PARTICLE_BIO</mod-append:name>
+	<mod-append:name>EE_LASER_PARTICLE_BIO_2</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_PARTICLE">
+	<mod-append:name>EE_LASER_PARTICLE_BIO</mod-append:name>
+	<mod-append:name>EE_LASER_PARTICLE_BIO_2</mod-append:name>
+	<mod-append:name>EE_BOMB_PART</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_BEAMS_ALL">
+	<mod-append:name>EE_BEAM_ADAPT_CONSERVATIVE</mod-append:name>
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="BLUELIST_BEAMS_DAMAGE">
+	<mod-append:name>EE_BEAM_ADAPT_CONSERVATIVE</mod-append:name>
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_FOCUS_ALL">
+	<mod-append:name>EE_FOCUS_FIRE</mod-append:name>
+	<mod-append:name>EE_FOCUS_CONSERVATIVE</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="BLUELIST_FOCUS_DAMAGE">
+	<mod-append:name>EE_FOCUS_CONSERVATIVE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_SUPPORT">
+	<mod-append:name>EE_MISSILES_HEAL</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_FIRE_ALL">
+	<mod-append:name>EE_FOCUS_FIRE</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="BLUELIST_FIRE_NONBALLISTIC">
+	<mod-append:name>EE_FOCUS_FIRE</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="BLUELIST_WEAPONS_FIRE_NODAMAGE">
+	<mod-append:name>EE_FOCUS_FIRE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_MINELAUNCHERS_ALL">
+	<mod-append:name>EE_MINELAUNCHER_ION</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_DRONES_DEFENSE">
+	<mod-append:name>EE_SCATTERSHOT</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_DRONES_REPAIR_ALL">
+	<mod-append:name>EE_EXTINGUISHER</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="BLUELIST_DRONES_REPAIR_CREW">
+	<mod-append:name>EE_EXTINGUISHER</mod-append:name>
+</mod:findName>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												  GIFT LISTS
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<mod:findName type="blueprintList" name="GIFTLIST_DYNASTY">
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="GIFTLIST_FLAK">
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_FROST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="GIFTLIST_LANIUS">
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="GIFTLIST_MINELAUNCHERS_TRAPPER">
+	<mod-append:name>EE_MINELAUNCHER_ION</mod-append:name>
+</mod:findName>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   SYLVAN AND STORE LISTS
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<mod:findName type="blueprintList" name="SHOP_ITEM_WEAPONS_LASERS">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_LASERS_BURST_AND_LIGHT">
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_WEAPONS_ION">
+	<mod-append:name>EE_ION_BREACH</mod-append:name>
+	<mod-append:name>EE_ION_CHAINGUN_2</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_CHARGE">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_LASERS_HEAVY">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name> <!--lol-->
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_LASERS_HEAVY_AND_HULL">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_LASERS_PIERCE_AND_LIGHT">
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_HULL">
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_HULL_ALL">
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_CHAIN">
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_LOCKDOWN">
+	<mod-append:name>EE_SHOTGUN_FROST</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_BEAM_STANDARD">
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_BREACH">
+	<mod-append:name>EE_ION_BREACH</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_ION_SPECIAL">
+	<mod-append:name>EE_ION_BREACH</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_ION_ATTRIBUTE">
+	<mod-append:name>EE_ION_CHAINGUN_2</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_BOMB_FIRE">
+	<mod-append:name>EE_BOMB_PART</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_MISSILES_SPECIAL">
+	<mod-append:name>EE_MISSILES_INSTANT</mod-append:name>
+	<mod-append:name>EE_MISSILES_HEAL</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_UTILITY">
+	<mod-append:name>EE_BOMB_SPIDER</mod-append:name>
+	<mod-append:name>EE_FLARE_LAUNCHER</mod-append:name>
+	<mod-append:name>EE_MISSILES_HEAL</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_FLAK">
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_FROST</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_FLAK_ELEMENTAL">
+	<mod-append:name>EE_SHOTGUN_FROST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_BIO">
+	<mod-append:name>EE_LASER_PARTICLE_BIO</mod-append:name>
+	<mod-append:name>EE_LASER_PARTICLE_BIO_2</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_MINELAUNCHER">
+	<mod-append:name>EE_MINELAUNCHER_ION</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_SYSTEM">
+	<mod-append:name>EE_LASER_PARTICLE_BIO</mod-append:name>
+	<mod-append:name>EE_LASER_PARTICLE_BIO_2</mod-append:name>
+	<mod-append:name>EE_BOMB_PART</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_SYLVAN_DRONES_CREW">
+	<mod-append:name>EE_EXTINGUISHER</mod-append:name>
+</mod:findName>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   ENEMY LISTS
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<mod:findName type="blueprintList" name="LIST_DRONES_ENEMY_STANDARD">
+	<mod-append:name>EE_EXTINGUISHER</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_DRONES_ENEMY_DEFENSE">
+	<!--<mod-append:name>EE_SCATTERSHOT_ENEMY</mod-append:name>-->
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_DRONES_ENEMY_CREW">
+	<mod-append:name>EE_EXTINGUISHER</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_CIVILIAN">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_MILITIA">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_MILITIA_ELITE">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_FED">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="LIST_DRONES_FED">
+	<mod-append:name>EE_SCATTERSHOT_ENEMY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_ENGI">
+	<mod-append:name>EE_ION_BREACH</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_DRONES_SEPARATIST">
+	<mod-append:name>EE_EXTINGUISHER</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_ZOLTAN">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_DUSKBRINGER">
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+	<mod-append:name>EE_ION_BREACH</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_ORCHID">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_ORCHID_ELITE">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_VAMPWEED">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="LIST_DRONES_VAMPWEED">
+	<mod-append:name>EE_SCATTERSHOT_ENEMY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_FREEMANTIS">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_LOSTSUN">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST_ENEMY</mod-append:name>
+	<mod-append:name>EE_FOCUS_FIRE</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="LIST_DRONES_LOSTSUN">
+	<mod-append:name>EE_SCATTERSHOT_ENEMY</mod-append:name>
+	<mod-append:name>EE_EXTINGUISHER</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_SSLG">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST_ENEMY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_GHOST">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_DYNASTY">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="LIST_DRONES_DYNASTY">
+	<mod-append:name>EE_SCATTERSHOT_ENEMY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_LEECH">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_REVOLUTIONARY">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_LEECH_ELITE">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_LANIUS">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_REBEL">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_REBEL_SELITE">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_ENGINEER">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_AUTO">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST_ENEMY</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="LIST_DRONES_AUTO">
+	<mod-append:name>EE_SCATTERSHOT_ENEMY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_ESTATE">
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_COALITION">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST_ENEMY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_ROCK">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_SHELL">
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_MORPH">
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_MANTIS">
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_SUZERAIN">
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_OUTCAST">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="LIST_DRONES_OUTCAST">
+	<mod-append:name>EE_SCATTERSHOT_ENEMY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_ROCK_SELITE">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_SIREN">
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_FROST</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST_ENEMY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_CULTIST">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_FROST</mod-append:name>
+	<mod-append:name>EE_MISSILES_FROST_ENEMY</mod-append:name>
+	<mod-append:name>EE_FOCUS_FIRE</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="LIST_DRONES_CULTIST">
+	<mod-append:name>EE_SCATTERSHOT_ENEMY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_HACKER">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_FOCUS_FIRE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_BROOD">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+	<mod-append:name>EE_BOMB_SPIDER_ENEMY</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="LIST_DRONES_BROOD">
+	<mod-append:name>EE_SCATTERSHOT_ENEMY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_HEPHAESTUS">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_BEAM_MASTER">
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="MV_WEAPONS_ALL">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+	<mod-append:name>EE_FOCUS_FIRE</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_SHIELDBREAKER">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_FIRE">
+	<mod-append:name>EE_FOCUS_FIRE</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_LASER">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_LASER_LIGHT_BURST</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_LASER_HEAVY">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_LASER_HEAVY_AND_HULL">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_LASER_ATTRIBUTE">
+	<mod-append:name>EE_LASER_CHARGEGUN_HEAVY</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_BEAMS">
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_BEAMS_ONLY">
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_BEAMS_DAMAGE">
+	<mod-append:name>EE_BEAM_HULL_CHAIN</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_MISSILES">
+	<mod-append:name>EE_MISSILES_FROST_ENEMY</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_BALLISTICS">
+	<mod-append:name>EE_MISSILES_FROST_ENEMY</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_BALLISTICS_DAMAGE">
+	<mod-append:name>EE_MISSILES_FROST_ENEMY</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_LAUNCHERS">
+	<mod-append:name>EE_MISSILES_FROST_ENEMY</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_WEAPONS_FLAK">
+	<mod-append:name>EE_SHOTGUN_TRIFECTA</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="MV_DRONES_ALL">
+	<mod-append:name>EE_SCATTERSHOT_ENEMY</mod-append:name>
+	<mod-append:name>EE_EXTINGUISHER</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_DRONES_COMBAT_AND_DEFENSE">
+	<mod-append:name>EE_SCATTERSHOT_ENEMY</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_DRONES_DEFENSE">
+	<mod-append:name>EE_SCATTERSHOT_ENEMY</mod-append:name>
+</mod:findName>
+<mod:findName type="blueprintList" name="MV_DRONES_CREW">
+	<mod-append:name>EE_EXTINGUISHER</mod-append:name>
+</mod:findName>
+</FTL>

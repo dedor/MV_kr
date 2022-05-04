@@ -1,0 +1,2176 @@
+<FTL>
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   LASER WEAPONS 
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<weaponBlueprint name="EE_LASER_CHARGEGUN_HEAVY"> 
+	<type>LASER</type>
+	<title>충전식 중형 레이저</title>
+	<short>Charge-Hev</short>
+	<tip>tip_charge</tip>
+	<desc>발사체를 모아 발사할 수 있는 레이저 무기입니다. 한 발당 2의 피해를 줍니다.</desc>
+	<tooltip>Fires more shots the more it charges, up to a max of 2.</tooltip>
+	<damage>2</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>3</breachChance>
+	<cooldown>6</cooldown>
+	<power>3</power>
+	<cost>85</cost>
+	<bp>2</bp>
+	<rarity>3</rarity>
+	<chargeLevels>3</chargeLevels>
+	<image>laser_heavy</image>
+	<launchSounds>
+		<sound>heavyLaser1</sound>
+		<sound>heavyLaser2</sound>
+		<sound>heavyLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull1</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>heavy_chargegun</weaponArt> 
+	<iconImage>laser_charge2</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="EE_LASER_LIGHT_BURST">
+	<type>LASER</type>
+	<title>점사형 경량 레이저</title>
+	<short>Light B</short>
+	<tip>tip_light_laser</tip>
+	<desc>표준 경량형 레이저보다 충전이 느리지만, 한 다발의 레이저를 연달아 발사해 빠르게 방어막을 무력화합니다.</desc>
+	<tooltip>Light laser; 1 damage, no system damage. 5 second cooldown.</tooltip>
+	<damage>1</damage>
+	<sysDamage>-1</sysDamage>
+	<persDamage>-1</persDamage>
+	<accuracyMod>10</accuracyMod>
+	<shots>3</shots>
+	<fireTime>0.05</fireTime>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>3</breachChance>
+	<cooldown>9</cooldown>
+	<power>2</power>
+	<cost>50</cost>
+	<bp>2</bp>
+	<rarity>3</rarity>
+	<image>laser_light</image>
+	<launchSounds>
+		<sound>laser_light</sound>
+		<sound>laser_light</sound>
+		<sound>laser_light</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_light_burst</weaponArt>
+	<iconImage>laser</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="EE_LASER_PARTICLE_BIO">
+	<type>BURST</type>
+	<drone_targetable>0</drone_targetable>
+	<flavorType>Particle Accelerator</flavorType>
+	<title>충돌형 입자 가속기 마크 I</title>
+	<short>Col I</short>
+	<tip>tip_bio</tip>
+	<desc>화재를 일으키지 못하는 대신 선원에게 피해를 주고 방사선에 의한 장애를 일으키는 개조된 입자 장비입니다.</desc>
+	<tooltip>Part Accelerator; 1 system damage, 3 shots. 10 second cooldown. High fire chance.</tooltip>
+	<damage>0</damage>
+	<sysDamage>1</sysDamage>
+	<persDamage>1</persDamage>
+	<radius>25</radius>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>8</cooldown>
+	<power>1</power>
+	<cost>50</cost>
+	<bp>2</bp>
+	<spin>0</spin>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier">
+			<boostType>MULT</boostType>
+			<amount>0.33</amount>
+			<shipTarget>ALL</shipTarget>
+			<crewTarget>ALL</crewTarget>
+			<affectsSelf>true</affectsSelf>
+			<maxStacks>1</maxStacks>
+			<duration>8</duration>
+			<boostAnim>bio_poison</boostAnim>
+		</statBoost>
+		<statBoost name="stunMultiplier">
+			<boostType>MULT</boostType>
+			<amount>1.75</amount>
+			<shipTarget>ALL</shipTarget>
+			<crewTarget>ALL</crewTarget>
+			<affectsSelf>true</affectsSelf>
+			<maxStacks>1</maxStacks>
+			<duration>8</duration>
+		</statBoost>
+		<statBoost name="repairSpeed">
+			<boostType>MULT</boostType>
+			<amount>0.33</amount>
+			<shipTarget>ALL</shipTarget>
+			<crewTarget>ALL</crewTarget>
+			<affectsSelf>true</affectsSelf>
+			<maxStacks>1</maxStacks>
+			<duration>8</duration>
+		</statBoost>
+	</statBoosts>
+	<projectiles>
+		<projectile count="2" fake="false">laser_particle_bio</projectile>
+	</projectiles>
+	<rarity>3</rarity>
+	<launchSounds>
+		<sound>laser_particle</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull1</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_particle_bio</weaponArt>
+</weaponBlueprint>
+
+<weaponBlueprint name="EE_LASER_PARTICLE_BIO_2">
+	<type>BURST</type>
+	<drone_targetable>0</drone_targetable>
+	<flavorType>Particle Accelerator</flavorType>
+	<title>충돌형 입자 가속기 마크 II</title>
+	<short>Col II</short>
+	<tip>tip_bio</tip>
+	<desc>화재를 일으키지 못하는 대신 선원에게 피해를 주고 방사선에 의한 장애를 일으키는 개조된 입자 장비입니다. 마크 I 보다 충전 시간도 길고 범위도 넓지만, 더 많은 볼트를 발사합니다.</desc>
+	<tooltip>Part Accelerator; 1 system damage, 5 shots. 17 second cooldown. Starts Fires.</tooltip>
+	<damage>0</damage>
+	<sysDamage>1</sysDamage>
+	<persDamage>1</persDamage>
+	<radius>40</radius>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>17</cooldown>
+	<power>2</power>
+	<cost>80</cost>
+	<bp>2</bp>
+	<rarity>5</rarity>
+	<spin>0</spin>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier">
+			<boostType>MULT</boostType>
+			<amount>0.33</amount>
+			<shipTarget>ALL</shipTarget>
+			<crewTarget>ALL</crewTarget>
+			<affectsSelf>true</affectsSelf>
+			<maxStacks>1</maxStacks>
+			<duration>15</duration>
+			<boostAnim>bio_poison</boostAnim>
+		</statBoost>
+		<statBoost name="stunMultiplier">
+			<boostType>MULT</boostType>
+			<amount>1.75</amount>
+			<shipTarget>ALL</shipTarget>
+			<crewTarget>ALL</crewTarget>
+			<affectsSelf>true</affectsSelf>
+			<maxStacks>1</maxStacks>
+			<duration>15</duration>
+		</statBoost>
+		<statBoost name="repairSpeed">
+			<boostType>MULT</boostType>
+			<amount>0.33</amount>
+			<shipTarget>ALL</shipTarget>
+			<crewTarget>ALL</crewTarget>
+			<affectsSelf>true</affectsSelf>
+			<maxStacks>1</maxStacks>
+			<duration>15</duration>
+		</statBoost>
+	</statBoosts>
+	<projectiles>
+		<projectile count="6" fake="false">laser_particle_bio</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>laser_particle</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull1</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_particle_bio_2</weaponArt>
+</weaponBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   BEAM WEAPONS 
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<weaponBlueprint name="EE_BEAM_HULL_CHAIN">
+	<type>BEAM</type>
+	<tip>tip_beams</tip>
+	<title>'버디슈' 빔</title>
+	<short>'Bardiche'</short>
+	<tip>tip_hull</tip>
+	<desc>이 빔은 발사할 때마다 충전 시간이 짧아질 뿐만 아니라 빈 선실에 큰 피해를 입힐 수 있습니다.</desc>
+	<tooltip>Beam weapon; 1 damage; 2x damage in systemless rooms.</tooltip>
+	<damage>1</damage>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>3</breachChance>
+	<cooldown>17</cooldown>
+	<hullBust>1</hullBust>
+	<power>2</power>
+	<cost>75</cost>
+	<bp>8</bp>
+	<rarity>4</rarity>
+	<image>beam_contact</image>
+	<boost>
+		<type>cooldown</type>
+		<amount>3</amount>
+		<count>3</count>
+	</boost>
+	<length>100</length>
+	<launchSounds>
+		<sound>beam1</sound>
+		<sound>beam1_2</sound>
+	</launchSounds>
+	<weaponArt>beam_hull_chain</weaponArt>
+	<iconImage>beamH</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="EE_BEAM_ADAPT_CONSERVATIVE">
+    <type>BEAM</type>
+    <tip>tip_adapter</tip>
+    <title>카기야리 빔</title>
+    <short>Kagiyari</short>
+    <desc>속도가 느리지만 독립적으로 작동하는 적응형 빔으로, 충분한 시간이 주어지면 무한히 강해질 수 있습니다. 보존 무기는 직접 전력을 소모하진 않지만, 다른 무기에 전력이 공급되고 있어야 사용할 수 있습니다.</desc>
+    <tooltip>Beam weapon, 2 damage per room.</tooltip>
+    <damage>0.5</damage>
+	<sysDamage>1</sysDamage>
+    <sp>0</sp>
+    <fireChance>0</fireChance>
+    <breachChance>1</breachChance>
+    <cooldown>13</cooldown>
+    <power>0</power>
+    <cost>65</cost>
+    <bp>7</bp>
+    <rarity>4</rarity>
+    <length>50</length>
+    <image>beam_contact</image>
+    <boost>
+        <type>damage</type>
+        <amount>.5</amount>
+        <count>999</count>
+    </boost>
+    <launchSounds>
+        <sound>beam2</sound>
+    </launchSounds>
+    <weaponArt>beam_longbow_conservative</weaponArt>
+    <iconImage>beam</iconImage>
+</weaponBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   ION WEAPONS 
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<weaponBlueprint name="EE_ION_BREACH">
+	<type>LASER</type>
+	<flavorType>Ion Blast</flavorType>
+	<title>감압 이온</title>
+	<short>Asphyx.</short>
+	<tip>tip_ion</tip>
+	<locked>1</locked>
+	<desc>적을 질식시키는 것에 탁월한 특수 이온입니다. 다른 목적으로도 사용될 수 있습니다.</desc>
+	<tooltip>Fires a single blast that does 2 ion damage. Can hit and disable shields as well as systems.</tooltip>
+	<damage>0</damage>
+	<spin>720</spin>
+	<ion>2</ion>
+	<speed>40</speed>
+	<shots>1</shots>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<stunChance>0</stunChance>
+	<cooldown>11</cooldown>
+	<power>2</power>
+	<cost>60</cost>
+	<bp>4</bp>
+	<rarity>3</rarity>
+	<image>ion_phase</image>
+	<explosion>explosion_small_phase</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>ion_breach</weaponArt>
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   ENERGY WEAPONS 
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<weaponBlueprint name="EE_ENERGY_PIERCE_1">
+	<type>LASER</type>
+	<flavorType>Concentrated Energy Blast</flavorType>
+	<title>에너지 관통자</title>
+	<short>Phase E.</short>
+	<tip>tip_energy</tip>
+	<locked>1</locked>
+	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 특수한 버전은 모든 방어막을 관통하며 방어막 한겹과 피격된 시스템에 이온 피해를 줍니다.</desc>
+	<tooltip>Fires a single blast that does 1 ion damage and 1 hull damage. Can hit and disable shields as well as systems.</tooltip>
+	<damage>1</damage>
+	<noSysDamage>true</noSysDamage>
+	<noPersDamage>true</noPersDamage>
+	<ion>1</ion>
+	<speed>40</speed>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>3</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>0</stunChance>
+	<cooldown>10</cooldown>
+	<power>2</power>
+	<cost>60</cost>
+	<bp>3</bp>
+	<rarity>3</rarity>
+	<image>energy_pierce</image>
+	<explosion>explosion_energy</explosion>
+	<launchSounds>
+		<sound>energy</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>energy_phase_1</weaponArt>
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="EE_ENERGY_PIERCE_1_PLAYER">
+	<type>LASER</type>
+	<flavorType>Concentrated Energy Blast</flavorType>
+	<title>에너지 관통자†</title>
+	<short>Phase E.†</short>
+	<tip>tip_energy</tip>
+	<locked>1</locked>
+	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 특수한 버전은 모든 방어막을 관통하며 방어막 한겹과 피격된 시스템에 이온 피해를 줍니다.</desc>
+	<tooltip>Fires a single blast that does 1 ion damage and 1 hull damage. Can hit and disable shields as well as systems.</tooltip>
+	<damage>1</damage>
+	<noSysDamage>true</noSysDamage>
+	<noPersDamage>true</noPersDamage>
+	<ion>1</ion>
+	<speed>40</speed>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>3</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>0</stunChance>
+	<cooldown>10</cooldown>
+	<power>1</power>
+	<cost>60</cost>
+	<bp>3</bp>
+	<rarity>0</rarity>
+	<image>energy_pierce</image>
+	<explosion>explosion_energy</explosion>
+	<launchSounds>
+		<sound>energy</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>energy_phase_1</weaponArt>
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   FOCUS WEAPONS 
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<weaponBlueprint name="EE_FOCUS_FIRE">
+	<type>BEAM</type>
+	<flavorType>Pinpoint</flavorType>
+	<tip>tip_focus</tip>
+	<title>'스코치' 핀포인트</title>
+	<short>'Scorch'</short>
+	<desc>충전이 빠른 핀포인트 무기입니다. 물리적인 피해는 주지 않지만, 방어막을 두겹 관통하고 화재를 일으킵니다.</desc>
+	<tooltip>One damage per room beam weapon</tooltip>
+	<damage>0</damage>
+	<sp>2</sp>
+	<fireChance>10</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>5</cooldown>
+	<speed>1</speed>
+	<power>1</power>
+	<cost>40</cost>
+	<bp>2</bp>
+	<rarity>4</rarity>
+	<image>beam_contact</image>
+	<length>1</length>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>focus_fire</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="EE_FOCUS_CONSERVATIVE">
+	<type>BEAM</type>
+	<flavorType>Pinpoint</flavorType>
+	<tip>tip_focus</tip>
+	<title>'뽀야나르' 핀포인트</title>
+	<short>'Poniard'</short>
+	<desc>충전이 느리지만 믿음직한 핀포인트입니다. 보존 무기는 직접 전력을 소모하진 않지만, 다른 무기에 전력이 공급되고 있어야 사용할 수 있습니다.</desc>
+	<tooltip>One damage per room beam weapon</tooltip>
+	<damage>2</damage>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>13</cooldown>
+	<speed>1</speed>
+	<power>0</power>
+	<cost>50</cost>
+	<bp>2</bp>
+	<rarity>3</rarity>
+	<image>beam_contact</image>
+	<length>1</length>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>focus_conservative</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   BOMB WEAPONS 
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<weaponBlueprint name="EE_BOMB_PART">
+	<type>BOMB</type>
+	<tip>tip_bombs</tip>
+	<title>입자 폭탄</title>
+	<short>Part B.</short>
+	<locked>1</locked>
+	<desc>입자 가속기를 탑재한 폭발물입니다. 스스로 순간이동하여 큰 시스템 피해와 함께 화재를 일으킵니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
+	<tooltip>Bomb weapon; requires a missile; does 2 damage, but only damages system, not hull. Can target your own ship.</tooltip>
+	<damage>0</damage>
+	<sysDamage>4</sysDamage>
+	<accuracyMod>30</accuracyMod>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>7</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>18</cooldown>
+	<power>2</power>
+	<cost>80</cost>
+	<bp>4</bp>
+	<rarity>4</rarity>
+	<image>bomb_part</image>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>bomblauncher_particle</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="EE_BOMB_SPIDER">
+	<type>BOMB</type>
+	<tip>tip_spawner</tip>
+	<title>거미 폭탄</title>
+	<short>Arach B.</short>
+	<locked>1</locked>
+	<desc>스스로 순간이동하여 2마리의 아군 새끼 거미를 배치하는 장비입니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
+	<tooltip>Bomb weapon; requires a missile; does 2 damage, but only damages system, not hull. Can target your own ship.</tooltip>
+	<damage>0</damage>
+	<sysDamage>0</sysDamage>
+	<persDamage>0</persDamage>
+	<accuracyMod>30</accuracyMod>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>12</cooldown>
+	<power>2</power>
+	<cost>45</cost>
+	<bp>4</bp>
+	<spawnCrew>
+		<number>2</number>
+		<race>spider_hatch</race>
+		<lifetime>20</lifetime>
+		<statBoosts>
+			<statBoost name="noClone">
+                <boostType>SET</boostType>
+                <value>true</value>
+                <shipTarget>ALL</shipTarget>
+                <crewTarget>ALL</crewTarget>
+                <priority>999999</priority>
+            </statBoost>
+		</statBoosts>
+		<noSlot>true</noSlot>
+	</spawnCrew>
+	<crewSpawnChance>10</crewSpawnChance>
+	<rarity>5</rarity>
+	<image>bomb_spider</image>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>bomblauncher_spider</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="EE_BOMB_SPIDER_PLAYER">
+	<type>BOMB</type>
+	<tip>tip_spawner</tip>
+	<title>거미 폭탄†</title>
+	<short>Arach B.†</short>
+	<locked>1</locked>
+	<desc>스스로 순간이동하여 2마리의 아군 새끼 거미를 배치하는 장비입니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
+	<tooltip>Bomb weapon; requires a missile; does 2 damage, but only damages system, not hull. Can target your own ship.</tooltip>
+	<damage>0</damage>
+	<sysDamage>0</sysDamage>
+	<persDamage>0</persDamage>
+	<accuracyMod>30</accuracyMod>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>12</cooldown>
+	<power>1</power>
+	<cost>45</cost>
+	<bp>4</bp>
+	<spawnCrew>
+		<number>2</number>
+		<race>spider_hatch</race>
+		<lifetime>20</lifetime>
+		<statBoosts>
+			<statBoost name="noClone">
+                <boostType>SET</boostType>
+                <value>true</value>
+                <shipTarget>ALL</shipTarget>
+                <crewTarget>ALL</crewTarget>
+                <priority>999999</priority>
+            </statBoost>
+		</statBoosts>
+		<noSlot>true</noSlot>
+	</spawnCrew>
+	<crewSpawnChance>10</crewSpawnChance>
+	<rarity>0</rarity>
+	<image>bomb_spider</image>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>bomblauncher_spider</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="EE_BOMB_SPIDER_ENEMY">
+	<type>BOMB</type>
+	<tip>tip_spawner</tip>
+	<title>거미 폭탄</title>
+	<short>Arach B.</short>
+	<locked>1</locked>
+	<desc>YOU SHOULD NEVER SEE THIS</desc>
+	<tooltip>Bomb weapon; requires a missile; does 2 damage, but only damages system, not hull. Can target your own ship.</tooltip>
+	<damage>0</damage>
+	<sysDamage>0</sysDamage>
+	<persDamage>0</persDamage>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>12</cooldown>
+	<power>2</power>
+	<cost>45</cost>
+	<bp>4</bp>
+	<spawnCrew>
+		<number>2</number>
+		<race>spider_hatch</race>
+		<lifetime>20</lifetime>
+		<statBoosts>
+			<statBoost name="noClone">
+                <boostType>SET</boostType>
+                <value>true</value>
+                <shipTarget>ALL</shipTarget>
+                <crewTarget>ALL</crewTarget>
+                <priority>999999</priority>
+            </statBoost>
+		</statBoosts>
+		<noSlot>true</noSlot>
+	</spawnCrew>
+	<crewSpawnChance>10</crewSpawnChance>
+	<rarity>0</rarity>
+	<image>bomb_spider</image>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>bomblauncher_spider</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   MISSILE WEAPONS 
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<weaponBlueprint name="EE_MISSILES_HEAL">
+	<type>MISSILES</type>
+	<tip>tip_missiles_heavy</tip>
+	<title>'아폴로' 미사일</title>
+	<short>'Apollo'</short>
+	<desc>독특하지만 효과적인 미사일 무기로, 선원 피해가 없는 대신 피격된 아군의 체력을 초당 4씩 15초간 회복시킵니다. 이 회복은 중첩 가능합니다.</desc>
+	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
+	<damage>2</damage>
+	<noPersDamage>true</noPersDamage>
+	<missiles>1</missiles>
+	<speed>50</speed>
+	<accuracyMod>10</accuracyMod>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<stunChance>0</stunChance>
+	<cooldown>10</cooldown>
+	<statBoosts>
+		<statBoost name="healAmount">
+			<boostType>FLAT</boostType>
+			<amount>4</amount>
+			<shipTarget>ALL</shipTarget>
+			<crewTarget>CURRENT_ALLIES</crewTarget>
+			<affectsSelf>true</affectsSelf>
+			<duration>15</duration>
+		</statBoost>
+	</statBoosts>
+	<power>1</power>
+	<cost>50</cost>
+	<bp>5</bp>
+	<rarity>5</rarity>
+	<image>missile_heal_1</image>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>missiles_heal</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="EE_MISSILES_FROST">
+	<type>MISSILES</type>
+	<tip>tip_frost</tip>
+	<title>'보레아스' 미사일</title>
+	<short>'Boreas'</short>
+	<desc>피격된 선실을 봉쇄하는 고위력 미사일입니다.</desc>
+	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
+	<damage>3</damage>
+	<persDamage>1</persDamage>
+	<missiles>1</missiles>
+	<accuracyMod>10</accuracyMod>
+	<speed>50</speed>
+	<lockdown>1</lockdown>
+	<stun>5</stun>
+	<shots>1</shots>
+	<sp>10</sp>
+	<stunChance>4</stunChance>
+	<cooldown>14</cooldown>
+	<power>2</power>
+	<cost>65</cost>
+	<bp>6</bp>
+	<rarity>4</rarity>
+	<image>missile_frost_1</image>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>explosion_heavy</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>missiles_frost</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="EE_MISSILES_FROST_ENEMY">
+	<type>MISSILES</type>
+	<tip>tip_frost</tip>
+	<title>'보레아스' 미사일</title>
+	<short>'Boreas'</short>
+	<desc>피격된 선실을 봉쇄하는 고위력 미사일입니다.</desc>
+	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
+	<damage>3</damage>
+	<missiles>1</missiles>
+	<accuracyMod>10</accuracyMod>
+	<speed>50</speed>
+	<lockdown>1</lockdown>
+	<stun>5</stun>
+	<shots>1</shots>
+	<sp>10</sp>
+	<stunChance>4</stunChance>
+	<cooldown>15</cooldown>
+	<power>2</power>
+	<cost>65</cost>
+	<bp>6</bp>
+	<rarity>0</rarity>
+	<image>missile_frost_1</image>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>explosion_heavy</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>missiles_frost</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="EE_MISSILES_INSTANT">
+    <type>MISSILES</type>
+    <tip>tip_preemptive</tip>
+    <title>'에피메테우스' 선제 미사일</title>
+    <short>'Epimetheus'</short>
+    <desc>극도로 파괴적인 미사일 한 발을 선제적으로 발사합니다. 전투당 한 번만 사용할 수 있지만, 시스템 무력화와 선체 파괴에 모두 효과적입니다. 선진 조준 시스템이 탑재돼 있어 빗나가지 않습니다.</desc>
+    <tooltip>Fires 1 missile; 4 damage; pierces all shields; high breach chance.</tooltip>
+    <damage>4</damage>
+	<accuracyMod>100</accuracyMod>
+    <missiles>1</missiles>
+    <speed>50</speed>
+    <hullBust>1</hullBust>
+    <shots>1</shots>
+    <sp>10</sp>
+    <fireChance>0</fireChance>
+    <breachChance>0</breachChance>
+    <stunChance>5</stunChance>
+    <cooldown>1</cooldown>
+    <power>0</power>
+    <cost>90</cost>
+    <bp>7</bp>
+	<boost>
+		<type>cooldown</type>
+		<amount>2</amount>
+		<count>2</count>
+	</boost>
+    <rarity>5</rarity>
+    <image>missile_instant</image>
+    <launchSounds>
+        <sound>smallMissile1</sound>
+        <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+        <sound>explosion_heavy</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+        <sound>hitShield1</sound>
+        <sound>hitShield2</sound>
+        <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+        <sound>miss</sound>
+    </missSounds>
+    <weaponArt>missiles_instant</weaponArt>
+    <iconImage>missile</iconImage>
+</weaponBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   MINELAUNCHERS
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<weaponBlueprint name="EE_MINELAUNCHER_ION">
+	<type>BURST</type>
+	<tip>tip_mine</tip>
+	<title>'바알' 기뢰 사출기</title>
+	<short>'Baal'</short>
+	<desc>기뢰 사출기는 빠른 충전 속도로 느리게 움직이는 한 무더기의 발사체를 사출합니다. 기뢰를 설치하는 효율적인 수단이기도 합니다.
+	
+	빈 송신소에서 15개의 탄약을 소모하여 반군의 추적을 2도약 지연시킬 수 있습니다. 악명에 영향을 주지 않습니다.</desc>
+	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+	<drone_targetable>1</drone_targetable>
+	<radius>45</radius>
+	<ion>1</ion>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>5</stunChance>
+	<cooldown>7</cooldown>
+	<power>3</power>
+	<cost>60</cost>
+	<bp>2</bp>
+	<speed>25</speed>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="4" fake="false">mine_ion</projectile>
+	</projectiles>
+	<explosion>explosion_small_ion</explosion>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>minelauncher_ion</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="EE_ION_CHAINGUN_2">
+	<type>LASER</type>
+	<flavorType>Ion Blast</flavorType>
+	<title>무한성 이온</title>
+	<short>Infinity</short>
+	<locked>1</locked>
+	<tip>tip_chain_ion</tip>
+	<desc>이 이온은 충전이 다소 느리지만, 표준적인 적응형 이온과는 다르게 피해량이 무한히 증가합니다.</desc>
+	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
+	<damage>0</damage>
+	<spin>720</spin>
+	<ion>2</ion>
+	<speed>30</speed>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>3</stunChance>
+	<cooldown>14.5</cooldown>
+	<power>3</power>
+	<cost>50</cost>
+	<bp>3</bp>
+	<rarity>5</rarity>
+	<image>ion_heavy</image>
+	<boost>
+		<type>damage</type>
+		<amount>1</amount>
+		<count>999</count>
+	</boost>
+	<explosion>explosion_small_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>ion_chaingun_2</weaponArt> 
+	<iconImage>ion_chain</iconImage>
+</weaponBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   FLAK WEAPONS 
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<weaponBlueprint name="EE_SHOTGUN_TRIFECTA">
+	<type>BURST</type>
+	<flavorType>Physical Projectile Blast</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>트리펙타</title>
+	<short>Trifecta</short>
+	<tip>tip_flak</tip>
+	<desc>느리지만 높은 피해를 주는 레이저와 함께 2발의 쓰레기를 발사하는 기괴한 혼합 무기입니다.</desc>
+	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
+	<radius>45</radius>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<spin>0</spin>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>15</cooldown>
+	<power>2</power>
+	<cost>70</cost>
+	<speed>30</speed>
+	<rarity>1</rarity>
+	<projectiles>
+		<projectile count="1" fake="false" blueprint="TRIFECTA_LASER">laser_heavy</projectile>
+		<projectile count="2" fake="false">debris_med</projectile>
+		<projectile count="3" fake="true">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>shotgun_trifecta</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="TRIFECTA_LASER">
+	<type>LASER</type>
+	<title>Trifecta Laser</title>
+	<short>Trifecta Laser</short>
+	<desc>YOU SHOULD NEVER SEE THIS</desc>
+	<damage>2</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<speed>20</speed>
+	<fireChance>3</fireChance>
+	<breachChance>3</breachChance>
+	<stunChance>3</stunChance>
+	<rarity>0</rarity>
+	<image>laser_heavy</image>
+	<launchSounds>
+		<sound>heavyLaser1</sound>
+		<sound>heavyLaser2</sound>
+		<sound>heavyLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull1</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_heavy_1</weaponArt>
+	<iconImage>heavyL</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="EE_SHOTGUN_FROST">
+	<type>BURST</type>
+	<flavorType>Physical Projectile Blast</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>서리 대공포</title>
+	<short>Frost Flak</short>
+	<tip>tip_flak</tip>
+	<desc>4발의 과냉각된 발사체를 쏩니다. 각 발사체는 피격된 선실을 얼음으로 코팅해 봉쇄하고 그 안에 있던 선원들을 12초간 기절시킵니다.</desc>
+	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
+	<radius>55</radius>
+	<stun>5</stun>
+	<damage>1</damage>
+	<shots>1</shots>
+	<lockdown>1</lockdown>
+	<sp>0</sp>
+	<spin>720</spin>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>14</cooldown>
+	<power>3</power>
+	<cost>75</cost>
+	<bp>10</bp>
+	<speed>26</speed>
+	<rarity>4</rarity>
+	<projectiles>
+		<projectile count="1" fake="false">debris_large_frost</projectile>
+		<projectile count="3" fake="false">debris_med_frost</projectile>
+		<projectile count="3" fake="true">debris_small_frost</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>shotgun_frost</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   MISC WEAPONS 
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<weaponBlueprint name="EE_FLARE_LAUNCHER">
+	<type>BURST</type>
+	<tip>tip_decoy</tip>
+	<title>플레어 사출기</title>
+	<short>Flare</short>
+	<desc>방어 드론을 교란하는 디코이를 발사합니다. 맞출 수만 있다면, 피격된 선원의 시야를 가려 잠시 기절시킬 수 있습니다.</desc>
+	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
+	<drone_targetable>1</drone_targetable>
+	<damage>0</damage>
+	<radius>30</radius>
+	<accuracyMod>100</accuracyMod>
+	<speed>20</speed>
+	<stun>12</stun>
+	<shots>1</shots>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>0</stunChance>
+	<cooldown>7</cooldown>
+	<power>0</power>
+	<cost>30</cost>
+	<bp>6</bp>
+	<rarity>5</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">decoy</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>explosion_heavy</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>flare_launcher</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   DEFENSE DRONES
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<weaponBlueprint name="DRONE_BOMB_BREACH">
+	<type>BOMB</type>
+	<title>Drone Bomb</title>
+	<damage>0</damage>
+	<sysDamage>1</sysDamage>
+	<persDamage>1</persDamage>
+	<shots>1</shots>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<rarity>0</rarity>
+	<image>bomb_breach</image>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>bomblauncher_breach</weaponArt>
+	<weaponArt>laser_burst_1</weaponArt>
+</weaponBlueprint>
+<weaponBlueprint name="DRONE_BOMB_ION">
+	<type>BOMB</type>
+	<title>Drone Bomb</title>
+	<damage>0</damage>
+	<ion>2</ion>
+	<stun>5</stun>
+	<shots>1</shots>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<rarity>0</rarity>
+	<image>bomb_ion</image>
+	<explosion>explosion_big1_ion</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<weaponArt>bomblauncher_ion</weaponArt>
+	<weaponArt>laser_burst_1</weaponArt>
+</weaponBlueprint>
+<droneBlueprint name="EE_THUNDER_1_BREACH">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title>천둥 드론 [균열]</title>
+	<short>Thunder [B]</short>
+	<desc>[현재 모드: 균열] 속도가 다소 느리지만, 미사일 소모 없이 균열 또는 이온 폭탄을 배치할 수 있는 특수드론입니다.</desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>7</speed>
+	<cost>60</cost>
+	<bp>3</bp>
+	<droneImage>drone_bomb_breach</droneImage>
+	<weaponBlueprint>DRONE_BOMB_BREACH</weaponBlueprint>
+	<rarity>4</rarity>
+	<iconImage>combat</iconImage>
+</droneBlueprint>
+<droneBlueprint name="EE_THUNDER_1_ION">
+	<type>COMBAT</type>
+	<tip>tip_toggle_combat</tip>
+	<title>천둥 드론 [이온]</title>
+	<short>Thunder [I]</short>
+	<desc>[현재 모드: 이온] 속도가 다소 느리지만, 미사일 소모 없이 균열 또는 이온 폭탄을 배치할 수 있는 특수드론입니다.</desc>
+	<power>3</power>
+	<cooldown>1000</cooldown>
+	<dodge>0</dodge>
+	<speed>7</speed>
+	<cost>60</cost>
+	<bp>3</bp>
+	<droneImage>drone_bomb_ion</droneImage>
+	<weaponBlueprint>DRONE_BOMB_ION</weaponBlueprint>
+	<rarity>0</rarity>
+	<iconImage>combat</iconImage>
+</droneBlueprint>
+
+<weaponBlueprint name="DRONE_FLAK_DEFENSE">
+	<type>BURST</type>
+	<title>Drone Flak</title>
+	<damage>1</damage>
+	<radius>50</radius>
+	<spin>720</spin>
+	<speed>50</speed>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="5" fake="false">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>ion_1</weaponArt>
+</weaponBlueprint>
+<droneBlueprint name="EE_SCATTERSHOT">
+	<type>DEFENSE</type>
+	<target>ALL</target>
+	<tip>tip_defense</tip>
+	<title>산탄 방어 드론</title>
+	<short>Scattershot</short>
+	<desc>빠른 속도로 느리게 움직이는 쓰레기 더미를 발사하는 독특한 방어 드론입니다. 고체 발사체, 레이저, 드론까지 모든 것을 요격할 수 있습니다!
+	재장전: 1700 MS</desc>
+	<power>3</power>
+	<cooldown>1700</cooldown>
+	<dodge>0</dodge>
+	<speed>8</speed>
+	<cost>85</cost>
+	<bp>2</bp>
+	<droneImage>drone_scattershot</droneImage>
+	<weaponBlueprint>DRONE_FLAK_DEFENSE</weaponBlueprint>
+	<iconImage>defense</iconImage>
+	<rarity>4</rarity>
+</droneBlueprint>
+<droneBlueprint name="EE_SCATTERSHOT_ENEMY">
+	<type>DEFENSE</type>
+	<target>ALL</target>
+	<tip>tip_defense</tip>
+	<title>산탄 방어 드론</title>
+	<short>Scattershot</short>
+	<desc>빠른 속도로 느리게 움직이는 쓰레기 더미를 발사하는 독특한 방어 드론입니다. 고체 발사체, 레이저, 드론까지 모든 것을 요격할 수 있습니다!
+	재장전: 1700 MS</desc>
+	<power>3</power>
+	<cooldown>1700</cooldown>
+	<dodge>0</dodge>
+	<speed>8</speed>
+	<cost>85</cost>
+	<bp>2</bp>
+	<droneImage>drone_scattershot</droneImage>
+	<weaponBlueprint>DRONE_FLAK_DEFENSE</weaponBlueprint>
+	<iconImage>defense</iconImage>
+	<rarity>0</rarity>
+</droneBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   CREW DRONES
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<crewBlueprint name="extinguisher">
+	<title>Extinguisher Drone</title>
+	<short>Extinguisher Drone</short>
+	<desc>YOU SHOULD NEVER SEE THIS.</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<powerList>
+		<power>DRONE</power>
+	</powerList>
+</crewBlueprint>
+<droneBlueprint name="EE_EXTINGUISHER">
+	<type>BATTLE</type>
+	<locked>1</locked>
+	<tip>tip_crew</tip>
+	<title>소화 드론</title>
+	<short>Extinguisher</short>
+	<desc>화재를 빠르게 진압하고 산소를 흡수하는 조종 가능한 유틸리티 드론입니다. 또한 비상 시 느린 속도로 시스템을 수리할 수 있습니다.
+    
+-최대 체력 50, 이동속도 1.5배
+-화재 진압 속도 4배, 수리속도 x0.5
+-산소 흡수, 화재에 면역</desc>
+	<power>1</power>
+	<cost>40</cost>
+	<bp>3</bp>
+	<rarity>3</rarity>
+	<iconImage>battle</iconImage>
+</droneBlueprint>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************************                                               
+
+												   PLAYER SHIPS
+
+********************************************************************************************************************************************************************************************************************************************												 
+********************************************************************************************************************************************************************************************************************************************
+-->
+<shipBlueprint name="EE_PLAYER_SHIP_KESTREL" layout="eep_kestrel" img="eep_kestrel">
+	<class>수집가의 케스트렐 순양함</class>
+	<name>The Oriole</name>
+	<unlock id="ship_EE_PLAYER_SHIP_KESTREL_unlock"/>
+	<desc>최신 무기에 환장하는 해적이 재구성한 케스트렐입니다.</desc>
+	<systemList>
+		<battery max="2" power="1" room="14" start="false" img="room_battery_3" />
+		<cloaking power="1" room="3" start="false" img="room_cloaking_11" />
+		<clonebay power="1" room="4" start="false">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="6" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="11" start="false" img="room_drones_7" />
+		<engines power="2" room="13" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="15" start="false" img="room_hacking_2" />
+		<medbay power="1" room="4" start="true" img="room_medbay_4">
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="16" start="false" img="room_mind_10" />
+		<oxygen power="2" room="12" start="true" img="room_oxygen_5" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="7" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="18" start="true" img="room_shields_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="10" start="false" />
+		<weapons max="8" power="2" room="5" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="6" count="4">
+		<weapon name="EE_LASER_LIGHT_BURST" />
+		<weapon name="EE_FOCUS_CONSERVATIVE" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="7" />
+	<crewCount amount="1" class="LIST_CREW_PIRATE_RANDOM" />
+	<crewCount amount="1" class="LIST_CREW_PIRATE_RANDOM" />
+	<crewCount amount="1" class="LIST_CREW_PIRATE_RANDOM" />
+	<aug name="COMBAT_SHIELDS_JAMMER" />
+</shipBlueprint>
+
+<shipBlueprint name="EE_PLAYER_SHIP_ENGI" layout="eep_engi" img="eep_engi">
+	<class>수집가의 엔지 순양함</class>
+	<name>Obession-C</name>
+	<unlock id="ship_EE_PLAYER_SHIP_ENGI_unlock"/>
+	<desc>쓰레기를 아무렇게나 엮어놓은 것처럼 보이는 일반적인 엔지 함선과는 다르게, 이 함선은 쓰레기를 아무렇게나 엮어놓은 것처럼 보입니다.</desc>
+	<systemList>
+		<battery max="2" power="1" room="13" start="false" img="room_battery_3" />
+		<cloaking power="1" room="5" start="false" img="room_cloaking_8" />
+		<clonebay power="1" room="6" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="1" start="true" img="room_doors_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="4" room="7" start="true" img="room_drones_14" />
+		<engines power="3" room="10" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="14" start="false" img="room_hacking_7" />
+		<medbay power="1" room="6" start="true" img="room_medbay_6">
+			<slot>
+				<number>-2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="2" start="false" img="room_mind_5" />
+		<oxygen power="1" room="12" start="false" img="room_oxygen_8" />
+		<pilot power="1" room="8" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="15" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="0" start="false" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="9" start="false" />
+		<weapons max="8" power="3" room="4" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="5" count="3">
+		<weapon name="EE_SHOTGUN_TRIFECTA" />
+		<weapon name="LASER_BURST_1" />
+	</weaponList>
+	<droneList drones="11" count="3">
+		<drone name="EE_SCATTERSHOT" />
+		<drone name="DRONE_SHIELD" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="7" />
+	<crewCount amount="1" class="engi_separatist_nano" />
+	<crewCount amount="1" class="phantom" />
+	<crewCount amount="1" class="lanius" />
+	<aug name="EX_MEDBAY_NANO" />
+	<aug name="SCRAP_COLLECTOR" />
+</shipBlueprint>
+
+<shipBlueprint name="EE_PLAYER_SHIP_STEALTH" layout="eep_stealth" img="eep_stealth">
+	<class>수집가의 스텔스 순양함</class>
+	<name>One Shot</name>
+	<unlock id="ship_EE_PLAYER_SHIP_STEALTH_unlock"/>
+	<desc>이 함선의 선장은 확고한 좌우명을 가지고 있습니다. '빨리 못 죽이면 내가 죽는다'</desc>
+	<systemList>
+		<battery max="2" power="1" room="19" start="true" img="room_battery_2" />
+		<cloaking power="2" room="13" start="true" img="room_cloaking_8" />
+		<clonebay power="1" room="14" start="true">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="12" start="true" img="room_doors_5">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="11" start="false" img="room_drones_14" />
+		<engines power="4" room="1" start="true" img="room_engines_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="8" start="false" img="room_hacking_5" />
+		<medbay power="1" room="14" start="false" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="9" start="false" img="room_mind_6" />
+		<oxygen power="1" room="17" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="2" room="16" start="true" img="room_sensors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="18" start="false" img="room_shields_11">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="15" start="false" />
+		<weapons max="8" power="1" room="10" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="12" count="3">
+		<weapon name="EE_MISSILES_INSTANT" />
+		<weapon name="LASER_LIGHT" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="slug" />
+	<crewCount amount="1" class="engi" />
+	<crewCount amount="1" class="human" />
+	<aug name="ADV_SCANNERS" />
+	<aug name="EX_EXPLOSIVE_REPLICATOR" />
+</shipBlueprint>
+
+<shipBlueprint name="EE_PLAYER_SHIP_MONK" layout="eep_monk" img="eep_monk">
+	<class>수집가의 일스트크리안 순양함</class>
+	<name>Patience</name>
+	<unlock id="ship_EE_PLAYER_SHIP_MONK_unlock"/>
+	<desc>이 함선을 관리하는 수도승은 인내심의 미덕을 그 무엇보다 높게 쳤습니다. 유일한 흠은 그녀가 평화에 대한 메모를 놓쳤다는 점입니다.</desc>
+	<systemList>
+		<battery max="2" power="1" room="13" start="false" img="room_battery_13" />
+		<cloaking power="1" room="2" start="true" img="room_cloaking_10" />
+		<clonebay power="1" room="8" start="true">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="16" start="true" img="room_doors_8">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="11" start="false" img="room_drones_10" />
+		<engines power="2" room="4" start="true" img="room_engines_9">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="0" start="false" img="room_hacking_7" />
+		<medbay power="1" room="8" start="false" img="room_medbay_3">
+			<slot>
+				<number>3</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="6" start="false" img="room_mind_11" />
+		<oxygen power="1" room="14" start="true" img="room_oxygen_9" />
+		<pilot power="1" room="10" start="true" img="room_pilot_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="2" room="17" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="1" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="15" start="false" />
+		<weapons max="8" power="3" room="9" start="true" img="room_weapons_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>2</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="2">
+		<weapon name="EE_ION_CHAINGUN_2" />
+		<weapon name="EE_BEAM_ADAPT_CONSERVATIVE" />
+	</weaponList>
+	<droneList drones="12" count="3" />
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="zoltan_monk" />
+	<crewCount amount="1" class="zoltan_monk" />
+	<crewCount amount="1" class="engi_defender" />
+	<aug name="LOCKED_ENERGY_SHIELD" />
+</shipBlueprint>
+
+<shipBlueprint name="EE_PLAYER_SHIP_LOSTSUN" layout="eep_lostsun" img="eep_lostsun">
+	<class>수집가의 로스트선 순양함</class>
+	<name>The Ruination</name>
+	<unlock id="ship_EE_PLAYER_SHIP_LOSTSUN_unlock"/>
+	<desc>용감한 전사들을 모집하는 연방의 부름을 듣자마자, 용감한 로스트선들은 가능한 한 많은 사람들을 불태울 수 있는 이 기회에 기꺼이 응했습니다.</desc>
+	<systemList>
+		<battery max="2" power="1" room="17" start="false" img="room_battery_15" />
+		<cloaking power="1" room="21" start="false" img="room_cloaking" />
+		<clonebay power="1" room="8" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="15" start="false" img="room_doors_5">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="20" start="false" img="room_drones_2" />
+		<engines power="2" room="0" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="14" start="false" img="room_hacking_3" />
+		<medbay power="1" room="8" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="16" start="true" img="room_mind_2" />
+		<oxygen power="2" room="19" start="true" img="room_oxygen_12" />
+		<pilot power="1" room="11" start="true" img="room_pilot_5">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="2" room="12" start="true" img="room_sensors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="7" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="13" start="false" />
+		<weapons max="8" power="3" room="18" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="3">
+		<weapon name="EE_FOCUS_FIRE" />
+		<weapon name="EE_FOCUS_FIRE" />
+		<weapon name="EE_FOCUS_FIRE" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="8" />
+	<crewCount amount="1" class="rock_commando" />
+	<crewCount amount="1" class="rock_cultist" />
+	<crewCount amount="1" class="orchid_vampweed" />
+	<aug name="LOCKED_REGEN_ARMOR" />
+	<aug name="EX_FIRE_EXTINGUISHERS" />
+</shipBlueprint>
+
+<shipBlueprint name="EE_PLAYER_SHIP_SCIENTIST" layout="eep_scientist" img="eep_scientist">
+	<class>수집가의 천재정 과학 순양함</class>
+	<name>Hadron</name>
+	<unlock id="ship_EE_PLAYER_SHIP_SCIENTIST_unlock"/>
+	<desc>이 셸은 실수로 일반 입자 가속기가 아니라 충돌형 가속기를 구입했다는 것을 방금 깨달았습니다. 하지만 문제 될 거 없죠. 보라색이 주황색보다 더 멋지잖아요.</desc>
+	<systemList>
+		<battery max="2" power="1" room="4" start="false" img="room_battery_8" />
+		<cloaking power="1" room="7" start="false" img="room_cloaking_11" />
+		<clonebay power="1" room="8" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="16" start="false" img="room_doors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="5" start="false" img="room_drones" />
+		<engines power="1" room="14" start="true" img="room_engines_4">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="11" start="false" img="room_hacking_2" />
+		<medbay power="1" room="8" start="true" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="2" start="false" img="room_mind_4" />
+		<oxygen power="2" room="12" start="true" img="room_oxygen_12" />
+		<pilot power="1" room="0" start="true" img="room_pilot_7">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="3" room="19" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="3" room="9" start="true" img="room_shields_6">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="10" start="false" />
+		<weapons max="8" power="4" room="3" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="3" count="3">
+		<weapon name="EE_LASER_PARTICLE_BIO_2" />
+		<weapon name="ION_HEAVY" />
+	</weaponList>
+	<droneList drones="3" count="2" />
+	<health amount="30" />
+	<maxPower amount="8" />
+	<crewCount amount="1" class="shell_scientist" />
+	<crewCount amount="1" class="zoltan" />
+	<crewCount amount="1" class="slug_clansman" />
+	<aug name="LOCKED_REGEN_GAS" />
+</shipBlueprint>
+
+<shipBlueprint name="EE_PLAYER_SHIP_BROOD" layout="eep_brood" img="eep_brood">
+	<class>수집가의 브루드 순양함</class>
+	<name>Broodmother</name>
+	<unlock id="ship_EE_PLAYER_SHIP_BROOD_unlock"/>
+	<desc>이 함선의 선장을 뭐라고 설명해야 할까요? 그는 거미를 좋아합니다. 그는 거미를 '사랑'합니다. 좀 과할 정도로요.</desc>
+	<systemList>
+		<battery max="2" power="1" room="11" start="false" img="room_battery_8" />
+		<cloaking power="1" room="12" start="false" img="room_cloaking_9" />
+		<clonebay power="1" room="8" start="true">
+			<slot>
+				<number>2</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="17" start="true" img="room_doors_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="15" start="false" img="room_drones_14" />
+		<engines power="2" room="1" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="10" start="false" img="room_hacking_4" />
+		<medbay power="1" room="8" start="false" img="room_medbay_7">
+			<slot>
+				<number>2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="9" start="false" img="room_mind_3" />
+		<oxygen power="2" room="7" start="true" img="room_oxygen_12" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="16" start="true" img="room_sensors_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="2" start="true" img="room_shields_2">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="4" start="false" />
+		<weapons max="8" power="2" room="5" start="true" img="room_weapons_3">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="15" count="4">
+		<weapon name="EE_BOMB_SPIDER_PLAYER" />
+		<weapon name="EE_BOMB_SPIDER_PLAYER" />
+		<weapon name="MISSILES_FREE" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="LIST_CREW_PIRATE_RANDOM" />
+	<aug name="EX_LAB_SPIDER_WEBS" />
+</shipBlueprint>
+
+<shipBlueprint name="EE_PLAYER_SHIP_LANIUS" layout="eep_lanius" img="eep_lanius">
+	<class>수집가의 라니우스 순양함</class>
+	<name>Kittiwake</name>
+	<unlock id="ship_EE_PLAYER_SHIP_LANIUS_unlock"/>
+	<desc>사람들이 계속해서 이 배의 외벽에 달린 깃발을 쳐다보자 선장은 혼란에 빠졌습니다. "천 아니라? 무늬 없어서?" 그가 보기엔 그저 멋진 색을 지닌 깃발이었습니다.</desc>
+	<systemList>
+		<battery max="2" power="1" room="12" start="false" img="room_battery_14" />
+		<cloaking power="1" room="5" start="false" img="room_cloaking_4" />
+		<clonebay power="1" room="9" start="false">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="2" room="10" start="true" img="room_doors_5">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="7" start="false" img="room_drones_15" />
+		<engines power="1" room="6" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="16" start="true" img="room_hacking_3" />
+		<medbay power="1" room="9" start="true" img="room_medbay_9">
+			<slot>
+				<number>-2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="4" start="false" img="room_mind_6" />
+		<oxygen power="1" room="13" start="false" img="room_oxygen_2" />
+		<pilot power="1" room="8" start="true" img="room_pilot_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="11" start="true" img="room_sensors_6">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="1" start="true" img="room_shields_10">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="14" start="false" />
+		<weapons max="8" power="3" room="0" start="true" img="room_weapons_2">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="EE_SHOTGUN_FROST" />
+	</weaponList>
+	<droneList drones="6" count="2" />
+	<health amount="30" />
+	<maxPower amount="7" />
+	<crewCount amount="1" class="lanius" />
+	<crewCount amount="1" class="blobcrystal" />
+	<crewCount amount="1" class="phantom_wraith" />
+	<aug name="EX_O2_MASKS" />
+</shipBlueprint>
+
+<shipBlueprint name="EE_PLAYER_SHIP_PLEASURE" layout="eep_pleasure" img="eep_pleasure">
+	<class>수집가의 쾌락의 순향함</class>
+	<name>Elysia</name>
+	<unlock id="ship_EE_PLAYER_SHIP_PLEASURE_unlock"/>
+	<desc>전설로만 내려오는 미사일이 있습니다. 바로 아폴로 미사일이죠. 과연 실존할까요? "당연히 실존하지"라고 선장의 친구가 말했습니다. "우와아아"라고 선장이 말했습니다.</desc>
+	<systemList>
+		<battery max="2" power="1" room="22" start="false" img="room_battery_14" />
+		<cloaking power="1" room="11" start="false" img="room_cloaking" />
+		<clonebay power="1" room="8" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="15" start="true" img="room_doors_9">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones max="8" power="2" room="10" start="false" img="room_drones_5" />
+		<engines power="1" room="17" start="true" img="room_engines_8">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="12" start="false" img="room_hacking_7" />
+		<medbay power="1" room="8" start="false" img="room_medbay">
+			<slot>
+				<number>1</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="9" start="false" img="room_mind" />
+		<oxygen power="1" room="23" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="16" start="false" img="room_sensors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="1" start="true" img="room_shields_4">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="7" start="true" />
+		<weapons max="8" power="2" room="2" start="true" img="room_weapons_4">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="17" count="4">
+		<weapon name="EE_MISSILES_HEAL" />
+		<weapon name="EE_ENERGY_PIERCE_1_PLAYER" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="6" />
+	<crewCount amount="1" class="slug_clansman" />
+	<crewCount amount="1" class="slug" />
+	<aug name="PLEASURE_GEL" />
+	<aug name="SLUG_DUPLICATOR" />
+</shipBlueprint>
+
+<shipBlueprint name="EE_PLAYER_SHIP_STUPIDGHOST" layout="eep_stupidghost" img="eep_stupidghost">
+	<class>수집가의 부숴진 폭격기</class>
+	<name>The Garbage Pile</name>
+	<unlock id="ship_EE_PLAYER_SHIP_STUPIDGHOST_unlock"/>
+	<desc>이 함선의 선장은 왜 "쓰레기 더미"가 모욕적인 이름인지 이해하지 못합니다. 쓰레기는 맛있잖아요. 이 함선도 아주 맛있고요. 하지만, 당분간은 허기를 참아주세요.</desc>
+	<systemList>
+		<battery max="2" power="1" room="12" start="false" img="room_battery_17" />
+		<cloaking power="1" room="4" start="false" img="room_cloaking_9" />
+		<clonebay power="1" room="11" start="false">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="1" start="true" img="room_doors_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones max="8" power="4" room="13" start="true" img="room_drones_3" />
+		<engines power="1" room="10" start="true" img="room_engines_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="7" start="false" img="room_hacking_4" />
+		<medbay power="1" room="11" start="true" img="room_medbay_5">
+			<slot>
+				<number>-2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="5" start="false" img="room_mind_7" />
+		<oxygen power="1" room="2" start="false" img="room_oxygen_2" />
+		<pilot power="1" room="0" start="true" img="room_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="6" start="true" img="room_sensors_4">
+			<slot>
+				<direction>left</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields max="8" power="2" room="3" start="true" img="room_shields_11">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="9" start="false" />
+		<weapons max="8" power="4" room="8" start="true" img="room_weapons_5">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="15" count="3">
+		<weapon name="LIST_WEAPONS_ALL_CRAPBUCKET_EE" />
+		<weapon name="LIST_WEAPONS_ALL_CRAPBUCKET_EE" />
+	</weaponList>
+	<droneList drones="9" count="2">
+		<drone name="LIST_DRONES_ALL_CRAPBUCKET_EE" />
+	</droneList>
+	<health amount="8" />
+	<maxPower amount="9" />
+	<crewCount amount="1" class="lanius_welder" />
+	<crewCount amount="1" class="engi_separatist_nano" />
+	<aug name="SUPER_CREW_STIMS" />
+</shipBlueprint>
+</FTL>

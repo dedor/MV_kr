@@ -1,0 +1,35 @@
+\\\\\\\\\\\\\\\\
+ FEATURES:
+\\\\\\\\\\\\\\\\
+
+Added the Trifecta.
+
+Added the Asphyxiator Ion.
+
+Added the Frost Flak.
+
+Added the Apollo Missiles.
+
+Added the Boreas Missiles.
+
+Added the Baal Minelauncher.
+
+Added the Extinguisher Drone (Sprite by MoreOrLesser).
+
+Added a prefix system for weapons and drones.
+
+Added variable check addon_extraequipment_enabled for addon developers to utilize.
+
+\\\\\\\\\\\\\\\\
+ CHANGES:
+\\\\\\\\\\\\\\\\
+
+Removed Scattershot from the standard enemy drone and defense drone lists.
+
+\\\\\\\\\\\\\\\\
+ BUG FIXES:
+\\\\\\\\\\\\\\\\
+
+Fixed Arachno-Bomb spawning a human in 5.2.1
+
+Fixed scattershot not triggering defense drone blue options.

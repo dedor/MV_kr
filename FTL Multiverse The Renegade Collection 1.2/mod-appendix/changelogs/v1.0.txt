@@ -1,0 +1,29 @@
+\\\\\\\\\\\\\\\\
+ FEATURES:
+\\\\\\\\\\\\\\\\
+
+Added the Light Burst Laser.
+
+Added the Particle Colliders Mk 1 and 2.
+
+Added the Particle Bomb.
+
+Added the Bardiche Beam.
+
+Added the Heavy Laser Chargegun.
+
+Added the Energy Phaser.
+
+Added the 'Epimetheus' Pre-Emptive Missiles.
+
+Added the Poniard Conservative Pinpoint.
+
+Added the Kagiyari Conservative Beam.
+
+Added the Arachno-Bomb.
+
+Added the Flare Launcher.
+
+Added the Scattershot Defense Drone.
+
+Added the Thundershock Combat Drone.

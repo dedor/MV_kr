@@ -163,7 +163,7 @@
 </event>
 
 <event name="SALVAGE_DEFAULT_PIRATES">
-	<text>송신소 바로 주변은 별게 없었지만, 시스템의 훨씬 더 깊은 곳으로 나아가자 우연히 스캔에 나타나지 않던 비활동 해적선을 발견했습니다.</text>
+	<text>송신소 바로 주변은 별게 없었지만, 행성계의 훨씬 더 깊은 곳으로 나아가자 우연히 스캔에 나타나지 않던 비활동 해적선을 발견했습니다.</text>
 	<variable name="loc_has_salvaged" op="set" val="1"/>
 	<choice hidden="true">
 		<text>팀을 보내 그 안에 무엇이 있는지 확인한다.</text>

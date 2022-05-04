@@ -1,0 +1,12 @@
+<FTL>
+	<text name="ship_EE_PLAYER_SHIP_KESTREL_unlock">이 함선을 해금하려면 아무 버전의 케스트렐 순양함으로 게임을 클리어 하십시오.</text>
+	<text name="ship_EE_PLAYER_SHIP_ENGI_unlock">이 함선을 해금하려면 아무 버전의 하모니 순양함으로 게임을 클리어 하십시오.</text>
+	<text name="ship_EE_PLAYER_SHIP_STEALTH_unlock">이 함선을 해금하려면 아무 버전의 스텔스 순양함으로 게임을 클리어 하십시오.</text>
+	<text name="ship_EE_PLAYER_SHIP_MONK_unlock">이 함선을 해금하려면 아무 버전의 수도승 순양함으로 게임을 클리어 하십시오.</text>
+	<text name="ship_EE_PLAYER_SHIP_LOSTSUN_unlock">이 함선을 해금하려면 아무 버전의 로스트선 순양함으로 게임을 클리어 하십시오.</text>
+	<text name="ship_EE_PLAYER_SHIP_SCIENTIST_unlock">이 함선을 해금하려면 아무 버전의 과학 순양함으로 게임을 클리어 하십시오.</text>
+	<text name="ship_EE_PLAYER_SHIP_BROOD_unlock">이 함선을 해금하려면 아무 버전의 브루드 순양함으로 게임을 클리어 하십시오.</text>
+	<text name="ship_EE_PLAYER_SHIP_LANIUS_unlock">이 함선을 해금하려면 아무 버전의 라니우스 순양함으로 게임을 클리어 하십시오.</text>
+	<text name="ship_EE_PLAYER_SHIP_PLEASURE_unlock">이 함선을 해금하려면 아무 버전의 쾌락의 바지선으로 게임을 클리어 하십시오.</text>
+	<text name="ship_EE_PLAYER_SHIP_STUPIDGHOST_unlock">모든 수집가의 함선으로 게임을 클리어 하십시오.</text>
+</FTL>

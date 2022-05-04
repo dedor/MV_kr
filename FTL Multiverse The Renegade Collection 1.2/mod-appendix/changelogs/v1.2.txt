@@ -1,0 +1,21 @@
+\\\\\\\\\\\\\\\\
+ FEATURES:
+\\\\\\\\\\\\\\\\
+
+Added the infinity ion.
+
+\\\\\\\\\\\\\\\\
+ CHANGES:
+\\\\\\\\\\\\\\\\
+
+Reduced Epimetheus base damage by 1. Removed fire and breach effect chances.
+
+Decreased Kagiyari cooldown to 13, base damage to 0.5 (rounds to 0), scaling to 0.5, added 1 extra system damage, and reduced length by 5px.
+
+Removed fire and breach chance from Boreas but increased crew damage. Also added an enemy version without the extra crew damage and increased cooldown.
+
+Increased baal to 3 power.
+
+Nerfed the cooldown on scattershot to 1700 milliseconds.
+
+Removed Scattershot from Separatists.

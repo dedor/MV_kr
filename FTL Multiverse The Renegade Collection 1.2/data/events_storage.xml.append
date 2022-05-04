@@ -1,0 +1,95 @@
+<FTL>
+<mod:findName type="event" name="STORAGE_CHECK_JOB_FLEET">
+	<mod-append:choice req="EE_MINELAUNCHER_ION" blue="false">
+		 <text>이온 기뢰 사출기를 사용한다 [-15}, 2도약 지연, 악명을 높이지 않음]</text> 
+		 <event>
+            <text>탄약을 장비하여 반란군을 위한 기뢰를 설치했습니다. 다행히도 모호한 법의 허점 덕분에 이 무기를 사용하는 것은 도덕적으로는 문제가 될지라도 불법은 아닙니다.</text>
+            <modifyPursuit amount="-2"/>
+            <item_modify>
+                <item type="missiles" min="-15" max="-15"/>
+            </item_modify>
+        </event>
+	</mod-append:choice>
+	<mod:findWithChildLike type="choice" child-type="event"><mod:selector load="STORAGE_CHECK_JOB_LOAD"/>
+		<mod:setAttributes req="pilot" lvl="1" blue="false" max_group="999"/>
+	</mod:findWithChildLike>
+</mod:findName>
+
+<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
+	<mod-append:choice req="EE_THUNDER_1_BREACH" blue="false">
+		 <text>(천둥 드론) 드론의 상태를 조정한다. [현재 모드: 균열]</text> 
+		 <event load="COMBAT_CHECK_THUNDER_BREACH"/>
+	</mod-append:choice>
+	<mod-append:choice req="EE_THUNDER_1_ION" blue="false">
+		 <text>(천둥 드론) 드론의 상태를 조정한다. [현재 모드: 이온]</text> 
+		 <event load="COMBAT_CHECK_THUNDER_ION"/>
+	</mod-append:choice>
+</mod:findName>
+
+<event name="COMBAT_CHECK_THUNDER_BREACH">
+	<text>확실합니까? 드론의 설정을 바꾸시겠습니까?</text>
+	<choice hidden="true">
+		<text>드론을 이온 폭탄 모드로 설정한다.</text>
+		<event>
+			<text>드론을 교정하는 중입니다...</text>
+			<remove name="EE_THUNDER_1_BREACH"/>
+			<choice hidden="true">
+				<text>계속...</text>
+				<event>
+					<text>드론을 성공적으로 교정했습니다.</text>
+					<drone name="EE_THUNDER_1_ION"/>
+					<choice blue="false" req="MARKER_FLAGSHIP" lvl="0" max_group="1">
+						<text>계속...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+					<choice blue="false" req="MARKER_FLAGSHIP" lvl="1" max_group="1">
+						<text>계속...</text>
+						<event load="COMBAT_CHECK_FLAGSHIP"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" req="MARKER_FLAGSHIP" lvl="0" max_group="1"  >
+		<text>무언가 다른 일을 한다.</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+	<choice blue="false" req="MARKER_FLAGSHIP" lvl="1" max_group="1">
+		<text>무언가 다른 일을 한다.</text>
+		<event load="COMBAT_CHECK_FLAGSHIP"/>
+	</choice>
+</event>
+<event name="COMBAT_CHECK_THUNDER_ION">
+	<text>확실합니까? 드론의 설정을 바꾸시겠습니까?</text>
+	<choice hidden="true">
+		<text>드론을 균열 폭탄 모드로 설정한다.</text>
+		<event>
+			<text>드론을 교정하는 중입니다...</text>
+			<remove name="EE_THUNDER_1_ION"/>
+			<choice hidden="true">
+				<text>계속...</text>
+				<event>
+					<text>드론을 성공적으로 교정했습니다.</text>
+					<drone name="EE_THUNDER_1_BREACH"/>
+					<choice blue="false" req="MARKER_FLAGSHIP" lvl="0" max_group="1">
+						<text>계속...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+					<choice blue="false" req="MARKER_FLAGSHIP" lvl="1" max_group="1">
+						<text>계속...</text>
+						<event load="COMBAT_CHECK_FLAGSHIP"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" req="MARKER_FLAGSHIP" lvl="0" max_group="1"  >
+		<text>무언가 다른 일을 한다.</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+	<choice blue="false" req="MARKER_FLAGSHIP" lvl="1" max_group="1">
+		<text>무언가 다른 일을 한다.</text>
+		<event load="COMBAT_CHECK_FLAGSHIP"/>
+	</choice>
+</event>
+</FTL>
