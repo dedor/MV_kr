@@ -1413,7 +1413,7 @@
 	반군 위협 수준: 높음 (중립 함대)
 	흥미로운 장소: 노드 17 기념비
 
-	여기는 수도를 제외하면 몇 남아있지 않은 이 현실의 연방 구역중 하나입니다. 반군 함대가 이 구역을 장악하기 위해 많은 노력을 쏟고 있으므로 앞길을 조심하고 가능한 많은 아군들을 도우십시오.</text>
+	여기는 수도를 제외하면 몇 남아있지 않은 이 현실의 연방 구역 중 하나입니다. 반군 함대가 이 구역을 장악하기 위해 많은 노력을 쏟고 있으므로 앞길을 조심하고 가능한 많은 아군들을 도우십시오.</text>
 	<!-- 	<playSound>lightspeed</playSound> -->
 	<choice hidden="true">
 		<text>한계속도 항해를 마친다.</text>
@@ -2601,7 +2601,7 @@
 	<choice hidden="true" req="loc_beentomarket" lvl="1" max_group="0" blue="false">
 		<text>한계속도 항해를 마친다.</text>
 		<event>
-			<text>당신은 한계속도 항해를 마치기 전에 전에 들은 것과 똑같은 광고를 마주했습니다. 여기는 또다른 헥타르 시장 구역인것 같네요.</text>
+			<text>당신은 한계속도 항해를 마치기 전에, 전에 들은 것과 똑같은 광고를 마주했습니다. 여기는 또 다른 헥타르 시장 구역인것 같네요.</text>
 			<!-- 	<playSound>lightspeed</playSound> -->
 			<choice hidden="true">
 				<text>계속...</text>
@@ -2647,7 +2647,7 @@
 	<choice hidden="true" req="loc_beentomarket" lvl="1" max_group="0" blue="false">
 		<text>한계속도 항해를 마친다.</text>
 		<event>
-			<text>당신은 한계속도 항해를 마치기 전에 전에 들은 것과 똑같은 광고를 마주했습니다. 여기는 또다른 헥타르 시장 구역인것 같네요.</text>
+			<text>당신은 한계속도 항해를 마치기 전에, 전에 들은 것과 똑같은 광고를 마주했습니다. 여기는 또 다른 헥타르 시장 구역인것 같네요.</text>
 			<!-- 	<playSound>lightspeed</playSound> -->
 			<choice hidden="true">
 				<text>계속...</text>
@@ -2693,7 +2693,7 @@
 	<choice hidden="true" req="loc_beentomarket" lvl="1" max_group="0" blue="false">
 		<text>한계속도 항해를 마친다.</text>
 		<event>
-			<text>당신은 한계속도 항해를 마치기 전에 전에 들은 것과 똑같은 광고를 마주했습니다. 여기는 또다른 헥타르 시장 구역인것 같네요.</text>
+			<text>당신은 한계속도 항해를 마치기 전에, 전에 들은 것과 똑같은 광고를 마주했습니다. 여기는 또 다른 헥타르 시장 구역인것 같네요.</text>
 			<!-- 	<playSound>lightspeed</playSound> -->
 			<choice hidden="true">
 				<text>계속...</text>
@@ -2739,7 +2739,7 @@
 	<choice hidden="true" req="loc_beentomarket" lvl="1" max_group="0" blue="false">
 		<text>한계속도 항해를 마친다.</text>
 		<event>
-			<text>당신은 한계속도 항해를 마치기 전에 전에 들은 것과 똑같은 광고를 마주했습니다. 여기는 또다른 헥타르 시장 구역인것 같네요.</text>
+			<text>당신은 한계속도 항해를 마치기 전에, 전에 들은 것과 똑같은 광고를 마주했습니다. 여기는 또 다른 헥타르 시장 구역인것 같네요.</text>
 			<!-- 	<playSound>lightspeed</playSound> -->
 			<choice hidden="true">
 				<text>계속...</text>

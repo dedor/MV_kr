@@ -27853,7 +27853,7 @@ END OF RUSTY WEAPONS
 	빔 효과: 빔 길이 +60, 빔 속도 두 배, 균열 발생 확률 +30%, 필요 전력량 +1 
 	[관통 모듈의 균열 발생 확률과 중첩됩니다]
 	미사일 효과: 기본 피해량 +1, 필요 전력량 +1
-	이온 효과: 이온 피해 +1, 전력 소비량 +1</desc>
+	이온 효과: 이온 피해 +1, 필요 전력량 +1</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -61676,7 +61676,7 @@ END OF PAGE 14
 	<class>바닐라 졸탄 순양함</class>
 	<name>The Adjudicator</name>
 	<unlock id="ship_VANILLA_SHIP_ZOLTAN_unlock"/>
-	<desc>졸탄의 첨단 방어막 기술은 이 함선의 또다른 무기입니다.</desc>
+	<desc>졸탄의 첨단 방어막 기술은 이 함선의 또 다른 무기입니다.</desc>
 	<systemList>
 		<battery max="2" power="1" room="7" start="false" img="room_battery_11" />
 		<cloaking power="1" room="6" start="false" img="room_cloaking_3" />
@@ -62539,7 +62539,7 @@ END OF PAGE 14
 	<class>바닐라 락맨 순양함</class>
 	<name>Tektite</name>
 	<unlock id="ship_VANILLA_SHIP_ROCK_3_unlock"/>
-	<desc>크리스탈 족과의 접촉 이후에 연방에 전달된 함선입니다. 두 사촌 종족간의 외교적 단합을 상징한다고 합니다.</desc>
+	<desc>크리스탈 족과의 접촉 이후에 연방에 전달된 함선입니다. 두 사촌 종족 간의 외교적 단합을 상징한다고 합니다.</desc>
 	<systemList>
 		<battery max="2" power="1" room="16" start="false" img="room_battery_14" />
 		<cloaking power="1" room="2" start="false" img="room_cloaking_3" />

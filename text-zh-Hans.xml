@@ -688,7 +688,7 @@
 <text name="event_CRYSTAL_AUTO_text" language="zh-Hans">반란군이 당신을 자동 정찰기를 보낸 것이 틀림없습니다. 한 정찰기가 도약해 즉시 공격해옵니다.</text>
 <text name="event_CRYSTAL_CACHE_BREAK_1_text" language="zh-Hans">당신의 함선은 보유한 모든 무기를 사용해서 수정막을 파괴하려고 했지만, 수정막에는 흠집조차 낼 수 없었습니다. 잠시 뒤 당신은 포기하고 이동할 준비를 합니다.</text>
 <text name="event_CRYSTAL_CACHE_BREAK_3_c1_choice" language="zh-Hans">분화구를 조사하기</text>
-<text name="event_CRYSTAL_CACHE_BREAK_3_text" language="zh-Hans">수정막을 부수는 것은 불가능해보였지만, 운좋게도 한번의 공격이 크리스탈 구조물에 제대로 직격했습니다. 수정막의 금이 점점 벌어지더니 수정막 전체가 붕괴하였습니다!</text>
+<text name="event_CRYSTAL_CACHE_BREAK_3_text" language="zh-Hans">수정막을 부수는 것은 불가능해보였지만, 운 좋게도 한번의 공격이 크리스탈 구조물에 제대로 직격했습니다. 수정막의 금이 점점 벌어지더니 수정막 전체가 붕괴하였습니다!</text>
 <text name="event_CRYSTAL_CACHE_LIST_1_text" language="zh-Hans">당신의 선원들이 분화구에 다다르자, 그곳에는 오래전부터 보관한 것으로 보이는듯한 군수 무기가 있었습니다. 대부분의 무기들은 작동 불능 상태였지만, 모두 그런건 아니였네요!</text>
 <text name="event_CRYSTAL_CACHE_LIST_2_text" language="zh-Hans">당신의 선원들은 분화구 주변에서 원주민들을 만났습니다. 그들은 별로 기뻐 보이지는 않았습니다. 당신은 챙길 수 있는 물건을 챙겨 함선으로 돌아왔습니다. 그런데 그때 원주민들도 따라 들어왔습니다!</text>
 <text name="event_CRYSTAL_CACHE_LIST_3_c1_c0_clone" language="zh-Hans">다행스럽게도, 희생된 선원은 클론 배양실을 가동해 부활시킬 수 있었습니다.</text>
@@ -1856,7 +1856,7 @@
 <text name="event_NEBULA_SLUG_HULLFIX_RESULT1_3_text" language="zh-Hans">정거장에 정박하자 계기판에 이상이 표시됩니다. EMP 폭발이 함선 전체에 퍼지며 엔진이 작동을 중지합니다. 한 척의 함선이 나타나 취약해진 당신을 노리고 공격해옵니다.</text>
 <text name="event_NEBULA_SLUG_HULLFIX_RESULT2_1_c1_choice" language="zh-Hans">그들이 요구하는 15 연료를 줍니다.</text>
 <text name="event_NEBULA_SLUG_HULLFIX_RESULT2_1_c1_text" language="zh-Hans">연료를 전달하자 함선이 풀려납니다. "친구드으으을에게도 우리를 알려줘어어!" 이동식 정거장은 구름 너머로 사라집니다</text>
-<text name="event_NEBULA_SLUG_HULLFIX_RESULT2_1_c2_choice" language="zh-Hans">말도 안되는 소리!</text>
+<text name="event_NEBULA_SLUG_HULLFIX_RESULT2_1_c2_choice" language="zh-Hans">말도 안 되는 소리!</text>
 <text name="event_NEBULA_SLUG_HULLFIX_RESULT2_1_c2_text" language="zh-Hans">"안타깝네에에에." 슬러그가 버튼을 누르자 함선이 폭발로 흔들립니다. '수리'를 하는 동안 폭탄을 설치한 듯 싶습니다. 전투에 대비하세요!</text>
 <text name="event_NEBULA_SLUG_HULLFIX_RESULT2_1_text" language="zh-Hans">"당신이 만조옥해따니 기쁘다아아. 연료오를 쪼오오금만 준다면 딱 좋은 대가가 될 것 같아아아."</text>
 <text name="event_NEBULA_SLUG_HULLFIX_RESULT2_2_c1_choice" language="zh-Hans">그들이 요구하는 50 스크랩을 줍니다.</text>
@@ -1983,7 +1983,7 @@
 <text name="event_PIRATE_SALESMAN_c3_choice" language="zh-Hans">재빨리 도약할 준비를 한다.</text>
 <text name="event_PIRATE_SALESMAN_text" language="zh-Hans">인근 달에 웬 함선 하나가 떠다닙니다. 어째 미심쩍어보이는 해적 도색을 하고 있습니다. 하지만 뭔가 팔만한 장비가 있다는 간단한 메시지를 전달해옵니다.</text>
 <text name="event_PIRATE_SLAVER_RUN_1_text" language="zh-Hans">당신은 재빨리 엔진을 가동시켜 도주를 시도했습니다. 그러나 헛된 일이었습니다. 그들은 쉽게 당신을 따라잡았고 무기를 작동시켰습니다.</text>
-<text name="event_PIRATE_SLAVER_RUN_2_text" language="zh-Hans">당신은 모든 가능한 전력을 엔진에 집중시켜 도망갔습니다. 그들이 방심한 틈을 이용했지만, 그들은 당신과 가까워지고 있는 듯 보입니다. 운좋게도 당신은 초광속엔진을 충전하기 충분할 만큼의 시간은 벌 수 있었습니다.</text>
+<text name="event_PIRATE_SLAVER_RUN_2_text" language="zh-Hans">당신은 모든 가능한 전력을 엔진에 집중시켜 도망갔습니다. 그들이 방심한 틈을 이용했지만, 그들은 당신과 가까워지고 있는 듯 보입니다. 운 좋게도 당신은 초광속엔진을 충전하기 충분할 만큼의 시간은 벌 수 있었습니다.</text>
 <text name="event_PIRATE_SLAVER_RUN_3_text" language="zh-Hans">당신은 엔진을 점화시켜 도주를 시도했습니다. 해적들의 느린 함선은 쫓아올 수 없었습니다. 결국 해적들은 포기하고 더 쉬운 먹잇감을 기다리기 위해 송신소로 돌아갔습니다.</text>
 <text name="event_PIRATE_SLAVER_c1_c0_clone" language="zh-Hans">당신은 재빨리 선원의 클론을 만들어 보내는 방법을 고려해보지만, 연방의 엄격한 인간복제 관련법을 준수하기로 결정합니다.</text>
 <text name="event_PIRATE_SLAVER_c1_choice" language="zh-Hans">제비뽑기로 선원 한명을 노예상인에게 보낸다.</text>
@@ -3698,7 +3698,7 @@
 <text name="ship_PLAYER_SHIP_ENERGY_3_name" language="zh-Hans">체렌코프</text>
 <text name="ship_PLAYER_SHIP_ENERGY_3_unlock" language="zh-Hans">이 함선을 사용하려면 확장팩 모드에서 졸탄 순양함 B타입으로 제 8구역까지 진행하셔야 합니다.</text>
 <text name="ship_PLAYER_SHIP_ENERGY_class" language="zh-Hans">졸탄 순양함</text>
-<text name="ship_PLAYER_SHIP_ENERGY_desc" language="zh-Hans">졸탄의 첨단 방어막 기술은 이 함선의 또다른 무기입니다.</text>
+<text name="ship_PLAYER_SHIP_ENERGY_desc" language="zh-Hans">졸탄의 첨단 방어막 기술은 이 함선의 또 다른 무기입니다.</text>
 <text name="ship_PLAYER_SHIP_ENERGY_name" language="zh-Hans">심판자</text>
 <text name="ship_PLAYER_SHIP_ENERGY_unlock" language="zh-Hans">가끔은 외교적인 수단도 통한다는 사실을 졸탄족으로부터 배우십시오.</text>
 <text name="ship_PLAYER_SHIP_ENGI_2_class" language="zh-Hans">엔지 순양함</text>
@@ -3761,7 +3761,7 @@
 <text name="ship_PLAYER_SHIP_ROCK_2_name" language="zh-Hans">시반</text>
 <text name="ship_PLAYER_SHIP_ROCK_2_unlock" language="zh-Hans">이 함선을 사용하기 위해선 락맨 순양함의 도전과제 3개 중 2개를 완료해야 합니다.</text>
 <text name="ship_PLAYER_SHIP_ROCK_3_class" language="zh-Hans">락맨 순양함</text>
-<text name="ship_PLAYER_SHIP_ROCK_3_desc" language="zh-Hans">크리스탈 족과의 접촉 이후에 연방에 전달된 함선입니다. 두 사촌 종족간의 외교적 단합을 상징한다고 합니다.</text>
+<text name="ship_PLAYER_SHIP_ROCK_3_desc" language="zh-Hans">크리스탈 족과의 접촉 이후에 연방에 전달된 함선입니다. 두 사촌 종족 간의 외교적 단합을 상징한다고 합니다.</text>
 <text name="ship_PLAYER_SHIP_ROCK_3_name" language="zh-Hans">텍타이트</text>
 <text name="ship_PLAYER_SHIP_ROCK_3_unlock" language="zh-Hans">이 함선을 사용하려면 확장팩 모드에서 락맨 순양함 B타입으로 제 8구역까지 진행하셔야 합니다.</text>
 <text name="ship_PLAYER_SHIP_ROCK_class" language="zh-Hans">락맨 순양함</text>
@@ -4499,7 +4499,7 @@
 <text name="text_ROCK_PIRATE_ASTEROID_1" language="zh-Hans">함선이 거대한 소행성의 경로로 도약하면서, 순간 방어막에 일어난 균열에 불꽃이 튀고 치직 소리가 납니다. 더 많은 소행성과 함께 길 잃은 락맨 해적선이 호전적인 태도로 나타납니다.</text>
 <text name="text_ROCK_PIRATE_ASTEROID_2" language="zh-Hans">도약해온 장소에 먼지와 암석이 가득합니다. 잠시 후 방어막이 폭발을 막아냅니다. 방금 그건 소행이 아니였습니다...해적입니다!</text>
 <text name="text_ROCK_PIRATE_SUN_1" language="zh-Hans">이 지역의 특이한 태양 활동 떄문에 최대한 빨리 탈출했으면 싶지만 근처의 락맨 해적선은 생각이 다른지 공격해오기 시작합니다.</text>
-<text name="text_ROCK_PIRATE_SUN_2" language="zh-Hans">초신성 상태의 태양 근처에서 락맨 함선의 실루엣이 모습을 드러냅니다. 그들이 당신을 부릅니다. "여기까지 우리를 따라온건가! 귀찮게 하지 마라!" 공포인지 분노인지 몰라도, 그들은 무기들을 장전합니다.</text>
+<text name="text_ROCK_PIRATE_SUN_2" language="zh-Hans">초신성 상태의 태양 근처에서 락맨 함선의 실루엣이 모습을 드러냅니다. 그들이 당신을 부릅니다. "여기까지 우리를 따라온 건가! 귀찮게 하지 마라!" 공포인지 분노인지 몰라도, 그들은 무기들을 장전합니다.</text>
 <text name="text_ROCK_SHIP_1" language="zh-Hans">락맨 함선과 조우하여 거래 주파수를 열려고 하지만, 상대는 문화적 이단행위로 간주하고 공격합니다.</text>
 <text name="text_ROCK_SHIP_2" language="zh-Hans">근처 달에 있는 락맨 발굴 프로젝트의 한 가운데에 도착했습니다. 락맨들은 당신의 침입에 화를 내며 공격해옵니다.</text>
 <text name="text_ROCK_SHIP_3" language="zh-Hans">접근하는 락맨 함선의 통신을 도청합니다. "무기를 장전하라. 교전한다." 이들과는 대화가 필요 없습니다.</text>
@@ -4540,7 +4540,7 @@
 <text name="text_START_BEACON_REBEL_1" language="zh-Hans">이 구역은 몇 년 전만 해도 아주 번화한 곳이었습니다. 하지만 지금은 반 이상의 도약 송신소가 파괴되었으며, 많은 정착지가 버려졌고, 반란군이 지속적으로 순찰하고 있습니다.</text>
 <text name="text_START_BEACON_REBEL_2" language="zh-Hans">이 구역은 반란군에게 거세게 공격당했습니다. 지금 이곳은 많은 외계 정착지와 정거장과 거의 비슷한 숫자의 반란군 기지에 의해 감시당하며, 고압적인 '평화 유지'가 이루어지고 있습니다.</text>
 <text name="text_START_BEACON_REBEL_3" language="zh-Hans">연방 함대가 분쇄되자, 반란군이 이곳을 점령해서는 지역 주민들을 혹독하게 다스렸습니다. 이 구역은 반란군의 '세금 징수원'이자 군사 기지의 중심지이기 때문에 주둔군 비율이 높습니다.</text>
-<text name="text_START_BEACON_REBEL_4" language="zh-Hans">한 때 이곳은 주된 이동 구역중 한곳이였습니다. 그 사실을 알고 반란군은 멀지 않은 곳에 다수의 함대를 배치했습니다. 조심하십시오.</text>
+<text name="text_START_BEACON_REBEL_4" language="zh-Hans">한 때 이곳은 주된 이동 구역 중 한곳이였습니다. 그 사실을 알고 반란군은 멀지 않은 곳에 다수의 함대를 배치했습니다. 조심하십시오.</text>
 <text name="text_START_BEACON_REBEL_5" language="zh-Hans">이 구역에서는 매우 조심해야합니다. 이 지역은 반란군이 완전히 장악하고 있으며, 틀림없이 당신을 찾고 있을것습니다.</text>
 <text name="text_START_BEACON_ROCK_1" language="zh-Hans">락맨은 특히 그들의 영토를 지나가는 외계 종족들에게 공격적입니다. 조심하셔야 합니다.</text>
 <text name="text_START_BEACON_ROCK_2" language="zh-Hans">락맨은 강하고 거만한 종족입니다. 그들의 영토를 평화롭게 지나간 경우가 없지는 않지만 너무 기대는 마십시오.</text>

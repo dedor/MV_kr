@@ -297,13 +297,13 @@
 </eventList>
 
 <event name="NEBULA_LEECH_GARDEN" unique="true">
-	<text>이 주변의 짙은 성운에도 불구하고, 소규모 뱀프위드 기지가 근처에 있습니다. 게다가 군사 기지도 아닙니다. 기지의 초대형 바이오돔에는 여러 종류의 식물을 보유하고 있는것 같습니다. </text>
+	<text>이 주변의 짙은 성운에도 불구하고, 소규모 흡혈초 기지가 근처에 있습니다. 게다가 군사 기지도 아닙니다. 기지의 초대형 바이오돔에는 여러 종류의 식물을 보유하고 있는 것 같습니다. </text>
 	<img back="BACK_EVENT_LIGHTNEBULA"/>
 	<status type="loss" target="player" system="sensors" amount="1"/>
 	<choice hidden="true">
 		<text>기지에 정착한다.</text>
 		<event>
-			<text>당신이 기지에 근접하자마자 뱀프위드 함선이 출격해 공격합니다! 그들이 텃세가 심하다는 건 알고있지만, 상당히 격한 반응입니다! 약간 상처를 주면 이성적으로 타협할수 있을지도요?</text>
+			<text>당신이 기지에 근접하자마자 흡혈초 함선이 출격해 공격합니다! 그들이 텃세가 심하다는 건 알고 있지만, 상당히 격한 반응입니다! 약간 상처를 주면 이성적으로 타협할 수 있을지도요?</text>
 			<ship load="SHIP_VAMPWEED_LEECH_GARDEN" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -312,13 +312,13 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_VAMPWEED">
-		<text>(뱀프위드 선원) 기지에 접근 권한을 요청한다.</text>
+		<text>(흡혈초 선원) 기지에 접근 권한을 요청한다.</text>
 		<event load="LEECH_GARDEN_VISIT"/>
 	</choice>
 	<choice>
 		<text>기지를 무시한다.</text>
 		<event>
-			<text>정말 아름다운 정원임에 틀림없습니다만, 뱀프위드들이 당신의 아군이라는 사실을 잊어선 안됩니다. 그들이 당신을 공격할 이유가 생긴다면, 진짜로 그렇게 할 가능성이 큽니다.</text>
+			<text>정말 아름다운 정원임에 틀림없습니다만, 흡혈초들이 당신의 아군이라는 사실을 잊어선 안됩니다. 그들이 당신을 공격할 이유가 생긴다면, 진짜로 그렇게 할 가능성이 큽니다.</text>
 			<choice>
 				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -331,7 +331,7 @@
 	</choice>
 </event>
 <event name="LEECH_GARDEN_VISIT">
-	<text>뱀프위드들은 기지에 방문한 당신을 환영했습니다. 정원에 많은 관심을 보여준것에 대한 감사의 의미로 연료 전지를 약간 제공해 주었습니다. </text>
+	<text>흡혈초들은 기지에 방문한 당신을 환영했습니다. 정원에 많은 관심을 보여준 것에 대한 감사의 의미로 연료 전지를 약간 제공해 주었습니다. </text>
 	<autoReward level="HIGH">fuel_only</autoReward>
 	<choice>
 		<text>포자 무기를 하나 구입한다.</text>
@@ -551,7 +551,7 @@
 	</choice>
 </event>
 <event name="LEECH_SUICIDEMOON_WIN">
-	<text>당신이 개입해 줄 서있는 리치들이 화난 모양입니다. "야, 임마! 이제 우리는 어디가서 자살하라고?!"</text>
+	<text>당신이 개입해 줄 서 있는 리치들이 화난 모양입니다. "야, 임마! 이제 우리는 어디가서 자살하라고?!"</text>
 	<choice hidden="true">
 		<text>자살 안하는건 어떤가?</text>
 		<event>
@@ -602,7 +602,7 @@
 			<choice hidden="true" req="LIST_CREW_ORCHID">
 				<text>(오키드 선원) 리치들을 훈계한다.</text>
 				<event>
-					<text>"그래, 그래. 있잖아 우리가 미안해. 미안하다고. 우리한테 제발 말 걸지마. 니들 짭새야? 어떻게든 이 시체들을 처리해야 한다고! 어... 말이 너무 많았군..." 리치들은 당신에게 그들이 무엇을 하는지 발설하지 않도록 입막음할 뇌물을 제안합니다. 당신의 오키드 선원은 이에 반대하지만, 무어라고 할건가요?</text>
+					<text>"그래, 그래. 있잖아 우리가 미안해. 미안하다고. 우리한테 제발 말 걸지 마. 니들 짭새야? 어떻게든 이 시체들을 처리해야 한다고! 어... 말이 너무 많았군..." 리치들은 당신에게 그들이 무엇을 하는지 발설하지 않도록 입막음할 뇌물을 제안합니다. 당신의 오키드 선원은 이에 반대하지만, 무어라고 할 건가요?</text>
 					<autoReward level="MED">standard</autoReward>
 				</event>
 			</choice>
@@ -723,11 +723,11 @@
 	</choice>
 </event>
 <textList name="TEXT_ENCOUNTER_REVOLUTIONARY">
-	<text>요즘 리치 정부를 포함한 모든 우주의 정부가 반란에 중심에 서있는듯 합니다. 연료가 매우 부족한 혁명군 함선이 당신의 함선을 모조리 털어먹기 위해 접근합니다!</text>
+	<text>요즘 리치 정부를 포함한 모든 우주의 정부가 반란에 중심에 서 있는 듯 합니다. 연료가 매우 부족한 혁명군 함선이 당신의 함선을 모조리 털어먹기 위해 접근합니다!</text>
 	<text>근처 혁명군 함선이 당신을 티르데오 대통령 지지자로 누명을 씌우고 방어태세를 갖추기전에 공격합니다!</text>
 	<text>어느 내란이 그렇듯, 리치 혁명군은 아무나 공격하고 보는 폭력적이고 공격적인 민족주의자인 모양입니다. 그들의 문제에 관심없는 당신같이 지나가던 함선도 공격하고 말이죠!</text>
-	<text>뱀프위드들이 연방을 돕지만 않았더라도 리치 혁명군은 연방을 그렇게 적대 하지 않았을겁니다. 뱀프위드들은 실질적으로 당신의 적이 아니긴 합니다. 하지만 그들의 나라가 점점 군국화 되어가고 연방-맨티스 전쟁에서 하이브의 편을 들어줬다는 사실 하나로 리치 구역내의 연방 함선을 주저않고 공격하게 되었지요.</text>
-	<text>"미래는 바로 지금이다! 먼저 이어젠 공화국을 정복하고, 그 다음은 은하계, 마지막으로 멀티버스를 정복할것이다! 우리 리치는 다시 영광을 맛보게 될것이다!" 혁명군 친구들이 목표를 조금 높게 잡고 있는것 같습니다만, 당신에게 이를 조목조목 반박할 여유는 없습니다.</text>
+	<text>흡혈초들이 연방을 돕지만 않았더라도 리치 혁명군은 연방을 그렇게 적대 하지 않았을겁니다. 흡혈초들은 실질적으로 당신의 적이 아니긴 합니다. 하지만 그들의 나라가 점점 군국화 되어가고 연방-맨티스 전쟁에서 하이브의 편을 들어줬다는 사실 하나로 리치 구역내의 연방 함선을 주저않고 공격하게 되었지요.</text>
+	<text>"미래는 바로 지금이다! 먼저 이어젠 공화국을 정복하고, 그 다음은 은하계, 마지막으로 멀티버스를 정복할것이다! 우리 리치는 다시 영광을 맛보게 될것이다!" 혁명군 친구들이 목표를 조금 높게 잡고 있는 것 같습니다만, 당신에게 이를 조목조목 반박할 여유는 없습니다.</text>
 </textList>
 
 <event name="ENCOUNTER_LEECH_ROCK_ASTEROID">
@@ -773,7 +773,7 @@
 </textList>
 
 <event name="ENCOUNTER_LEECH_VAMPWEED" unique="true">
-	<text>소문에 의하면 티르데오는 뱀프위드 제독과의 외교 간담회서 손수 딴 꽃으로 만든 부케를 넘겨주자마자 뱀프위드족에 전쟁을 선포해 그의 뚜껑을 열리게 한 전적이 있다더군요. 아주 웃긴 이야기가 아닐수 없습니다만, 불행히도 자신들의 식물 사촌들과 정반대로 뱀프위드들은 당신같은 행인을 주저없이 공격하는 족속입니다!</text>
+	<text>소문에 의하면 티르데오는 흡혈초 제독과의 외교 간담회서 손수 딴 꽃으로 만든 부케를 넘겨주자마자 흡혈초에게 전쟁을 선포해 그의 뚜껑을 열리게 한 전적이 있다더군요. 아주 웃긴 이야기가 아닐수 없습니다만, 불행히도 자신들의 식물 사촌들과 정반대로 흡혈초들은 당신같은 행인을 주저없이 공격하는 족속입니다!</text>
 	<ship load="SHIP_VAMPWEED_FIGHT" hostile="true"/> 
 	<choice hidden="true">
 		<text>계속...</text>
@@ -1182,7 +1182,7 @@
 	<beaconType id="map_icon_tyrdeo" global="true">
 		<color r="230" g="85" b="255" a="1"/>
 		<unvisitedTooltip>티르데오 대통령의 저택의 위치입니다.</unvisitedTooltip>
-		<visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운건 없습니다.</visitedTooltip>
+		<visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운 건 없습니다.</visitedTooltip>
 	</beaconType>
 	<img back="BACK_EVENT_LEECHCAP" planet="NONE"/>
 	<text>여기가 아크람이 설명한 곳이 확실합니다. 봉화로부터 눈부신 빛을 내뿜는 거대한 궁전을 착각할 리가 없습니다. 리치의 영역 대부분이 황량하다는 점을 감안했을 때 이렇게 정교한 건물이 있을 것이라곤 상상조차 하기 힘들지만, 그래서 이런 상황이 벌어진 거겠죠.</text>
@@ -1385,7 +1385,7 @@
 	<beaconType id="map_icon_cache" global="true">
 		<color r="135" g="50" b="55" a="1"/>
 		<unvisitedTooltip>혁명군 저장소의 위치입니다.</unvisitedTooltip>
-		<visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운건 없습니다.</visitedTooltip>
+		<visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운 건 없습니다.</visitedTooltip>
 	</beaconType>
 	<text>눈 앞에 펼쳐진 풍경에 당황한 당신은 좌표를 다시 확인해봤지만, 제대로 온 게 확실합니다. 작은 저장소는 얼어죽을, 이곳은 무려 혁명군의 작전본부였습니다. 혁명군은 버려진 광산을 이용해 대형 지하 창고를 만들어 두었습니다.</text>
 	<img back="BACK_EVENT_REVCACHE" planet="NONE"/>

@@ -752,7 +752,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 <textList name="PIRATE_CIVILIAN">
 	<text planet="PLANET_POPULATED_SMALL">항성계에 도착하자 해적선이 민간 함선을 쫓고 있습니다. 조난 주파수로 구조신호를 수신했습니다.</text>
 	<text>스캐너에 인근에서 진행중인 전투가 포착되었습니다. 누군가가 해적들로부터 공격받고 있는 것 같습니다.</text>
-	<text>함선 두 척이 감지됩니다. 하나가 다른 하나를 추격중인 것 같군요... 스캔에 의하면 추격하는 쪽이 해적입니다!</text>
+	<text>함선 두 척이 감지됩니다. 하나가 다른 하나를 추격 중인 것 같군요... 스캔에 의하면 추격하는 쪽이 해적입니다!</text>
 	<text>스캔 거리 안에는 함선이 두 척 뿐인데 서로 교전중인 것 같습니다. 그중 한 척에는 해적 문양이 도장되어 있습니다</text>
 	<text>다음 신호소에 도착하자 작은 함선 하나가 즉시 교신해 왔습니다. "도와주세요! 해적에게 공격받고 있어요!"</text>
 	<text>도약이 끝나자 반대편에서 레이저가 번쩍이는게 보입니다. 누군가가 해적에게 공격받고 있는 것 같습니다.</text>
@@ -791,7 +791,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			</event>
 		</choice>
 		<choice>
-			<text>추격중인 적 함대를 지연시켜준다면 살려주겠다고 제안한다. </text>
+			<text>추격 중인 적 함대를 지연시켜준다면 살려주겠다고 제안한다. </text>
 			<event>
 				<text>다음 구역으로 이동하기 전 시간을 벌 수 있을 것 같습니다.</text>
 				<modifyPursuit amount="-1"/>
@@ -815,7 +815,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	</event>
 </eventList>	
 <textList name="PIRATE_BRIBER">
-	<text>미확인 선박을 추격중인 해적선에 접근하자 해적선이 교신해왔습니다. "어이 형씨, 신경 끄고 있어주면 댓가는 두둑히 쳐주지."</text>
+	<text>미확인 선박을 추격 중인 해적선에 접근하자 해적선이 교신해왔습니다. "어이 형씨, 신경 끄고 있어주면 댓가는 두둑히 쳐주지."</text>
 	<text>미확인 선박이 큰 피해를 입었음에도 불구하고 해적선이 공격을 계속하고 있습니다. 구조신호를 수신하던 도중 해적이 끼어들더니 간섭하지 않으면 약탈품을 나눠주겠다고 제안해왔습니다.</text>
 	<text>도약을 끝내자마자 미사일이 함수를 스쳐 지나갑니다. 스캔 결과 해적 문양을 도장한 함선이 미확인 함선을 추격중입니다. 해적선이 당신을 호출했습니다. "젠장 누가 올 줄은 몰랐는데. 간섭하지 않으면 너한테도 좀 나눠주지."</text>
 </textList>
@@ -3900,9 +3900,9 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				</event>
 			</choice>
 			<choice>
-				<text>추격중인 함대를 교란시킨다.</text>
+				<text>추격 중인 함대를 교란시킨다.</text>
 				<event>
-					<text>"이걸 썬택할 쭐 알아찌. 쩨밌게써..." 무슨 일을 할지는 모르지만 추격중인 함대에게 대단한 걸림돌이 될 것은 확실합니다.</text>
+					<text>"이걸 썬택할 쭐 알아찌. 쩨밌게써..." 무슨 일을 할지는 모르지만 추격 중인 함대에게 대단한 걸림돌이 될 것은 확실합니다.</text>
 					<modifyPursuit amount="-2"/>
 					<item_modify>
 						<item type="scrap" min="-20" max="-30"/>

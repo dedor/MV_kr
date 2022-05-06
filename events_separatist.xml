@@ -146,13 +146,13 @@
         <event>
 			<text>"환영한다, 환영한다, [귀중한] 고객! F.D.P.T.W.T.F.M.C.E.의 -이국적-이고, 훌륭하고, 아주 풍성한 맛에 관심이 있는가? 후회하지 않을 것이다!"</text>
 			<choice hidden="true">
-				<text>예?</text>
+				<text>뭐라고요?</text>
 				<event>
 					<text>"[지구산 과일과 녹인 코코넛 추출물을 얹은 냉동 유제품 (Frozen Dairy Product Topped With Terran Fruit and Melted Coco Extract)]에 대해 들어보지 못했는가? 본 기체는 이것이 연맹의 -보편-적인 간식이라 들었음. 구매를 추천. 귀하의 선원들을 행복하게 해줄 것이다."</text>
 					<choice hidden="true">
 						<text>F.D.P.T.W.T.F.M.C.E.를 산다.</text>
 						<event>
-							<text>"해당 배회자의 [구매]에 감사함! -미래-에 더 많은 맛을 맛보길 바람!"</text>
+							<text>"해당 배회자의 [구매]에 감사를 표함! -미래-에 더 많은 맛을 맛보길 바람!"</text>
 							
 						</event>
 					</choice>
@@ -651,7 +651,7 @@
 	</choice>
 </event>
 <event name="SEPERATIST_SEPERATIST_CHOICE_WIN">
-	<text>"성공. 감사는 우리의 것이다. 보상으로 [드론]을 받길." 엔지 함선은 필요에 따라 분리주의자의 운명을 받아들이고 도약합니다.</text>
+	<text>"성공. 감사를 표함. 보상으로 [드론]을 받길." 엔지 함선은 필요에 따라 분리주의자의 운명을 받아들이고 도약합니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<drone name="RANDOM"/>
 </event>

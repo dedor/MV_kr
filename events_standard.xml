@@ -1,7 +1,7 @@
 <FTL>
 
 <event name="REVISIT">
-	<text>당신은 이미 이곳에 온 적이 있습니다. 더 이상 흥미로운건 없습니다.</text>
+	<text>당신은 이미 이곳에 온 적이 있습니다. 더 이상 흥미로운 건 없습니다.</text>
 	<choice>
 		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
@@ -3086,7 +3086,7 @@
 	<choice req="LIST_CREW_ORCHID" hidden="true">
 		<text>(오키드 선원) 지원을 요청한다.</text>
 		<event>
-			<text>오키드 선원의 도움으로 오래지 않아 도움을 주고 싶어 하는 우호적인 또다른 오키드를 찾아냈습니다. 그는 당신이 쇼핑하는 동안 미사일을 제공하고 선체를 고쳐 줬습니다. 절대 식물 족속의 친절함을 저평가하지 맙시다.</text>
+			<text>오키드 선원의 도움으로 오래지 않아 도움을 주고 싶어 하는 우호적인 또 다른 오키드를 찾아냈습니다. 그는 당신이 쇼핑하는 동안 미사일을 제공하고 선체를 고쳐 줬습니다. 절대 식물 족속의 친절함을 저평가하지 맙시다.</text>
 			<damage amount="-5"/>
 			<autoReward level="MED">missiles_only</autoReward>
 			<choice hidden="true">
@@ -3570,7 +3570,7 @@
 			<event>
 				<text>당신이 레이저를 내려놓자 해적들도 조심스럽게 레이저를 내려놓았습니다. "좋아, 넌 운이 좋군. 여기는 이제 우리가 관리하고 있어. 우리는... "노동자"도 판매하고 있지.</text>
 				<choice hidden="true">
-					<text>노예를 원하는게 아닙니다. 군용품을 사러 왔습니다.</text>
+					<text>노예를 원하는 게 아닙니다. 군용품을 사러 왔습니다.</text>
 					<event>
 						<text>"음, 윤리를 따지는 놈인가 보군. 어쨌거나, 스크랩만 톡톡히 쥐여준다면 군말 안 할 거야."</text>
 						<choice>
@@ -4169,7 +4169,7 @@
 				<event load="STOREEVENT_MANTIS_WHALE_KAZ"/>
 			</choice>
 			<choice hidden="true">
-				<text>자, 우리가 할말을 대신 해줬으니...</text>
+				<text>자, 우리가 할 말을 대신 해줬으니...</text>
 				<event>
 					<text>"그냥 넘어가진 않겠다! 우리 공명정대하게 물건 훔쳐서 판다! 연방 권리 빼앗지 말라!"</text>
 					<ship hostile="true"/>
@@ -5395,7 +5395,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>그런 말도 안되는 요금은 내지 않을 겁니다!</text>
+			<text>그런 말도 안 되는 요금은 내지 않을 겁니다!</text>
 			<event>
 				<text>더스크브링어의 신난듯한 태도로 보아 이것이 그가 원하던 상황임이 분명합니다. 전투를 준비할 시간입니다!</text>
 				<boarders min="2" max="2" class="zoltan_devotee"/>
@@ -5739,7 +5739,7 @@
 	<beaconType id="map_icon_store_coalition" global="false">
 		<color r="215" g="175" b="175" a="1"/>
 	</beaconType>
-	<text>이곳에 연합 소속 종족간의 무역 중심지가 있는 것 같습니다. 적절한 선원이 있다면 몰래 들어갈 수 있을지도 모릅니다.</text>
+	<text>이곳에 연합 소속 종족 간의 무역 중심지가 있는 것 같습니다. 적절한 선원이 있다면 몰래 들어갈 수 있을지도 모릅니다.</text>
 	<choice hidden="true" req="LIST_CREW_SLUG">
 		<text>(슬러그 선원) 접근 권한을 얻는다.</text>
 		<event>
@@ -6617,7 +6617,7 @@
 	<choice hidden="true">
 		<text>슬러그를 피한다.</text>
 		<event>
-			<text>당신은 호기심을 무작정 따라선 안된다는 것을 알고 있습니다. 이 슬러그들은 다른 이를 속이면 될 것입니다.</text>
+			<text>당신은 호기심을 무작정 따라선 안 된다는 것을 알고 있습니다. 이 슬러그들은 다른 이를 속이면 될 것입니다.</text>
 			<choice>
 				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -8327,10 +8327,10 @@ slug karen fighting for last item on shelf
 <textList name="TEXT_HEKTAR_STORE">
     <text>헥타르 외판원이 몇 마일 밖에서도 보이는 노란 형광색으로 도색된 시장 주위를 돌고 있었습니다. 그 안에 있는 상품들이 불쾌할 정도로 강렬하지 않기를 바랍니다.</text>
     <text>너무 열정적인 헥타르 직원이 당신을 반겼습니다. "안녕하쎄요! 반가워요! 어써 오쎄요! 좋은 하루에요! 환영합니다!!! 쩨발 물건쫌 싸쭈쎄요! 할당량을 째우찌 못하면 가쪽들 곁으로 돌아가찌 못할거에요!</text>
-    <text>상점에 도착했지만, 상선은 꿈쩍도 하지 않았습니다. 몇번 더 교신을 보내니 상선의 선장이 깨어났습니다. "아 쩨기랄, 짬에서 깨버렸짢아! 그래 어찌돼껀, 뭐라도 쌀거 아니면 꺼쪄"</text>
+    <text>상점에 도착했지만, 상선은 꿈쩍도 하지 않았습니다. 몇번 더 교신을 보내니 상선의 선장이 깨어났습니다. "아 쩨기랄, 짬에서 깨버렸짢아! 그래 어찌돼껀, 뭐라도 쌀 거 아니면 꺼쪄."</text>
     <text>뚱뚱한 슬러그가 공중에서 팔을 흔들며 쇼핑하러 와달라고 애원하는 가운데, 함내의 음향 장치에서 커다란 광고 소리가 터져 나왔습니다. 아무래도 귀찮은 곳에 와 버린 것 같네요.</text>
     <text>헥타르 상점들이 정말 많습니다. 마치 이 구역엔 상점밖에 없는 것처럼 느껴지지만 반군으로 가득한 것 보다는 낫다고 생각합시다.</text>
-    <text>가슴에 기름때가 묻은지저분한 점원이 당신의 함선을 주시했습니다. "아, 연방 함썬인가? 분명 돈을 가꼬 이껬찌! 당짱 내놔!"</text>
+    <text>가슴에 기름때가 묻은 지저분한 점원이 당신의 함선을 주시했습니다. "아, 연방 함썬인가? 분명 돈을 가꼬 이껬찌! 당짱 내놔!"</text>
 </textList>
 <event name="STOREEVENT_HEKTAR">
 	<preventQuest/>
@@ -9083,7 +9083,7 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
     <choice hidden="true">
         <text>교신한다.</text>
         <event>
-            <text>"어? 우리가 지금 뭐다? 무역상 신호를 송출중이다? 아, 알겠다. 졸탄 무역상한테서 송신기를 뺐었다! 멋진 찻주전자인 줄 알았다. 졸탄들한테 미안하다... 그나저나 뭔가 살거냐?"</text>
+            <text>"어? 우리가 지금 뭐다? 무역상 신호를 송출 중이다? 아, 알겠다. 졸탄 무역상한테서 송신기를 뺐엇다! 멋진 찻주전자인 줄 알았다. 졸탄들한테 미안하다... 그나저나 뭔가 살 거냐?"</text>
             <choice hidden="true">
                 <text>그들이 뭘 파는지 본다.</text>
                 <event>

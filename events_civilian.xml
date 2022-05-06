@@ -188,7 +188,7 @@
 	<beaconType id="map_icon_thieves" global="true">
 		<color r="167" g="167" b="150" a="1"/>
 		<unvisitedTooltip>도둑들의 위치입니다.</unvisitedTooltip>
-		<visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운건 없습니다.</visitedTooltip>
+		<visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운 건 없습니다.</visitedTooltip>
 		<undiscoveredTooltip>방문하지 않은 송신소입니다.</undiscoveredTooltip>
 	</beaconType>
 	

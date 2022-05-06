@@ -812,7 +812,7 @@
 </event>
 <eventList name="MV_ASTEROID_EXPLORE_RESULTS">
 	<event>
-		<text>간단하게 탐사했지만 흥미로운건 없었습니다.</text>
+		<text>간단하게 탐사했지만 흥미로운 건 없었습니다.</text>
 	</event>
 	<event>
 		<text>스캔을 통해 유용한 자원을 가진 많은 소행성을 발견했습니다. 소량의 연료를 추출했습니다.</text>

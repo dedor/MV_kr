@@ -1128,7 +1128,7 @@
 </event>
 <eventList name="LANIUS_GOLD_DESTROY">
 	<event>
-		<text>운좋게도 대공포가 전투에서 파괴되지 않은 거 같습니다.</text>
+		<text>운 좋게도 대공포가 전투에서 파괴되지 않은 거 같습니다.</text>
 		<weapon name="SHOTGUN_GOLD"/>
 		<choice hidden="true">
 			<text>계속...</text>
