@@ -231,8 +231,8 @@
 	<preventQuest/>
 	<beaconType id="map_icon_ruins_dynasty" global="false">
 		<color r="36" g="255" b="0" a="1.0"/>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
-		<unvisitedTooltip>This beacon contains ancient ruins.</unvisitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소입니다.</undiscoveredTooltip>
+		<unvisitedTooltip>이 송신소에는 고대의 폐허가 있습니다.</unvisitedTooltip>
 	</beaconType>
 	<text>유령 왕조의 구역은 이미 지나가버린 시대의 폐허로 어질러져 있다는 사실은 당신도 익히 들었을 겁니다. 하지만 저 멀리 보이는 잔해들은.... 도무지 왕조 함선으로 보이지 않는군요.</text>
 	<img back="BACK_EVENT_DYNASTYRUIN" planet="NONE"/>
@@ -1556,34 +1556,34 @@
 			<choice>
 				<text>검문소 직원들에게 뇌물을 준다.</text>
 				<event>
-					<text>"For what is this generous donation? Hark? To turn a back to the security of this beacon for the next 5 hours? Well, I do suppose this is a deal we can arrange."</text>
+					<text>"이 너그러운 기부는 무엇인가? 오는 5시간동안 지나가는 통행자들을 못본채 해달라는 것인가? 음, 성사 가능한 협상인듯 하군."</text>
 					<item_modify>
 						<item type="scrap" min="-25" max="-30"/>
 					</item_modify>
 					<choice hidden="true">
 						<text>계속...</text>
 						<event>
-							<text>You hail the smugglers, letting them know it's safe. "A bribe? How boring, I was looking for some damn fireworks! But, I'm a man of my word. Sometimes. Right now I am. But not always. Here you go."</text>
+							<text>당신은 이제 안전하다는 사실을 알리기 위해 밀수꾼들과 교신했습니다. "꼴랑 뇌물만 줬어? 참 재미없네.난 폭죽 빵빵 터지는게 보고싶었단 말이야! 하지만 난 약속은 지키는 놈이야. 가끔씩은 말이지. 지금은 지키지만, 항상 지키는건 아니야. 자."</text>
 							<weapon name="RANDOM"/>
 						</event>
 					</choice>
 				</event>
 			</choice>
 			<choice>
-				<text>Sell them the location of the smugglers.</text>
+				<text>밀수꾼들의 현 위치를 팔아넘긴다.</text>
 				<event>
-					<text>You doubt the Smugglers are going to give you a weapon after this, but it was effortless scrap and who can complain about that?</text>
+					<text>당신은 그들의 위치를 팔아넘기고도 밀수꾼들이 무기를 줄지 의문스러워 하지만, 힘 안들이고 스크랩을 벌었으니 불평할 거리가 있을까요?</text>
 					<autoReward level="LOW">scrap_only</autoReward>
 				</event>
 			</choice>
 			<choice hidden="true" req="loc_dynasty_impressed">
-				<text>(Savior of the Dynasty) Could you do us a favor?</text>
+				<text>(왕조의 구세주) 부탁 하나만 들어주겠나?</text>
 				<event>
-					<text>"Oh the gods bestow upon me an honor like I never knew! An embarassment, I am, for not having recognized the savior of our lands! Yes, yes, we will do anything!" You kindly ask them to allow your smuggler 'friends' through, and they oblige without hesitation.</text>
+					<text>"세상에 이런 과분한 영광이 있다니! 우리 고향의 구세주를 몰라뵈다니 정말 부끄럽군요! 그래요, 그래요, 물론 뭐든 해드리겠나이다!" 당신은 친절하게 밀수꾼 "친구들"을 통과시켜주도록 부탁했고 그들은 주저하지 않고 도와줬습니다.</text>
 					<choice hidden="true">
 						<text>계속...</text>
 						<event>
-							<text>You hail the smugglers, letting them know it's safe. "Hah, what was that? I was looking for some damn fireworks! But, I'm a man of my word. Sometimes. Right now I am. But not always. Here you go."</text>
+							<text>당신은 이제 안전하다는 사실을 알리기 위해 밀수꾼들과 교신했습니다. "꼴랑 뇌물만 줬어? 참 재미없네.난 폭죽 빵빵 터지는게 보고싶었단 말이야! 하지만 난 약속은 지키는 놈이야. 가끔씩은 말이지. 지금은 지키지만, 항상 지키는건 아니야. 자."</text>
 							<weapon name="RANDOM"/>
 						</event>
 					</choice>
@@ -1592,9 +1592,9 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Fight the smugglers instead.</text>
+		<text>기지대신 밀수꾼들과 전투한다.</text>
 		<event>
-			<text>You don't make deals with pirates, but you'll gladly fight them instead!</text>
+			<text>당신은 해적과 거래 같은 건 하지 않지만, 전투는 기꺼이 하겠지요!</text>
 			<ship load="SHIP_SMUGGLER_ALL" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1603,9 +1603,9 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>We aren't going to work for some smugglers.</text>
+		<text>우린 밀수꾼 따위를 위해 일하지 않는다.</text>
 		<event>
-			<text>You somewhat rudely decline the smugglers' offer and fly away.</text>
+			<text>당신은 밀수꾼들의 제안을 약간 무례한 투로 거부하고는 당장 떠납니다.</text>
 			<choice hidden="true">
 				<text>창고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -1619,12 +1619,12 @@
 </event>
 
 <event name="NEBULA_DYNASTY_AUTOQUEST" unique="true">
-	<text>Almost immediately, you receive a hail from what appears to be an Auto-station lingering nearby. "Hello. This is a prerecorded message for all nearby non-Dynasty vessels. The nearby settlement of Ghosts has proven problematic for the Rebellion. Recapture it, and this platform is authorized to reward you with a drone."</text>
+	<text>도약해오자 마자 당신은 근처에 무인 기지처럼 보이는 곳에서 교신을 받았습니다. "안녕하신가. 이하는 비왕조 함선들을 위한 녹음 메세지다. 반란군에게 근처 고스트 정착지는 항상 골칫거리였다. 이 정착지를 재탈환 하는자에게 드론을 보상으로 주도록 이 기지는 허가를 받았다."</text>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Attack the Ghosts.</text>
+		<text>고스트들을 공격한다.</text>
 		<event>
-			<text>It feels weird working for the Rebellion, but you can't think of anything more satisfyingly ironic than using their own weapon against them. Assuming you succeed, of course. As you approach the colony, one of their vessels rises to face you.</text>
+			<text>반란군을 위해 일을 한다니 뭔가 이상한 기분이 들지만, 당신은 반란군의 무기를 도리어 그들에게 쓰는 상상 만큼 만족스러운 아이러니는 없다고 생각했습니다. 물론 성공한다는 가정하에 말이죠. 당신이 식민지에 접근하자 함선 한대가 전투하러 출정했습니다.</text>
 			<ship load="SHIP_DYNASTY_AUTOQUEST" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1633,9 +1633,9 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Just destroy the Auto.</text>
+		<text>무인기지를 파괴한다.</text>
 		<event>
-			<text>It means you won't get the weapon, but it's much easier just to kill this Auto-station than to go fight a Dynasty colony. Plus, it means not working for the Rebellion!</text>
+			<text>그들의 무기를 가질수는 없겠지만, 왕조 식민지에 싸움을 거는거 보다는 이 무인기지를 폭파시키는게 더 쉬울겁니다. 게다가 반란군의 더러운 일도 안해도 된다는 의미죠!</text>
 			<ship load="SHIP_AUTO_STATION" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1644,9 +1644,9 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Tough luck, but we aren't getting involved.</text>
+		<text>참 안됬지만, 우린 개입하지 않겠다.</text>
 		<event>
-			<text>You cut comms and distance yourself from the Dynasty ships.</text>
+			<text>당신은 교신을 끊고 왕조 함선들을 멀리했습니다.</text>
 			<choice hidden="true">
 				<text>창고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -1660,14 +1660,14 @@
 </event>
 
 <event name="NEBULA_DYNASTY_ZOLTAUTO" unique="true">
-	<text>You notice the shadow of a ship slipping through the nebulas behind you, and begin to fear it might be following you, until it comes bursting out of the clouds, revealing itself to be a Dynasty vessel. Their weapons are off however, and their comms are open for communication.</text>
+	<text>당신은 함선 뒤의 성운에서 어떤 함선의 그림자를 목격했고, 당신을 미행하고 있다는 걱정에 사로 잡혔습니다. 그 함선은 성운에서 갑자기 튀어나왔고, 왕조 함선임을 확인했습니다. 하지만 왕조 함선의 무기실 전원은 꺼져있었고, 통신 채널은 열려있었습니다.</text>
 	<environment type="nebula"/>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>"We have identified you as a Multiverse Renegade vessel. Does this statement hold true? If so, we suspect you are not opposed to matters of mercenary work. A ship of automated nature but Zoltan origins has been spotted dangerously close to a loyal Dynasty colony. While these do not pose the same threat as a Rebel vessel, it could create hysteria of immense proportions amongst our citizens. Could you disable it?"</text>
+			<text>"우리는 그대의 함선을 멀티버스 배회자 함선으로 인식했다. 사실인가? 만약 그렇다면, 용병 일을 마다하지는 않겠구나. 졸탄제로 보이는 무인 함선이 친왕조 식민지에 위험할 정도로 근접했음이 발견되었다. 이들이 물론 반란군 함선만큼 위험하진 않지만 우리 국민들 사이에 엄청난 히스테리를 불러일으킬 가능성이 있네. 혹시 무력화 시켜줄수 있겠나?"</text>
 			<choice hidden="true">
-				<text>Chase down the Auto-ship.</text>
+				<text>무인선을 추적한다.</text>
 				<event load="DYNASTY_ZOLTAUTO_ACCEPT"/>
 			</choice>
 			<choice hidden="true">
@@ -1680,7 +1680,7 @@
 <eventList name="DYNASTY_ZOLTAUTO_DECLINE">
 	<event/>
 	<event>
-		<text>"Then you are of no use to us. Furthermore, you are trespassing on Dynasty territory, and must be removed."</text>
+		<text>"그럼 그대는 우리에게 쓸모가 없다. 더욱이 그대는 왕조 사유재산에 무단 침입했으니 이제 제거되어야 한다."</text>
 		<ship load="SHIP_DYNASTY_FIGHT" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -1690,7 +1690,7 @@
 </eventList>
 <eventList name="DYNASTY_ZOLTAUTO_ACCEPT">
 	<event>
-		<text>"Federation vessel registered entering combat proximity. Forwarding data collection to Ministry." Guess your crime won't go unnoticed by the Zoltan, but they're too far away right now to do anything about it. First, you have to take out this auto.</text>
+		<text>"연방 함선 전투 사거리 근접 확인. 내각에 정보 전송 중." 당신이 저지를 범죄가 졸탄들 눈에 띄겠지만, 내각이 무언가 조치를 취하기에는 당신이 이미 그들 관할구역에서 너무 멀리 떨어져 있습니다. 우선 당신의 임무는 이 무인선을 제거하는 겁니다.</text>
 		<ship load="SHIP_ZOLTAUTO_DYNASTY" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -1701,54 +1701,54 @@
 </eventList>
 <eventList name="DYNASTY_ZOLTAUTO_REWARD">
 	<event>
-		<text>"Your methods are efficient, I shall give you that. Do not expect a reward however, for thou still are trespassing in a realm which is most displeased to host you."</text>
+		<text>"그대의 문제해결 방법은 효율적이군. 그건 인정하도록 하지. 하지만 보상은 기대하지 말게나. 그대는 아직 당신을 불쾌히 여기는 왕국을 무단침입 중이라네."</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="weapons" lvl="5">
-			<text>(Upg. Weapons) Threaten them.</text>
+			<text>(고급 무기실) 왕조 함선을 협박한다.</text>
 			<event>
-				<text>"You put up a convincing argument. Is it common for individuals like you to speak volumes louder with actions rather than words? I would scoff had I not a gun pointed to my head. Take this money, you barbarian."</text>
+				<text>"설득력 있는 주장이로세. 그대같은 족속에게는 이렇게 "말보다 행동"으로 설득하는게 만연한가? 내 머리에 총구만 겨눠지지 않아도 그대를 비웃었으련만. 어서 내 스크랩을 가져가게. 야만인아."</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>"Your methods are efficient, I shall give you that. Do not expect a reward however, for thou still are trespassing in a realm which is most displeased to host you."</text>
+		<text>"그대의 문제해결 방법은 효율적이군. 그건 인정하도록 하지. 하지만 보상은 기대하지 말게나. 그대는 아직 당신을 불쾌히 여기는 왕국을 무단침입 중이라네."</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="weapons" lvl="5">
-			<text>(Upg. Weapons) Threaten them.</text>
+			<text>(고급 무기실) 왕조 함선을 협박한다.</text>
 			<event>
-				<text>"You put up a convincing argument. Is it common for individuals like you to speak volumes louder with actions rather than words? I would scoff had I not a gun pointed to my head. Take this money, you barbarian."</text>
+				<text>"설득력 있는 주장이로세. 그대같은 족속에게는 이렇게 "말보다 행동"으로 설득하는게 만연한가? 내 머리에 총구만 겨눠지지 않아도 그대를 비웃었으련만. 어서 내 스크랩을 가져가게. 야만인아."</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>"I most often discard the mercenaries I first hire to do dirty work, but I admire your willingness to cooperate. Though my superiors would cry to the heavens at this sin, I shall slide you a parcel of scrap in exchange for your efforts."</text>
+		<text>"난 항상 이런 더러운 일을 위해 고용한 용병들을 팽개치지만, 그대가 기꺼이 협력해줬다는 사실에는 존경을 표하고 싶네. 비록 내 상관들은 내가 이런 죄를 저질렀다는 사실에 하늘이 뚫어져라 울부짖겠지만, 그대의 노력에 준하는 스크랩 한 꾸러미를 보내주도록 하지."</text>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 </eventList>
 
 <event name="NEBULA_DYNASTY_DESERTERS" unique="true">
-	<text>From the depths of the clouds approaches a Dynasty ship, their captain speaking in a soft whisper of static. "Please aid us... we are no longer of the mind to take part in the Reaper's war. I desire an outing. May I desert to your ship?" Before you can even consider responding, you notice a quick blur of motion in the distance. Looks like the deserters are being followed.</text>
+	<text>성운 깊이서 왕조 함선이 한대 접근해 접근해 왔고, 함장이 약한 잡음으로 말하기 시작했습니다. "제발 우릴 도와주게... 우리는 더 이상 Reaper들의 전쟁에 일부가 될 생각이 없네. 탈출하기를 원한다. 그대의 함선으로 탈주해도 되겠나?" 그들에게 답신해주는걸 고려하려던 찰나, 당신은 저 멀리서 흐릿한 움직임을 발견했습니다. 탈영병들이 미행당하고 있는듯 하군요.</text>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Turn in the deserters.</text>
+		<text>탈영병들을 밀고한다.</text>
 		<event load="DYNASTY_DESERTERS_TURNIN"/>
 	</choice>
 	<choice hidden="true">
-		<text>Allow the Ghost onto the crew.</text>
+		<text>고스트 함장을 선원으로 받아들인다.</text>
 		<event load="DYNASTY_DESERTERS_ACCEPT"/>
 	</choice>
 	<choice hidden="true">
-		<text>Tough luck, but we aren't getting involved.</text>
+		<text>참 안됬지만, 우린 개입하지 않겠다.</text>
 		<event>
-			<text>You cut comms and distance yourself from the Dynasty ships.</text>
+			<text>당신은 교신을 끊고 왕조 함선들을 멀리했습니다.</text>
 			<choice hidden="true">
 				<text>창고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -1762,7 +1762,7 @@
 </event>
 <eventList name="DYNASTY_DESERTERS_TURNIN">
 	<event>
-		<text>As soon as it's clear that your intentions are anything but helping them, the Dynasty ship turns hostile, trying to fight their way past! For some reason, the other ship isn't helping you, but instead sits back to watch the battle. Cowards.</text>
+		<text>당신이 그들을 결코 도울 의도가 아니라는 것을 깨닫자, 왕조 함장은 싸워 헤쳐나가기 위해 적대적으로 변했습니다! 그런데 무슨 이유에서인지 미행하던 함선은 돕지 않고 저 멀리서 싸움을 구경하려고 하는군요. 겁쟁이들 같으니라고.</text>
 		<ship load="SHIP_GHOST_DYNASTY_DESERTER_TURNIN" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -1770,13 +1770,13 @@
 		</choice>
 	</event>
 	<event>
-		<text>Looks like the deserters have already given up. They hardly even protest as they are handed over to the other ship. The loyal Dynasty ship thanks you, and offers a reward.</text>
+		<text>탈영병들이 벌써 포기한 모양입니다. 미행하던 함선에 인계되고 있는데도 저항 한 번 하지 않는군요. 친왕조 함선은 당신에게 감사를 표하고 보상을 줬습니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 </eventList>
 <eventList name="DYNASTY_DESERTERS_ACCEPT">
 	<event>
-		<text>As soon as it's clear that your intentions are anything but helping them, the Dynasty ship turns hostile, trying to fight their way past! For some reason, the other ship isn't helping you, but instead sits back to watch the battle. Cowards.</text>
+		<text>당신이 그들을 결코 도울 의도가 아니라는 것을 깨닫자, 왕조 함장은 싸워 헤쳐나가기 위해 적대적으로 변했습니다! 그런데 무슨 이유에서인지 미행하던 함선은 돕지 않고 저 멀리서 싸움을 구경하려고 하는군요. 겁쟁이들 같으니라고.</text>
 		<ship load="SHIP_GHOST_DYNASTY_DESERTER_ACCEPT" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -1784,19 +1784,19 @@
 		</choice>
 	</event>
 	<event>
-		<text>You quickly usher the Ghost crew aboard, and by some miracle it appears you weren't spotted. You quickly fly away with your new crew aboard.</text>
+		<text>당신은 서둘러 고스트 선원들을 승선시켰고, 추적자들에게 발견되는 일을 기적적으로 피했습니다. 당신은 새 선원과 황급히 이 곳을 떠납니다.</text>
 		<crewMember amount="1" class="phantom"/>
 	</event>
 </eventList>
 
 <event name="NEBULA_DYNASTY_LOST" unique="true">
-	<text>You notice an unusual amount of static over your radio. You play with it a bit until suddenly your translator switches on and begins to spit out dialogue from a Dynasty ship concealed nearby. "We are but hopelessly disoriented, you brainless bobolyne!" "Oh close thine mouth, you worthless bespawler. We have no brains, we are but gas! This senseless debauchery of the insults will present us no solution."</text>
+	<text>당신은 무전 장비에서 이상할정도로 많은 잡음을 감지했습니다. 무전기를 계속 만지작거리던 도중, 갑자기 번역기 전원이 켜지고 은신중인 근처 왕조 함선에서 들리는 대화를 내뱉기 시작합니다. "우린 그저 절망스러울 정도로 길을 잃었단 말이다, 이 뇌빠진 놈아!" "그대 입이나 다물게, 이 쓸모없는 침흘리개야. 우린 기체라 뇌가 없단 말이다! 이렇게 무의미하고 방탕하게 욕설을 해봐야 해결책이 나오지 않는단 말일세."</text>
 	<environment type="nebula"/>
 	<ship load="SHIP_DYNASTY_LOST" hostile="false"/>
 	<choice hidden="true">
-		<text>Offer to escort them.</text>
+		<text>목적지 까지 호위를 제안한다.</text>
 		<event>
-			<text>"Oh, Reaper's sweet travesty, you are Federation! We shall take no 'help' from you, fiend!" This wasn't the reaction you expected, but if you can force them into surrendering perhaps they'll finally be willing to take your help?</text>
+			<text>"오, Reaper님의 짗궃은 장난인가? 그대는 연방 소속 아닌가! 그대한테서 '도움' 따윈 받지 않겠네, 이 악마야!" 당신이 기대한 반응은 아니었습니다만, 항복을 강제로 받아내면 당신의 도움을 기꺼이 받으려 하지 않을까요?</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1805,16 +1805,16 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_GHOST">
-		<text>(Ghost Crew) Offer to escort them.</text>
+		<text>(고스트 선원) 목적지 까지 호위를 제안한다.</text>
 		<event>
-			<text>"Oh, but speak not further! For it seems a fellow is offering us their most charitable aid. Many thanks, good friend. We shan't let this favor go forgotten."</text>
+			<text>"오, 더 이상 말은 아끼도록 하게! 우리 동포가 너그러이 도움을 주는구만 그래. 좋은 친구여, 대단히 고맙네. 이 은혜 잊지 않도록 하겠네."</text>
 			<autoReward level="MED">standard</autoReward>
 		</event>	
 	</choice>
 	<choice hidden="true">
-		<text>Tough luck, but we aren't getting involved.</text>
+		<text>참 안됬지만, 우린 개입하지 않겠다.</text>
 		<event>
-			<text>You cut comms and distance yourself from the Dynasty ships.</text>
+			<text>당신은 교신을 끊고 왕조 함선들을 멀리했습니다.</text>
 			<choice hidden="true">
 				<text>창고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -1839,20 +1839,20 @@
 </eventList>
 
 <event name="NEBULA_DISTRESS_DYNASTY_MONSTER" unique="true"> <!--basically just free stuff lol-->
-	<text>Your computer is suddenly flooded with alerts from nearby Dynasty security platforms. You listen to the static as your translator struggles to pick out something discernable from pure noise. "Avast! Turn thine's spirits away from this place and take content in safety not to be found here."</text>
+	<text>당신의 컴퓨터는 갑자기 근처 왕조 보안 플랫폼들에서 날아오는 경고로 가득차기 시작했습니다. 당신은 번역기가 순수 잡음에서 무언가 인식 가능한 무전을 힘겹게 잡아 내려는 와중 계속 무전기에 귀를 기울입니다. "멈춰라! 이 곳에서 찾을 수 없는 안전에 족하고 그만 돌아 가도록 하게!"</text>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Hail one of the stations.</text>
+		<text>근처 기지 하나랑 교신한다.</text>
 		<event>
-			<text>You assume they'll simply ignore you, but to your surprise a Phantom appears on the other end. "Oh? Have the maniacal hands of the lingering demon not yet snatched you away from this plane? Then consider yourself lucky, and take this chance to flee. You would be no coward to do such a thing..."</text>
+			<text>당신은 그들이 교신을 무시할거라 추정하지만, 놀랍게도 팬텀이 수신합니다."음? 이 곳에 머무르는 괴물의 마수가 아직 그대를 이 차원계에서 낚아채지 않았던가? 그렇다면 천운인줄 알고 기회가 있을때 당장 도망가게. 아무도 그대를 겁쟁이라 생각하지 않을게다...."</text>
 			<choice hidden="true">
-				<text>What monster?</text>
+				<text>무슨 괴물?</text>
 				<event>
-					<text>"A most horrible demon! It haunts these grounds, it ravages our colonies and it displaces our supplies! Oh flee, oh flee, for it shall strike you too if you stay!"</text>
+					<text>"정말 소름끼치는 괴물이다! 이 땅에 계속 출몰해 우리 식민지를 황폐하게 하고 보급품을 사라지게 만든다고! 제발 도망가게, 도망가라 말이야! 여기 남아있으면 그대도 마수를 피하지 못할게야!"</text>
 					<choice hidden="true">
-						<text>We shall help! Fight the horrible demon.</text>
+						<text>우리가 도와주지! 끔찍한 괴물과 싸운다.</text>
 						<event>
-							<text>You pilot further into the nebula, preparing yourself mentally for whatever monstrous ship lies ahead. At last, you lay eyes on it... and it's not really what you expected.</text>
+							<text>당신은 함선을 성운 더 깊이 몰고 들어갔고, 곧 나타날 가공할 함선과 조우 하기 전에 마음을 가다듬었습니다. 이윽고 당신은 괴물에 발견했습니다만.... 기대한 것과는 딴판이었습니다.</text>
 							<ship load="SHIP_AUTO_DYNASTY_MONSTER" hostile="true"/>
 							<choice hidden="true">
 								<text>계속...</text>
@@ -1861,7 +1861,7 @@
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>We should go.</text>
+						<text>가자.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1869,9 +1869,9 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Take this warning and leave.</text>
+		<text>경고를 받아들이고 떠난다.</text>
 		<event>
-			<text>Sounds like there's something bad going on here - it's only safe to turn tail and run.</text>
+			<text>여기서 뭔가 끔찍한 일이 일어나는 듯 합니다. 뒤도 돌아보지 말고 도망 가는게 안전하겠군요.</text>
 			<choice hidden="true">
 				<text>창고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -1885,18 +1885,18 @@
 </event>
 
 <event name="NEBULA_DISTRESS_DYNASTY_ENGINEER" unique="true">
-	<text>You follow the signal of the distress call to what looks to be... an abandoned Engineer vessel? The crew are nowhere to be found, but there's signs of a struggle, and the air is thick with the putrid scent of Ghosts.</text>
+	<text>당신은 조난 신호를 따라 왔지만, 발견한 것은.... 버려진 반군 공병 함선이군요? 선원들은 어디에도 안보이지만, 그들이 저항한 흔적은 보였습니다. 그리고 함선 안은 고스트의 악취가 진동했습니다.</text>
 	<environment type="nebula"/>
 	<distressBeacon/>
 	<choice hidden="true">
-		<text>Try and track down the Engineers.</text>
+		<text>기술자들을 추적해본다.</text>
 		<event>
-			<text>Exploring the nearby system leads you to a Dynasty station with several ships docked. Inside several Ghosts are jeering as one of the engineers is escorted towards a guillotine device with a shimmering electrified blade. They spot you and give you a pleading glance, silently begging you to help them.</text>
+			<text>근처 항성계를 탐험하다 보니 당신은 여러 함선이 정박해 있는 왕조 기지에 근접했습니다. 기지 안에는 고스트 여럿이 있었고, 그들은 빛나는 전기 칼날이 달린 단두대로 연행되는 공병 하나를 향해 비웃고 있었습니다. 그는 당신을 발견하고 도와달라고 애원하는 눈빛을 보냅니다.</text>
 			<ship load="SHIP_DYNASTY_STATION_ENGINEER" hostile="false"/>
 			<choice hidden="true">
-				<text>Aid the engineer.</text>
+				<text>기술자를 돕는다.</text>
 				<event>
-					<text>You draw your blaster and shoot the guard escorting the engineer, followed by the execution machine itself. You run out of the room followed by the wounded engineer as angry Ghosts rush towards you!</text>
+					<text>당신은 블래스터 권총을 꺼내 공병을 연행하는 간수와 단두대에 발포했습니다. 성난 고스트들이 쫒아오자 당신은 방에서 뛰쳐 나갔고, 부상입은 공병이 뒤를 따랐습니다.</text>
 					<boarders min="2" max="3" class="phantom"/>
 					<ship hostile="true"/>
 					<choice hidden="true">
@@ -1906,15 +1906,15 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>We aren't helping Rebels. Leave.</text>
+				<text>반란군 따윈 도와주지 않는다. 떠난다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Stay safe and hang back to scrap their ship.</text>
+		<text>기술자 함선을 인양하기 위해 주저한다.</text>
 		<event>
-			<text>With no one to stop you, you pull apart the hull of the engineer vessel and bring it back aboard.</text>
+			<text>이제 아무도 방해할 사람은 없습니다. 당신은 공병 함선의 함체를 뜯어내 함선으로 가져옵니다.</text>
 			<autoReward level="LOW">standard</autoReward>
 			<choice hidden="true">
 				<text>창고를 확인한다.</text>
@@ -1929,11 +1929,11 @@
 </event>
 <eventList name="DYNASTY_ENGINEER_REWARD">
 	<event>
-		<text>"T-thanks. Those gas bastards were chanting something about me being a demon maker or something like that. I would be dead if it wasn't for you. My training tells me I should shoot you right now... but I feel like that training is wrong."</text>
+		<text>"고.. 고마워. 저 가스 덩어리들이 내가 무슨 괴물을 만드는 자인지 뭐라고 나에게 구호같은걸 외치고 있었어. 당신이 오지 않았으면 난 죽었을거야. 훈련소에 있을땐 당신 같은 사람은 봐로 쏴죽여야 된다고 가르쳤어... 근데 그 훈련이 잘못 된거 같아."</text>
 		<crewMember amount="1" class="human_engineer"/>
 	</event>
 	<event>
-		<text>"T-thanks. Those gas bastards were chanting something about me being a demon maker or something like that. I would be dead if it wasn't for you. My training tells me I should shoot you right now... but I feel like that training is wrong."</text>
+		<text>"고.. 고마워. 저 가스 덩어리들이 내가 무슨 괴물을 만드는 자인지 뭐라고 나에게 구호같은걸 외치고 있었어. 당신이 오지 않았으면 난 죽었을거야. 훈련소에 있을땐 당신 같은 사람은 봐로 쏴죽여야 된다고 가르쳤어... 근데 그 훈련이 잘못 된거 같아."</text>
 		<modifyPursuit amount="-2"/>
 	</event>
 </eventList>
@@ -1960,16 +1960,16 @@
 	</choice>
 </event>
 <textList name="NEBULA_DYNASTY_FIGHT">	
-	<text>It's strange how aggressive the Dynasty is, especially when the break away vagabond Ghosts are much more reclusive. Though, perhaps that may be why they broke away in the first place. But, you'll have to think about this later, as a Dynasty vessel is inbound!</text>	
-	<text>Make no mistake, the ship coming at you isn't friendly. A Dynasty vessel lurches forward, eyeing your weapons before attacking!</text>	
-	<text>A garbled message comes across your radio. "Weapons. They belong to me. GIVE!" A Dynasty ship uncloaks nearby, weapons drawn!</text>	
-	<text>For such an elegant name as the Spectral Dynasty, their ships are uncharacteristically hostile and violent. There's no better example than the vessel here, as it approaches menacingly.</text>	
-	<text>A shot flies right past your ship, and seconds later a purple vessel comes drifting out of the clouds. Looks like it's Ghosts... and they don't look friendly!</text>	
-	<text>A bloodchilling scream fills your speakers, followed by unsettling static. Any captain with lesser nerves might have fainted on the spot, but you know better. This isn't some demon, this is a much more real threat. A Dynasty vessel approaches!</text>
-	<text>Looks like you're receiving a short range broadcast. "Your flesh shall appease the demon's heart one more day. Your weapons shall be its destruction! For the good of the Dynasty!" A Ghost vessel appears nearby, weapons drawn and already firing!</text>
-	<text>An unsettling chant echoes through the nebula as a ship approaches. "The demon's heart shall cease! The demon's heart shall cease!", followed by the flashing of gunfire as a Dynasty vessel draws near. Are you the demon? You aren't sure, but you won't have time to ask!</text>
-	<text>In light of the seemingly empty nebula, you make conversation with the crew on enemies you could have found here instead. As soon as one of them mentions the Dynasty, a ship comes barreling out of the nebula, as if it were summoned. Speak of the devil...</text>
-	<text>At first you assume the static over the radio to be nonsense, but suddenly your translator starts to pick up words! "A breather! In Dynasty space, how putrid. It turns my insides into coils of anger. I will unleash hell on you scum!"</text>
+	<text>탈주한 떠돌이 고스트들이 훨씬 더 은둔하기 좋아하는 걸 생각해보면, 왕조가 이정도로 공격적이라는게 특히나 이상할 수 밖에 없습니다. 그렇지만 정확히 이런 이유로 떠돌이 고스트들이 탈주했겠지만요. 하지만 이런 생각은 잠시 미루는게 좋을 것 같습니다. 왕조 함선이 접근해오고 있기 때문입니다!</text>	
+	<text>확실히 당신에게 다가오는 함선은 아군 함선이 아니었습니다. 왕조 함선이 갑자기 튀어나와 공격하기 전 당신의 무기를 흘겨 보는군요!</text>	
+	<text>잡음 섞인 전갈이 당신의 무전기에서 들려옵니다. "무기들이군. 모두 내 것이다. 어서 내놓아라!" 왕조 함선 한 대가 근처에서 무기를 준비한 채 은폐장을 풀었습니다!</text>	
+	<text>왕조의 함장들은 "유령 왕조"같은 우아한 명칭의 세력 소속 답지않게 적대적이고 폭력적입니다. 지금 위협적으로 다가오는 이 함선만큼 좋은 예시는 없겠군요.</text>	
+	<text>포탄 하나가 당신의 함선을 스쳐갔고, 몇 초 뒤에 보라색 함선이 성운에서 떠내려왔습니다. 고스트 함선인 모양입니다... 그리고 우호적인 함선은 아닌것 같군요!</text>	
+	<text>등골이 오싹해지는 비명이 함선의 스피커를 가득채웠고, 뒤이어 섬뜩한 잡음이 퍼졌습니다. 대담하지 못한 함장들은 그 자리에서 기절했겠지만, 당신은 그 정도로 미숙하지 않습니다. 상상속의 마수같은게 아니라, 현존하는 위협이기 때문입니다. 왕조 함선이 접근해옵니다!</text>
+	<text>당신의 무전기는 단파 방송을 감지한 모양입니다. "그대의 살은 악마의 심장을 하루 더 만족시킬 것이다 그대의 무기는 야수의 파멸을 불러올 것이다! 왕조의 대의를 위하여!" 고스트 함선이 무기를 장전해 발포하면서 근처에 등장합니다!</text>
+	<text>함선 한 대가 접근하자 섬뜩한 성가가 성운에 울려 퍼졌습니다. "악마의 심장은 멈출것이다! 악마의 심장은 멈출것이다!", 왕조 함선이 다가오자 함포에서 나오는 섬광이 뒤따랐습니다. 당신이 악마인가? 당신도 확신하지 못하지만, 물어볼 시간이 없겠군요!</text>
+	<text>당신은 텅텅 비어있는 성운에 못이겨 명령 하달 대신 선원들과 잡담을 시작했고, 이 곳에서 어떤 적을 만날지에 대한 주제로 이야기꽃을 피웁니다. 선원 한 명이 "왕조"라는 단어를 입밖에 꺼내자 마자 왕조 함선 한 대가 마치 소환당한 마냥 성운을 뚫고 돌진합니다. 호랑이도 제 말하면 온다더니...</text>
+	<text>당신은 무전기에 감지된 잡음이 처음에는 횡설수설인줄 알았으나, 번역기가 갑자기 단어를 감지하기 시작했습니다! "숨쉬개로군! 그것도 왕조공간에 침범했다니, 정말 역겹군. 휘감긴 분노로 속이 뒤틀리는구만. 그대같은 쓰레기들을 지옥으로 보내버리지!"</text>
 </textList>
 
 <event name="NEBULA_ENCOUNTER_VAGABOND_DYNASTY">
@@ -1982,10 +1982,10 @@
 	</choice>
 </event>
 <textList name="NEBULA_VAGABOND_DYNASTY_FIGHT">	
-	<text>The Vagabonds usually just avoid Dynasty space, not worth the risk. This ship must be desperate - desperate enough to attack you!</text>
-	<text>Looks like you aren't safe from the scrap hungry Vagabonds, even in Dynasty space where they try to so hard to repel them. Prepare for combat.</text>
-	<text>You notice a Vagabond ship nearby watching you hungrily. "In my heart I feel the desire of a new vessel... this one is depreciated and has failed its function..." The Ghosts attack!</text>
-	<text>A Vagabond, likely fleeing from Dynasty patrols, has stumbled right into you. "You side with the Dynasty, nay? Oh, for what am I asking. The risk is not worth it, I shall simply remove you from my path."</text>
+	<text>떠돌이들은 주로 왕조 구역을 피해 다닙니다. 위협을 무릅쓰고 지나갈 가치가 없기 때문이죠. 하지만 이 함선은 뭔가 절박해 보였습니다. 너무나 절박한 나머지 당신을 공격합니다!</text>
+	<text>당신은 스크랩이 고픈 떠돌이들에게서 안전하지 않은 모양입니다. 심지어 떠돌이들을 필사적으로 쫒아내려는 왕조 구역에서도 말이죠. 전투준비를 하십시오.</text>
+	<text>당신은 근처 떠돌이 함장이 배고픈 눈빛으로 보는것을 느꼈습니다. "마음 깊숙이서 새로운 함선에 대한 열망을 느낀다.... 이 함선은 낡았고 제 기능도 못하기 때문이지...." 고스트들이 공격해옵니다!</text>
+	<text>왕조 경비대에서 도망치는 떠돌이 함선이 당신과 맞닥뜨립니다. "그대는 왕조와 한 패거리로군, 아닌가? 참, 무엇을 위해서 이런 질문을 하는가. 위험을 감수할 가치 조차 없으니, 내 앞길에서 그대를 없애버리겠다."</text>
 </textList>
 
 <event name="NEBULA_ENCOUNTER_REBEL_DYNASTY"> <!--actually an engineer-->
@@ -1998,11 +1998,11 @@
 	</choice>
 </event>
 <textList name="NEBULA_REBEL_DYNASTY_FIGHT">	
-	<text>Usually the Rebel ships you'd expect to see here are Autos, but it's not surprising to see an Engineer here either. Unfortunately, they're no less friendly either!</text>
-	<text>"You've just come here to make my damn job harder, haven't you? Piss off!" A particularly agitated Engineer vessel swerves to attack you!</text>
-	<text>After a long day working on the always damaged Auto-ships they construct, it's no wonder the Engineers feel the need to let off some steam. Alas, it looks like you're their next target!</text>
-	<text>"Oh come on! I haven't even finished my lunch break! You picked the wrong time to ruin my day, asshole!" Hostiles inbound!</text>
-	<text>Could it be? A Rebel ship? Your eyes aren't lying to you - and this is no ordinary Rebel. It's an Engineer, but they're no less deadly!</text>
+	<text>이 곳에서 보일거라 생각하는 반란군 함선들은 대부분 무인선이지만, 공병 함선이 보여도 딱히 놀랄건 없습니다. 안타깝게도 딱히 우호적인 친구들도 아닙니다!</text>
+	<text>"내 빌어먹을 일과를 더 골때리게 만들러 온거지? 그치? 꺼져!" 특히나 격하게 반응하는 공병 함선이 공격하려 들어옵니다!</text>
+	<text>공병들은 제작해 투입시킨 무인선들이 매일같이 파손되어 돌아올때 이들을 수리하는 긴 일과를 보내고, 자연스럽게 어딘가 스트레스를 해소할 필요성을 느낍니다. 불행히도 공병들의 다음 화풀이 대상은 당신인 것 같군요!</text>
+	<text>"아니! 아직 점심시간도 안 끝았어! 하필이면 이런 시간에 내 하루를 망치냐? 이 재수없는 새끼야!" 적들이 공격해옵니다!</text>
+	<text>설마? 반란군 함선인가요? 헛 것을 본게 아니었습니다. 그리고 평범한 반란군도 아니군요. 공병대지만, 반란군 본대 못지 않게 위험합니다!</text>
 </textList>
 
 <event name="NEBULA_ENCOUNTER_AUTO_DYNASTY">
@@ -2015,12 +2015,12 @@
 	</choice>
 </event>
 <textList name="NEBULA_AUTO_DYNASTY_FIGHT">	
-	<text>The Dynasty has been waging 'war' against the Auto-ships for a long time now. How the Rebels are able to afford such a massive stream of ships - or why Vance approved it - is a mystery to you, but it's only a hopefully minor inconvenience to you.</text>
-	<text>"You are not father. Father is not as ugly as you. Entering combat mode." The nearby Rebel Auto-ship suddenly activates and attacks!</text>
-	<text>You assume this to be an empty beacon... until you notice the dozens of dormant Auto-ships floating through the nebulas. You try to avoid them, but unfortunately it looks like one of them has noticed you and attacks!</text>
-	<text>You practically bump hulls with a Rebel Auto-ship, but it's too late to slip away before it's already noticed you and started to attack!</text>
-	<text>Curse the Rebels and their massive fleet of Auto-ships at constant disposal. Looks like you have another ship to take care of before you can carry on.</text>
-	<text>The Dynasty will probably be pleased to hear of your path of destruction through all of the Auto-ships you see. But before you can brag, you have another ship to add to your kill count.</text>
+	<text>왕조는 무인선에 "전쟁"을 선포한지 오래입니다. 반란군이 어떻게 이런 거대한 무인 함대를 생산할 형편이 되는지, 그리고 어째서 밴스가 이를 허용했는지는 여전히 당신에게 수수께끼로 남아있습니다만, 당신은 사소한 애로사항이었으면 좋겠다고 생각합니다.</text>
+	<text>"당신은 아버지가 아니다. 아버지 당신만큼 못 생기지 않았다. 전투 모드 돌입." 근처 반란군 무인선이 갑자기 활성화 되어 공격해옵니다!</text>
+	<text>당신은 이 신호소가 비어 있을거라 생각했습니다.... 비활성화된 무인선 한 부대가 성운을 떠다니는 걸 보기 전까지는 말이죠. 당신은 무인선들을 피하려 했지만, 불행히도 그 중 한대가 당신을 발견했고 공격해옵니다!</text>
+	<text>당신은 반란군 무인선과 함체를 가볍게 충돌했지만, 무인선은 벌써 이를 알아차리고 공격해왔습니다. 도망가기는 이미 늦어 보입니다!</text>
+	<text>망할 반란군 놈들! 당신은 언제 어디서든 사용할수 있는 거대한 무인선 함대를 가진 반란군이 그저 원망스럽습니다. 더 나아갈수 있기 전에 처리해야할 무인선이 또 있는것 같군요.</text>
+	<text>왕조는 아마 무인선이 보이는 족족 다 파괴시켜버린 당신에 대해 흡족하게 여길것 같습니다. 하지만 당신이 그들 앞에서 자랑하기 전에 사망자 명단에 추가시킬 무인선이 하나 더 나타난것 같군요.</text>
 </textList>
 
 <event name="NEBULA_ENCOUNTER_DYNASTY_HOSTAGE">
@@ -2033,21 +2033,21 @@
 	</choice>
 </event>
 <textList name="NEBULA_DYNASTY_HOSTAGE">	
-	<text>"OooooOoOh, so you've come to interfere? A royally immense pain in the end the Federation is proving to be!" An agitated Dynasty vessel attacks as soon as you enter. Behind them is an unidentified ship they must have been interrogating before this!</text>
-	<text>The Dynasty normally doesn't take prisoners, but it seems they haven't gotten the desired reaction from the unidentified ship behind them, as you can hear the agitation in the shouting Ghost captain's voice. As soon as you enter the system however, his concentration focuses on you!</text>
-	<text>Looks like two ships are here - one of unidentified origin, and the other Dynasty. The Dynasty ship doesn't seem to want you around, because they attack almost immediately!</text>
+	<text>"우우우우, 그대는 개입하려 온 것인가? 그야말로 연방 족속은 골칫거리구만!" 짜증 가득한 왕조 함선이 도약해오자마자 공격하기 시작했습니다. 그들 뒤에는 이전까지 고문하던 신원 미상의 함선이 한 대 있습니다.</text>
+	<text>왕조는 남들을 포로로 잡지는 않습니다만, 고스트 함장의 짜증섞인 고함소리를 듣자하니 그들 뒤에 있던 신원 미상 함선에서 원하던 반응을 얻어내지 못한 모양이었습니다. 하지만 당신이 항성계에 진입하자마자 함장은 집중을 당신으로 돌렸군요!</text>
+	<text>신원미상의 함선, 그리고 왕조 함선이 여기 표류하는 모양이군요. 왕조 함선은 당신이 여기 있는걸 원치 않는듯합니다. 왜냐하면 바로 공격해오기 시작했거든요!</text>
 </textList>
 <eventList name="ENCOUNTER_DYNASTY_HOSTAGE_REWARD">
 	<event>
-		<text>Looks like the victim was just some civilians. "Thanks for the help. Is nowhere safe anymore? I chose to come here over a trip through the Hive, but it might have been safer the other way around. My ship is ruined. I think I'll come with you."</text>
+		<text>신원미상의 피해자들은 민간인들인 모양입니다. "도와줘서 고마워요. 이제 정녕 안전한 곳이 있긴 한걸까요? 하이브를 거쳐서 여기 오기로 마음먹었는데, 반대방향으로 트는게 더 안전한 선택이었을지도 모르겠네요. 제 함선은 이미 망가졌어요. 당신과 합류해서 갈래요."</text>
 		<crewMember amount="1" class="human"/>
 	</event>
 	<event>
-		<text>Looks like the ship was little more than a damaged Auto. Beyond the point of repair, it's best just to scrap it.</text>
+		<text>신원미상의 함선은 고작 손상된 무인선인 모양입니다. 이미 수리할 수 없을정도로 망가졌기 때문에, 고철로 해체하는게 최선인듯 합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>It appears the Dynasty ship's victim was a Rebel vessel! They put on a tough appearance, but it's clear to you that they're thankful. It's not hard convincing them to lie to the fleet about your location.</text>
+		<text>왕조 함선의 희생양은 반란군 함선이군요! 선원들은 험상궃게 생겼지만, 그들은 확실히 당신에게 감사하고 있었습니다. 당신은 그들에게 추격하는 함대에 당신의 위치를 허위보고 해달라고 손쉽게 설득했습니다.</text>
 		<modifyPursuit amount="-2"/>
 	</event>
 </eventList>
@@ -2077,7 +2077,7 @@
 </eventList>
 
 <event name="NEBULA_GHOSTWASTE_RUIN" unique="true">
-	<text>Scans are turning up something large on the nearby lava planet. Looks like it's a massive Dynasty class-F Dreadnaught! Completely trashed of course, it'll probably never fly again... but that hasn't stopped a horde of Vagabonds from taking residence.</text>
+	<text>스캔 결과 근처 용암 행성에서 뭔가 큰 물체가 발견되었습니다. 왕조 소유의 거대한 F급 드레드노트선 인것 같군요! 물론 거의 고철덩어리에 가까운지라 비행은 불가해 보입니다만... 그렇다고 떠돌이 한 무리가 함선을 점령하는 걸 멈추진 않았습니다.</text>
 	
 </event>
 
@@ -2117,26 +2117,26 @@
 	<autoReward level="LOW">standard</autoReward>
 </event>
 <textList name ="TEXT_GHOST_DEADSHIP">	
-	<text>You jump out of your seat, prepared to fight the wreck drifting at this beacon, but it's no Ghost ship. You scrap whats left.</text>	
-	<text>You're ready to fight, but the wreck here is silent. Its crew are dead, and their attacker long gone. You cautiously scrap the ship.</text>	
-	<text>A wrecked ship inhabits this beacon. You scan it for Ghosts, but all results show the ship is empty. You figure it's safe to salvage what you can.</text>	
-	<text>Whoever destroyed the ship at this beacon doesn't matter, but it must not have been the Ghosts. Empty of all crew, you move in to scrap it.</text>	
+	<text>당신은 좌석에서 벌떡 일어서 이 신호소에서 기다리는 난파선과 전투할 준비를 했지만, 고스트 함선이 아니었습니다. 당신은 잔해를 인양했습니다.</text>	
+	<text>당신은 전투준비를 끝냈지만, 난파선에서는 아무 반응이 없습니다. 선원은 이미 전원 사망했고, 범인들은 떠난지 오래였습니다. 당신은 조심스레 함선을 분해합니다.</text>	
+	<text>난파선이 이 신호소에 있었습니다. 당신은 고스트가 잔존해있는지 스캔해보지만, 스캔 결과 함선은 비어있었습니다. 당신은 인양하기에 안전하다고 판단했습니다.</text>	
+	<text>누가 이 신호소에 있는 함선을 파괴했는지는 아무런 상관 없지만, 고스트는 절대 범인이 아닌것 같습니다. 당신은 선원들조차 없는 함선을 인양하기 위해 접근했습니다.</text>	
 </textList>
 
 <event name="NEBULA_VAGABOND_FLEETCRASH" unique="true">
-	<text>Scans are turning up something large on the nearby lava planet. Looks like it's a massive Dynasty class-F Dreadnaught! Completely trashed of course, it'll probably never fly again... but that hasn't stopped a horde of Vagabonds from taking residence.</text>
+	<text>스캔 결과 근처 용암 행성에서 뭔가 큰 물체가 발견되었습니다. 왕조 소유의 거대한 F급 드레드노트선 인것 같군요! 물론 거의 고철덩어리에 가까운지라 비행은 불가해 보입니다만... 그렇다고 떠돌이 한 무리가 함선을 점령하는 걸 멈추진 않았습니다.</text>
 	<img back="BACK_EVENT_LIGHTNEBULA" planet="PLANET_LAVA"/>
 	<status type="loss" target="player" system="sensors" amount="1"/>
 	<choice hidden="true">
-		<text>Try to scrap some of the outer regions of the ship.</text>
+		<text>함선 외부를 인양해본다.</text>
 		<event load="VAGABOND_FLEETCRASH_SCRAP"/>
 	</choice>
 	<choice hidden="true">
-		<text>Hail the Ghosts.</text>
+		<text>고스트와 교신한다.</text>
 		<event>
-			<text>The crackling static through your stereo eventually shifts into discernable words. "This place of ours we call home is not for the Federation's taking. We will trade, if you have missiles."</text>
+			<text>스피커로부터 지직거리는 잡음이 천천히 알아들을수 있는 말로 변했습니다. "우리가 보금자리로 삼는 이 곳은 연방이 마음대로 앗아갈수 있는 곳이 아니다. 그대에게 미사일이 있다면 거래를 하도록 하지."</text>
 			<choice>
-				<text>Give them some missiles to access a store.</text>
+				<text>저장소에 접근할 미사일을 몇 개 준다.</text>
 				<event>
 					<store>STORE_DYNASTY</store>
 					<item_modify>
@@ -2145,9 +2145,9 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Ignore their request and scrap the wreck.</text>
+				<text>요청을 무시하고 난파선을 분해한다.</text>
 				<event>
-					<text>"You are a person of terrible motivations, and I shall kill you swiftly." An elite Ghost ship flies out of the wreck to meet you.</text>
+					<text>"그대는 불순한 의도를 가진 자구나. 신속하게 죽여주도록 하지." 엘리트 고스트 함선이 난파선에서 나와 당신과 마주하러 옵니다.</text>
 					<autoReward level="LOW">standard</autoReward>
 					<ship load="SHIP_GHOST_ELITE" hostile="true"/>
 					<choice hidden="true">
@@ -2157,15 +2157,15 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Decline and leave.</text>
+				<text>거절하고 떠난다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Avoid the wreck.</text>
+		<text>난파선을 피한다.</text>
 		<event>
-			<text>That's not a wreck-site anymore, it's a home to probably a couple dozen Ghosts. Best not to intrude on their space.</text>
+			<text>이 곳은 더 이상 난파선이 아닙니다. 아마 이제 25명 남짓의 고스트들의 보금자리일 것입니다. 그들의 공간을 침범하지 않는게 최선인것 같군요.</text>
 			<choice hidden="true">
 				<text>창고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -2179,11 +2179,11 @@
 </event>
 <eventList name="VAGABOND_FLEETCRASH_SCRAP">
 	<event>
-		<text>You're pretty certain the Ghosts spot you multiple times, but never once do they try and stop you. Maybe they're just very understanding?</text>
+		<text>당신은 고스트들이 당신의 함선을 여러번 발견 했다고 확신하지만, 그들은 단 한번도 당신을 저지하지 않았습니다. 사려가 매우 깊은걸까요?</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>It doesn't take long for the Ghosts to spot you... one ship flies out to match you. Looks like it was an elite, but now it's in the hands of the Ghosts!</text>
+		<text>고스트들이 당신을 발견하기 까지는 그리 오래 걸리지 않았습니다... 함선 한대가 당신과 마주하기 위해 날아 들어옵니다. 엘리트 함선이었지만, 이제 고스트의 손 안에 들어간듯 하군요!</text>
 		<autoReward level="LOW">standard</autoReward>
 		<ship load="SHIP_GHOST_ELITE" hostile="true"/>
 		<choice hidden="true">
@@ -2194,64 +2194,64 @@
 </eventList>
 
 <event name="NEBULA_VAGABOND_ACID" unique="true">
-	<text>"Hail good traveler! I am Domodius the explorer, privy to all knowledge that one might need on these dark nebulous clouds. All except for one vital fact whom eludes me. I have heard the legends of a so called... 'acid' nebula. Yet I have never seen one myself! I must find it!"</text>
+	<text>"안녕하신가 선한 여행자여! 내 이름은 탐험자 도모디우스, 이 어둡고 흐린 성운들을 헤쳐나가는데 필요한 모든 지식을 은밀히 알고 있다네. 사실 나를 교묘히 피하는 한 가지 중요한 사실 빼고 말이지. '산성' 성운에 대한 전설을 난 들어봤지만, 직접 본적은 단 한번도 없다네! 이 성운을 꼭 찾아야 겠네!"</text>
 	<environment type="nebula"/>
 	<ship load="SHIP_GHOST_ALL" hostile="false"/>
 	<choice hidden="true">
-		<text>Not sure. Could you describe one?</text>
+		<text>잘 모르겠는데. 산성 성운에 대해서 설명해주겠어?</text>
 		<event>
-			<text>"Well, they're of green hue. And have the nature of a nebula. That's really it."</text>
+			<text>"음, 일단 초록색조를 띄고, 성운 같지. 그게 다라네."</text>
 			<choice hidden="true">
-				<text>Lie and say you've heard about them.</text>
+				<text>들어 본적 있다고 거짓말한다.</text>
 				<event>
-					<text>"Really?! I am amazed! Please, please, you must tell me where!"</text>
+					<text>"사실인가?! 정말 놀랍도다! 제발, 부탁이네. 부디 어디있는지 알려주게!"</text>
 					<choice hidden="true">
-						<text>Make up some coordinates.</text>
+						<text>좌표를 지어낸다.</text>
 						<event load="VAGABOND_ACID_LIE"/>
 					</choice>
 					<choice hidden="true" req="mind">
-						<text>(Mind Control) Give him a very 'convincing' lie.</text>
+						<text>(정신 지배) 매우 '설득력 있는' 거짓말을 한다.</text>
 						<event>
-							<text>"Ooooh, ooooh! I must head there at once! Thank you for your assistance, oh seer of those things which beg of being seen!"</text>
+							<text>"오오, 오오오! 당장 그 쪽으로 향해야 겠구만! 도와줘서 고맙네,  Thank you for your assistance, oh seer of those things which beg of being seen!"</text>
 							<autoReward level="MED">stuff</autoReward>
 						</event>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Tell the truth. You've never seen one.</text>
+				<text>산성 성운을 본적 없다고 사실대로 말한다.</text>
 				<event>
-					<text>"That's alright! Had we explorers seen all the starry sky had to be seen, why then there would be nothing left to be an explorer OF! Safe travels friend, and may this aid you."</text>
+					<text>"괜찮다네! 우리같은 탐험가들이 이 별가득한 하늘을 구석구석 다 탐험했다면, 탐험의 본분을 다할 곳이 없지 않겠는가! 안전한 여정이었으면 좋겠군, 친구. 이게 도움이 되었으면 하네."</text>
 					<autoReward level="LOW">stuff</autoReward>
 				</event>
 			</choice>
 			<choice hidden="true" req="sensors" lvl="3">
-				<text>(Adv. Sensors) Offer him your detailed map data.</text>
+				<text>(고급 센서) 자세한 지도 데이터를 제공한다.</text>
 				<event>
-					<text>Domodius takes a look at the data you've given him. "Hmmm. Inconclusive. Still, this proves you are a purveyor of fine knowledge and a keen explorer with an eye for discovery! If I join you, our combined intellect should be unrivaled!"</text>
+					<text>도모디우스는 당신이 준 정보를 훓어 봤습니다. "흐음. 아주 확실하진 않군. 그래도 그대가 양질의 지식의 공급자고 탐험에 일가견 있는 열정적 탐험가라는 사실이 증명되었구만! 만약 내가 그대와 함께한다면, 아무도 우리의 합쳐진 지적 능력을 따라올 자 없을걸세!"</text>
 					<crewMember amount="1" class="phantom_wraith">Domodius</crewMember>
 				</event>
 			</choice>
 			<choice hidden="true" req="ADV_SCANNERS">
-				<text>(Long Range Scanners) Offer him your detailed map data.</text>
+				<text>(장거리 스캐너) 자세한 지도 데이터를 제공한다.</text>
 				<event>
-					<text>Domodius takes a look at the data you've given him. "Hmmm. Inconclusive. Still, this proves you are a purveyor of fine knowledge and a keen explorer with an eye for discovery! If I join you, our combined intellect should be unrivaled!"</text>
+					<text>도모디우스는 당신이 준 정보를 훓어 봤습니다. "흐음. 아주 확실하진 않군. 그래도 그대가 양질의 지식의 공급자고 탐험에 일가견 있는 열정적 탐험가라는 사실이 증명되었구만! 만약 내가 그대와 함께한다면, 아무도 우리의 합쳐진 지적 능력을 따라올 자 없을걸세!"</text>
 					<crewMember amount="1" class="phantom_wraith">Domodius</crewMember>
 				</event>
 			</choice>
 			<choice hidden="true" req="PRE_SCANNER">
-				<text>(Slip Scanner) Offer him your detailed map data.</text>
+				<text>(슬립 스캐너) 자세한 지도 데이터를 제공한다.</text>
 				<event>
-					<text>Domodius takes a look at the data you've given him. "Hmmm. Inconclusive. Still, this proves you are a purveyor of fine knowledge and a keen explorer with an eye for discovery! If I join you, our combined intellect should be unrivaled!"</text>
+					<text>도모디우스는 당신이 준 정보를 훓어 봤습니다. "흐음. 아주 확실하진 않군. 그래도 그대가 양질의 지식의 공급자고 탐험에 일가견 있는 열정적 탐험가라는 사실이 증명되었구만! 만약 내가 그대와 함께한다면, 아무도 우리의 합쳐진 지적 능력을 따라올 자 없을걸세!"</text>
 					<crewMember amount="1" class="phantom_wraith">Domodius</crewMember>
 				</event>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="unique_wither">
-		<text>(Aenwithe) "Yuck. Yeah, I know what those are."</text>
+		<text>(에인위스) "우웩. 그래, 뭔지 알아."</text>
 		<event>
-			<text>Aenwithe explains that acid nebulas don't come from this reality, or any others like it. This seems to satisfy Domodius. "I have never heard of this... edition of captains you speak of, but it sounds most horrible. I've never been so glad to live in this reality. If you are so knowledgeable, then I shall come with you, so that our combined intellect should know no limits!"</text>
+			<text>에인위스는 산성 성운들이 이 현실 차원이나 다른 곳에서 비롯된 것이 아니라고 설명해줬습니다. 도모디우스는 만족한듯 했습니다. "나는 그대가 말하는... I have never heard of this... edition of captains you speak of, but it sounds most horrible. I've never been so glad to live in this reality. If you are so knowledgeable, then I shall come with you, so that our combined intellect should know no limits!"</text>
 			<crewMember amount="1" class="phantom_wraith">Domodius</crewMember>
 		</event>
 	</choice>

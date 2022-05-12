@@ -2806,9 +2806,9 @@ can only hope and pray to whomever this nonsense works
 				</event>
 			</choice>
 			<choice hidden="true" req="salt">
-				<text>(Obyn) "My dearest Sylvan!"</text>
+				<text>(오빈) "오 내 사랑 실반!"</text>
 				<event>
-					<text>"You weren't wrong Obyn... we did ssssee each other again..." Sylvan puts his hand to his chest, as if feeling if he still has a pulse. His face shows a look of disappointment at what he feels. "I don't have much longer, Obyn. Do you remember that sssship we sssaid we would build together? Well... I finisssshed it. The blueprintsss in my cargo bay. If there'ssss one thing I can trussst about my ssship, it'sss that the cargo bay alwaysss sssurvivesss the fight..."</text>
+					<text>"너의 말이 마짰네 오빈... 우리 결국 다씨 만나써..." 실반은 아직도 맥박이 뛰는 것처럼 가슴에 손을 얹었습니다. 그의 얼굴은 자신이 느끼는 감정에 대한 실망감으로 가득합니다. "오빈, 난 씨간이 별로 업써. 우리가 함께 만들기로 해떤 그 함썬 기억하니? 음... 내가 그걸 완썽해써. 내 화물칸에 쩡싸찐이 있어. 내 함썬의 화물칸은 쩔대 쩐투 따위로 파괴되찌 않으니까..."</text>
 					<choice hidden="true">
 						<text>계속...</text>
 						<event>
